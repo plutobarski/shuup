@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-29 15:06+0000\n"
+"POT-Creation-Date: 2018-12-16 16:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: Chinese (Mandarin) (https://www.transifex.com/shuup/"
 "teams/55306/cmn/)\n"
@@ -24,6 +24,17 @@ msgstr ""
 
 #, python-format
 msgid "Price (%(shop)s/%(group)s)"
+msgstr ""
+
+#, python-format
+msgid "Discount (%(shop)s/%(group)s)"
+msgstr ""
+
+msgid "Customer Group Price"
+msgstr ""
+
+msgid ""
+"Customer group prices can be listed, fetched, created, updated and deleted."
 msgstr ""
 
 msgid "product"
@@ -44,11 +55,35 @@ msgstr ""
 msgid "product prices"
 msgstr ""
 
+msgid "discount amount"
+msgstr ""
+
+msgid "product discount"
+msgstr ""
+
+msgid "product discounts"
+msgstr ""
+
 msgid "Customer Group Pricing"
 msgstr ""
 
-msgid "Default price"
+msgid "Customer Group Discount"
 msgstr ""
 
-msgid "Other shops"
+msgid "Contact Group Discount"
+msgstr ""
+
+msgid ""
+"Here you can set individual discount amounts for different contact groups. "
+"The discount amount may be visible on storefront. These groups are defined "
+"in Contacts Settings – Contact Groups"
+msgstr ""
+
+msgid "Contact Group Pricing"
+msgstr ""
+
+msgid ""
+"Here you can set individual pricing for different contact groups. This can "
+"be useful for special discounts or for B2B orders. These groups are defined "
+"in Contacts Settings – Contact Groups"
 msgstr ""

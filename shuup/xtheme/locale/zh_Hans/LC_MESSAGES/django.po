@@ -8,18 +8,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Shuup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-04 20:11+0000\n"
+"POT-Creation-Date: 2018-12-16 16:20+0000\n"
 "PO-Revision-Date: 2016-08-04 13:14-0700\n"
 "Last-Translator: Shuup Admin <admin@shuup.com>\n"
 "Language-Team: Chinese (Mandarin) (http://www.transifex.com/shuup/shuup/"
 "language/cmn/)\n"
+"Language: cmn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cmn\n"
 "Generated-By: Babel 2.1.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 1.8.8\n"
+
+#, fuzzy
+#| msgid "theme identifier"
+msgid "Theme identifier must match"
+msgstr "主题标识符"
+
+msgid "Either theme_settings or shop should be informed"
+msgstr ""
+
+#, fuzzy
+#| msgid "No Plugin"
+msgid "Global plugins"
+msgstr "没有插件"
+
+#, fuzzy
+#| msgid "Themes"
+msgid "Theme plugins"
+msgstr "主题"
 
 msgid "Shuup Extensible Theme Engine"
 msgstr "Shuup可扩展主题引擎"
@@ -27,17 +45,104 @@ msgstr "Shuup可扩展主题引擎"
 msgid "Themes"
 msgstr "主题"
 
+msgid "Customize the look and feel of your shop"
+msgstr ""
+
+msgid "Customize theme"
+msgstr ""
+
 msgid "No theme is active. Click here to activate one."
 msgstr "没有有效的主题。点击这里激活。"
 
 msgid "Theming"
 msgstr "主题"
 
+#, fuzzy
+#| msgid "Shuup Extensible Theme Engine"
+msgid "Shuup Extensible Theme Engine Snippets"
+msgstr "Shuup可扩展主题引擎"
+
+msgid "Snippets"
+msgstr ""
+
+msgid "Theme Custom CSS/JS"
+msgstr ""
+
+msgid ""
+"Select the themes that will have this snippet injected. Leave the field "
+"blank to inject in all themes."
+msgstr ""
+
+msgid "Select the location of the page to inject the snippet."
+msgstr ""
+
+#, fuzzy
+#| msgid "Actions"
+msgid "Location"
+msgstr "操作"
+
+msgid "Filter by location..."
+msgstr ""
+
+msgid "Type"
+msgstr "类型"
+
 msgid "activate"
 msgstr "激活"
 
+msgid "Theme"
+msgstr "主题"
+
+msgid "Choose a theme for your shop"
+msgstr ""
+
 msgid "Theme activated."
 msgstr "主题已激活。"
+
+msgid "Custom CSS/JS"
+msgstr ""
+
+msgid "Stylesheets"
+msgstr ""
+
+msgid "The fonts, colors, and styles to use with your theme."
+msgstr ""
+
+msgid "Content in this placeholder is shown without limitations."
+msgstr ""
+
+#, python-format
+msgid ""
+"Content in this placeholder is shown for %(category_name)s category only."
+msgstr ""
+
+msgid "Content in this placeholder is shown for guests."
+msgstr ""
+
+msgid "Content in this placeholder is shown for company contacts."
+msgstr ""
+
+msgid "Content in this placeholder is shown for all logged in contacts."
+msgstr ""
+
+msgid "Content in this placeholder is shown for person contacts."
+msgstr ""
+
+#, python-format
+msgid "Content in this placeholder is shown for %(product_name)s only."
+msgstr ""
+
+msgid "Shop '{}' has no active theme"
+msgstr ""
+
+msgid "Inline JavaScript"
+msgstr ""
+
+msgid "Inline CSS"
+msgstr ""
+
+msgid "Inline HTML"
+msgstr ""
 
 msgid "current draft"
 msgstr ""
@@ -72,6 +177,28 @@ msgstr "数据"
 #, python-format
 msgid "Theme configuration for %s"
 msgstr "%s 主题配置 "
+
+#, fuzzy
+#| msgid "Actions"
+msgid "location"
+msgstr "操作"
+
+msgid "snippet type"
+msgstr ""
+
+msgid "snippet"
+msgstr ""
+
+#, fuzzy
+#| msgid "Themes"
+msgid "themes"
+msgstr "主题"
+
+msgid "Snippet"
+msgstr ""
+
+msgid "Snippet for {} in {}"
+msgstr ""
 
 msgid "Plugin"
 msgstr "插件"
@@ -109,14 +236,26 @@ msgstr ""
 msgid "Height (px)"
 msgstr ""
 
+msgid "Newest"
+msgstr ""
+
+msgid "Best Selling"
+msgstr ""
+
+msgid "Random"
+msgstr ""
+
 msgid "Product Highlights"
 msgstr "产品特点"
 
-msgid "Type"
-msgstr "类型"
-
 msgid "Count"
 msgstr "总数"
+
+msgid "Only show sale items"
+msgstr ""
+
+msgid "Show only products that have discounts"
+msgstr ""
 
 msgid "Only show in-stock and orderable items"
 msgstr ""
@@ -124,8 +263,13 @@ msgstr ""
 msgid "Product Cross Sells"
 msgstr ""
 
-msgid "Snippets"
+msgid "category"
 msgstr ""
+
+#, fuzzy
+#| msgid "Product Highlights"
+msgid "Category Products Highlight"
+msgstr "产品特点"
 
 msgid "In-Place Snippet"
 msgstr ""
@@ -175,15 +319,40 @@ msgstr ""
 msgid "text"
 msgstr "文本"
 
-msgid "(Untranslated)"
-msgstr "(未翻译)"
-
 #, python-format
 msgid "Click to edit placeholder: %s"
 msgstr "点击编辑占位符：%s"
 
+msgid ""
+"This placeholder is global and content of this placeholder is shown on all "
+"pages."
+msgstr ""
+
+msgid "End of head"
+msgstr ""
+
+msgid "Start of head"
+msgstr ""
+
+msgid "End of body"
+msgstr ""
+
+msgid "Start of body"
+msgstr ""
+
+msgid "Content start"
+msgstr ""
+
+msgid "Content end"
+msgstr ""
+
 msgid "Delete This Cell"
 msgstr "删除该单元格"
+
+#, fuzzy
+#| msgid "(Untranslated)"
+msgid "Untranslated"
+msgstr "(未翻译)"
 
 msgid "There's nothing to configure in this plugin."
 msgstr "该插件无法配置。"
@@ -191,14 +360,28 @@ msgstr "该插件无法配置。"
 msgid "Save Plugin"
 msgstr "保存插件"
 
+msgid ""
+"Remember to publish your changes for this placeholder when you are done, by "
+"clicking the Publish Changes button at the top."
+msgstr ""
+
 msgid "Edit Placeholder"
 msgstr "占位符编辑"
+
+msgid ""
+"Edit plugins inside this placeholder. By saving the individual plugin, the "
+"changes are saved as a draft, and only you are able to see the changes. To "
+"make your changes Public, Click the Publish Changes button."
+msgstr ""
 
 msgid "Add new cell"
 msgstr "添加新单元格"
 
 msgid "Delete row"
 msgstr "删除行"
+
+msgid "Move row"
+msgstr ""
 
 msgid "Add new row"
 msgstr "添加新行"
@@ -209,30 +392,40 @@ msgstr "主题配置 "
 msgid "No themes are installed."
 msgstr "未安装主题。"
 
-msgid "Theme"
-msgstr "主题"
-
-msgid "Actions"
-msgstr "操作"
-
-msgid "Author"
-msgstr "作者"
-
-msgid "Currently active"
-msgstr "目前活跃"
-
-msgid "Activate"
-msgstr "激活"
-
-msgid "Configure"
-msgstr "配置"
-
 #, python-format
 msgid "Theme Configuration: %(name)s"
 msgstr "主题配置 ：%(name)s"
 
 msgid "There's nothing to configure in this theme."
 msgstr "该主题无法配置。"
+
+msgid "Select theme"
+msgstr ""
+
+#, fuzzy
+#| msgid "Theme"
+msgid "Theme Guide"
+msgstr "主题"
+
+msgid "Author"
+msgstr "作者"
+
+msgid "Configure"
+msgstr "配置"
+
+msgid "Activate"
+msgstr "激活"
+
+#, fuzzy
+#| msgid "Theme"
+msgid "Theme Name"
+msgstr "主题"
+
+msgid "Actions"
+msgstr "操作"
+
+msgid "Currently active"
+msgstr "目前活跃"
 
 msgid "Revert Changes"
 msgstr "还原改变"
@@ -282,8 +475,22 @@ msgstr "三分之一(1/3)"
 msgid "One Fourth (1/4)"
 msgstr "四分之一(1/4)"
 
+msgid "Auto"
+msgstr ""
+
 msgid "Cell width"
 msgstr "单元格宽度"
+
+#, fuzzy
+#| msgid "Cell width"
+msgid "Cell align"
+msgstr "单元格宽度"
+
+msgid "Extra classes"
+msgstr ""
+
+msgid "Add extra CSS classes names to the cell"
+msgstr ""
 
 msgid "No Plugin"
 msgstr "没有插件"

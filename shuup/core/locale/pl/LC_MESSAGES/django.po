@@ -1,22 +1,24 @@
-# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-16 16:20+0000\n"
+"POT-Creation-Date: 2018-12-16 16:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: en <LL@li.org>\n"
-"Language: en\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"Generated-By: Babel 2.1.1\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
+"%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
+"%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 msgid "Mutable Address"
 msgstr ""
@@ -25,255 +27,255 @@ msgid "Mutable Addressess can be fetched, created, updated and deleted."
 msgstr ""
 
 msgid "Attributes"
-msgstr ""
+msgstr "Atrybuty"
 
 msgid "Attributes can be listed, fetched, created, updated and deleted."
-msgstr ""
+msgstr "Atrybuty mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Product does not exist."
-msgstr ""
+msgstr "Produkt nie istnieje"
 
 msgid "Basket"
-msgstr ""
+msgstr "Koszyk"
 
 msgid ""
 "Basket items can be listed, added, removed and cleaned. Also campaign codes "
 "can be added."
-msgstr ""
+msgstr "Pozycja koszyka może być wyświetlana, dodawana, ususwana i czyszczona. Dotyczy również kodów kampanii"
 
 msgid "Category"
-msgstr ""
+msgstr "Kategoria"
 
 msgid "Categories can be listed, fetched, created, updated and deleted."
-msgstr ""
+msgstr "Kategorie mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Contacts"
-msgstr ""
+msgstr "Kontakty"
 
 msgid "Contacts can be listed, fetched, created, updated and deleted."
-msgstr ""
+msgstr "Kontakty mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Person Contact"
-msgstr ""
+msgstr "Osoba Kontaktowa"
 
 msgid "Person Contacts can be listed, fetched, created, updated and deleted."
-msgstr ""
+msgstr "Osoby kontaktowe mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Front Orders"
-msgstr ""
+msgstr "Zamówienia"
 
 msgid "Retrieve and list the current users orders."
-msgstr ""
+msgstr "Pobierz i wyświetl aktualne zamówienia użytkownika"
 
 msgid "Storefront Shop Products"
-msgstr ""
+msgstr "Produkty w sklepie"
 
 msgid "Storefront shop products can be listed and fetched."
-msgstr ""
+msgstr "Produkty w sklepie mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Storefront Products"
-msgstr ""
+msgstr "Produkty"
 
 msgid "Storefront products can be listed and fetched."
-msgstr ""
+msgstr "Produkty mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Front Users"
-msgstr ""
+msgstr "Użytkownicy w sklepie"
 
 msgid ""
 "Users can register to the storefront and fetch and update their own user "
 "details."
-msgstr ""
+msgstr "Użytkownik może się zarejstrować do panelu i przeglądać oraz aktualizować jego własnych użytkowników"
 
 msgid "Manufacturer"
-msgstr ""
+msgstr "Producent"
 
 msgid "Manufacturers can be listed, fetched, created, updated and deleted."
-msgstr ""
+msgstr "Producenci mogą być wyświetlani, przeglądani, tworzoni, aktualizowani i usuwani"
 
 #, python-brace-format
 msgid "Order status changed: {from_status} to {to_status}"
-msgstr ""
+msgstr "Status zamówienia zmieniony: {from_status} na {to_status}"
 
 msgid "Orders"
-msgstr ""
+msgstr "Zamówienia"
 
 msgid "Orders can be listed, fetched, created, updated and canceled."
-msgstr ""
+msgstr "Zamówienia mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Order is already fully paid"
-msgstr ""
+msgstr "Zamówienie zostało całkowicie opłącone"
 
 msgid "Payment created"
-msgstr ""
+msgstr "Płatność została utworzona"
 
 msgid "Product Media"
-msgstr ""
+msgstr "Produkt - media"
 
 msgid "Products media can be fetched, updated and deleted."
-msgstr ""
+msgstr "Media produktowe mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Product Variation Variable"
-msgstr ""
+msgstr "Zmienne warianty produktu"
 
 msgid ""
 "Product variation variables can be listed, fetched, created, updated and "
 "deleted."
-msgstr ""
+msgstr "Zmienne warianty produktu mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Product Variation Variable Value"
-msgstr ""
+msgstr "Zmienne warianty - wartości"
 
 msgid ""
 "Product variation variable values can be listed, fetched, created, updated "
 "and deleted."
-msgstr ""
+msgstr "Zmienne warianty - wartości - mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Products"
-msgstr ""
+msgstr "Produkty"
 
 msgid "Products can be listed, fetched, created, updated and deleted."
-msgstr ""
+msgstr "Produkty mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Shop Products"
-msgstr ""
+msgstr "Produkty w sklepie"
 
 msgid "Shop Products can be listed, fetched, created, updated and deleted."
-msgstr ""
+msgstr "Produkty w sklepie mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Product type"
-msgstr ""
+msgstr "Typ produktu"
 
 msgid "Product types can be listed, fetched, created, updated and deleted."
-msgstr ""
+msgstr "Typy produktów mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Product Attribute"
-msgstr ""
+msgstr "Atrybut produktu"
 
 msgid "Products attributes can be fetched, updated and deleted."
-msgstr ""
+msgstr "Atrybuty produktu mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Product Package Link"
-msgstr ""
+msgstr "Odnośnik do pakietu"
 
 msgid "Products package links can be fetched, updated and deleted."
-msgstr ""
+msgstr "Pakiety produktowe mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Order can not be refunded at the moment."
-msgstr ""
+msgstr "Zamówienie nie może zostać zwrócone w tym momencie"
 
 msgid "Can not refund line."
-msgstr ""
+msgstr "Nie można zwrócić linii"
 
 msgid "Invalid refund amount."
-msgstr ""
+msgstr "Błędna kwota zwrotu"
 
 msgid "Refund exceeds amount."
-msgstr ""
+msgstr "Zwrot przekracza pierwotną kwotę"
 
 msgid "Refund exceeds quantity."
-msgstr ""
+msgstr "Zwrot przekracza pierwotną ilość"
 
 msgid "Refund created."
-msgstr ""
+msgstr "Zwrot utworzony"
 
 msgid "It is not possible to create the refund."
-msgstr ""
+msgstr "Nie można utworzyć zwrotu"
 
 msgid "Shipments"
-msgstr ""
+msgstr "Wysyłki"
 
 msgid "Shipments can be listed and fetched."
-msgstr ""
+msgstr "Wysyłki mogą być wyświetlane i przeglądane"
 
 msgid "Shop"
-msgstr ""
+msgstr "Sklep"
 
 msgid "Shops can be listed, fetched, created, updated and deleted."
-msgstr ""
+msgstr "Sklepy mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Suppliers"
-msgstr ""
+msgstr "Dostawcy"
 
 msgid ""
 "Suppliers can be listed, fetched, created, updated and deleted. Stocks can "
 "be updated."
-msgstr ""
+msgstr "Dostawcy mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Tax"
-msgstr ""
+msgstr "Podatek"
 
 msgid "Taxes can be listed, fetched, created, updated and deleted."
-msgstr ""
+msgstr "Podatki mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Tax Class"
-msgstr ""
+msgstr "Klasa podatkowa"
 
 msgid "Tax classes can be listed, fetched, created, updated and deleted."
-msgstr ""
+msgstr "Klasy podatkowe mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Sales Unit"
-msgstr ""
+msgstr "Jednostka Sprzedaży"
 
 msgid "Sales units can be listed, fetched, created, updated and deleted."
-msgstr ""
+msgstr "Jednostki Sprzedażowe mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 msgid "Users"
-msgstr ""
+msgstr "Użytkownicy"
 
 msgid "Users can be listed, fetched, created, updated and deleted."
-msgstr ""
+msgstr "Użytkownicy mogą być wyświetlane, przeglądane, tworzone, aktualizowane i usuwane"
 
 #, python-format
 msgid "Invalid command %s"
-msgstr ""
+msgstr "Nieprawidłowe polecenie"
 
 #, python-format
 msgid "The quantity %f is not allowed. Please use an integer value."
-msgstr ""
+msgstr "Ilość %f jest niedozwolona. Proszę użyć wartości liczbowej"
 
 #, python-format
 msgid "The quantity %s is not valid."
-msgstr ""
+msgstr "Ilość %s jest nieprawdiłowa"
 
 msgid "This variation is not available."
-msgstr ""
+msgstr "Wariant jest niedostępny"
 
 msgid "Customer is not active."
-msgstr ""
+msgstr "Klient jest nieaktywny"
 
 msgid "Shop does not have permission for this customer."
-msgstr ""
+msgstr "Sklep nie posiada uprawnień dla tego użytkownika"
 
 msgid "You don't have the required permission to assign this customer."
-msgstr ""
+msgstr "Nie posiadasz wymaganych uprawnień do przypisania tego użytkownika"
 
 msgid "You must specify the order when customer is a company."
-msgstr ""
+msgstr "Musisz wskazać zamówienie, gdy klient jest firmą"
 
 msgid "Invalid customer."
-msgstr ""
+msgstr "Błędny klient"
 
 msgid "Orderer is not member of the company."
-msgstr ""
+msgstr "Zamwiający nie jest członkiem firmy"
 
 msgid "You are not member of the company."
-msgstr ""
+msgstr "Nie jesteś członkiem firmy"
 
 #, python-format
 msgid "Basket loading failed: Incompatible basket (%s)"
-msgstr ""
+msgstr "Wczytywnia koszyka nie powiodło się: Nizgodny koszyk (%s)"
 
 msgid "Try to remove some products from the basket and order them separately."
-msgstr ""
+msgstr "Spróbuj usunąć któreś produkty z koszyka i zamów je osobno"
 
 #, python-format
 msgid "Products in basket cannot be shipped together. %s"
-msgstr ""
+msgstr "Produkty w koszyku nie mogą być wysłane razem. %s"
 
 #, python-format
 msgid "Products in basket have no common payment method. %s"
-msgstr ""
+msgstr "Produkty w koszyku nie mają wspólnej metody płatności. %s"
 
 msgid "internal identifier"
 msgstr ""
@@ -282,46 +284,46 @@ msgid "Do not change this value if you are not sure what you are doing."
 msgstr ""
 
 msgid "Invalid color"
-msgstr ""
+msgstr "Nieprawidłowy kolor"
 
 msgid "Error"
-msgstr ""
+msgstr "Błąd"
 
 msgid "No shop!"
-msgstr ""
+msgstr "Nie ma sklepu!"
 
 msgid "shipping address"
-msgstr ""
+msgstr "adres wysyłki"
 
 msgid "billing address"
-msgstr ""
+msgstr "adres rozliczeniowy"
 
 msgid "disabled"
-msgstr ""
+msgstr "nieaktywny"
 
 msgid "enabled"
-msgstr ""
+msgstr "aktywny"
 
 msgid "name prefix"
-msgstr ""
+msgstr "prefix"
 
 msgid "The name prefix. For example, Mr, Mrs, Ms, Dr, etc."
-msgstr ""
+msgstr "Forma grzecznościowa. Dla przykładu Pan, Pani etc."
 
 msgid "name"
-msgstr ""
+msgstr "nazwa"
 
 msgid "The name for the address."
-msgstr ""
+msgstr "Nazwa dla adresu"
 
 msgid "name suffix"
-msgstr ""
+msgstr "suffix"
 
 msgid "The name suffix. For example, Jr, Sr, etc."
 msgstr ""
 
 msgid "name extension"
-msgstr ""
+msgstr "rozszerzenie nazwy"
 
 msgid ""
 "Any other text to display along with the address. This could be department "

@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Aarni Koskela, 2015
 # Antti Mäki <antti@anttimaki.com>, 2015
@@ -22,15 +22,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Shuup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-25 21:31+0000\n"
+"POT-Creation-Date: 2018-12-16 16:20+0000\n"
 "PO-Revision-Date: 2018-09-28 21:21+0000\n"
 "Last-Translator: Panu Tulimäki <panu@shuup.com>\n"
-"Language-Team: Finnish (Finland) (http://www.transifex.com/shuup/shuup/language/fi_FI/)\n"
+"Language-Team: Finnish (Finland) (http://www.transifex.com/shuup/shuup/"
+"language/fi_FI/)\n"
+"Language: fi_FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.1.1\n"
-"Language: fi_FI\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Plain text"
@@ -66,7 +67,9 @@ msgstr "Lähetystunniste"
 msgid ""
 "If set, this identifier will be logged into the event's log target. If the "
 "identifier has already been logged, the e-mail won't be sent again."
-msgstr "Jos asetettu, tämä tunniste lisätään tapahtuman lokikohteen lokiin. Jos tunniste löytyy jo lokista, sähköpostia ei lähetetä uudelleen."
+msgstr ""
+"Jos asetettu, tämä tunniste lisätään tapahtuman lokikohteen lokiin. Jos "
+"tunniste löytyy jo lokista, sähköpostia ei lähetetä uudelleen."
 
 msgid "Notifications"
 msgstr "Ilmoitukset"
@@ -90,12 +93,15 @@ msgid "Enable Script"
 msgstr "Ota komentosarja käyttöön"
 
 msgid "Choose whether this script should be activated when its event fires."
-msgstr "Valitse, käynnistyykö komentosarja siihen liitetyn tapahtuman alkaessa."
+msgstr ""
+"Valitse, käynnistyykö komentosarja siihen liitetyn tapahtuman alkaessa."
 
 msgid ""
 "Warning: Changing the event for an existing script may have unexpected "
 "effects."
-msgstr "Varoitus: Olemassaolevan komentosarjan tapahtuman vaihtamisella saattaa olla odottamattomia seurauksia."
+msgstr ""
+"Varoitus: Olemassaolevan komentosarjan tapahtuman vaihtamisella saattaa olla "
+"odottamattomia seurauksia."
 
 msgid "Template"
 msgstr "Mallipohja"
@@ -180,7 +186,9 @@ msgid "all"
 msgstr "kaikki"
 
 msgid "any"
-msgstr "Mikä tahansa\nKuka tahansa"
+msgstr ""
+"Mikä tahansa\n"
+"Kuka tahansa"
 
 msgid "any shop administrator"
 msgstr "kuka tahansa ylläpitäjä"
@@ -262,7 +270,9 @@ msgstr "Lähetä?"
 
 msgid ""
 "You can send this email to the customer or to other email of your choice."
-msgstr "Voit lähettää tämän sähköpostin asiakkaalle tai muuhun valitsemaasi sähköpostiosoitteeseen."
+msgstr ""
+"Voit lähettää tämän sähköpostin asiakkaalle tai muuhun valitsemaasi "
+"sähköpostiosoitteeseen."
 
 msgid "Destination"
 msgstr "Kohde"
@@ -273,7 +283,9 @@ msgstr "Täytä kohteen sähköpostiosoitteella"
 msgid ""
 "Recipient is a required field when you don't want to send the email to "
 "customer."
-msgstr "Vastaanottaja on vaadittu kenttä, kun sähköpostia ei haluta lähettää asiakkaalle."
+msgstr ""
+"Vastaanottaja on vaadittu kenttä, kun sähköpostia ei haluta lähettää "
+"asiakkaalle."
 
 msgid "Edit Script Information"
 msgstr "Muokkaa komentosarjan tietoja"

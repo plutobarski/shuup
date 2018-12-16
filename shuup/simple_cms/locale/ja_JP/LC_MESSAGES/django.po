@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Shuup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-29 15:06+0000\n"
+"POT-Creation-Date: 2018-12-16 16:20+0000\n"
 "PO-Revision-Date: 2016-03-29 08:44+0000\n"
 "Last-Translator: Shuup Admin <admin@shuup.com>\n"
 "Language-Team: Japanese (Japan) (http://www.transifex.com/shuup/shuup/"
@@ -20,13 +20,21 @@ msgstr ""
 "Generated-By: Babel 2.1.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Simple CMS"
-msgstr "シンプルなCMS"
+msgid "Content Pages"
+msgstr ""
 
 msgid "Pages"
 msgstr "ページ"
 
 msgid "Show pages"
+msgstr "ページを見る"
+
+msgid "Add a web page"
+msgstr ""
+
+#, fuzzy
+#| msgid "Show pages"
+msgid "New page"
 msgstr "ページを見る"
 
 msgid "Available from"
@@ -35,7 +43,13 @@ msgstr ""
 msgid "Available to"
 msgstr ""
 
+msgid "Template"
+msgstr ""
+
 msgid "URL already exists."
+msgstr ""
+
+msgid "URL must be unique"
 msgstr ""
 
 #, python-format
@@ -43,6 +57,9 @@ msgid "%(label)s is required when any %(language)s field is filled."
 msgstr ""
 
 msgid "Please fill at least one language fully."
+msgstr ""
+
+msgid "A page may not be made a child of itself."
 msgstr ""
 
 msgid "Title"
@@ -57,10 +74,38 @@ msgstr ""
 msgid "Page"
 msgstr "ページ"
 
+msgid "Content in this placeholder is shown for this page only."
+msgstr ""
+
+#, python-format
+msgid "Content in this placeholder is shown for %(title)s only."
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Article"
+msgstr ""
+
+msgid "shop"
+msgstr ""
+
 msgid "available from"
 msgstr ""
 
+msgid ""
+"Set an available from date to restrict the page to be available only after a "
+"certain date and time. This is useful for pages describing sales campaigns "
+"or other time-sensitive pages."
+msgstr ""
+
 msgid "available to"
+msgstr ""
+
+msgid ""
+"Set an available to date to restrict the page to be available only after a "
+"certain date and time. This is useful for pages describing sales campaigns "
+"or other time-sensitive pages."
 msgstr ""
 
 msgid "created by"
@@ -81,19 +126,70 @@ msgstr ""
 msgid "visible in menu"
 msgstr ""
 
+msgid ""
+"Check this if this page should have a link in the top menu of the store "
+"front."
+msgstr ""
+
 msgid "parent"
+msgstr ""
+
+msgid ""
+"Set this to a parent page if this page should be subcategorized under "
+"another page."
 msgstr ""
 
 msgid "list children on page"
 msgstr ""
 
+msgid "Check this if this page should list its children pages."
+msgstr ""
+
+msgid "show child page timestamps"
+msgstr ""
+
+msgid ""
+"Check this if you want to show timestamps on the child pages. Please note, "
+"that this requires the children to be listed on the page as well."
+msgstr ""
+
+msgid "deleted"
+msgstr ""
+
 msgid "title"
+msgstr ""
+
+msgid "The page title. This is shown anywhere links to your page are shown."
 msgstr ""
 
 msgid "URL"
 msgstr ""
 
+msgid ""
+"The page url. Choose a descriptive url so that search engines can rank your "
+"page higher. Often the best url is simply the page title with spaces "
+"replaced with dashes."
+msgstr ""
+
 msgid "content"
+msgstr ""
+
+msgid ""
+"The page content. This is the text that is displayed when customers click on "
+"your page link.You can leave this empty and add all page content through "
+"placeholder editor in shop front.To edit the style of the page you can use "
+"the Snippet plugin which is in shop front editor."
+msgstr ""
+
+msgid "Template path"
+msgstr ""
+
+#, fuzzy
+#| msgid "Untitled"
+msgid "render title"
+msgstr "タイトルなし"
+
+msgid "Check this if this page should have a visible title"
 msgstr ""
 
 msgid "page"
@@ -104,6 +200,47 @@ msgstr "ページ"
 
 msgid "Untitled"
 msgstr "タイトルなし"
+
+msgid "Image"
+msgstr ""
+
+msgid "The image of your object."
+msgstr ""
+
+msgid "type"
+msgstr ""
+
+msgid ""
+"The title of your object as it should appear within the graph, e.g. The Rock."
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "A one to two sentence description of your object."
+msgstr ""
+
+msgid "Section"
+msgstr ""
+
+msgid ""
+"A high-level section name, e.g. Technology. Only applicable when type is "
+"Article."
+msgstr ""
+
+msgid "Tags"
+msgstr ""
+
+msgid ""
+"Tag words associated with this article. Only applicable when type is Article."
+msgstr ""
+
+msgid "Article author"
+msgstr ""
+
+msgid ""
+"The name of the author for the article. Only applicable when type is Article."
+msgstr ""
 
 msgid "CMS Page Links"
 msgstr ""
@@ -117,14 +254,20 @@ msgstr ""
 msgid "Hide expired pages"
 msgstr ""
 
+msgid "Default Page"
+msgstr ""
+
+msgid "Page with sidebar"
+msgstr ""
+
+msgid ""
+"Fill the fields below to add extra OpenGraph information to the page meta.\n"
+"        If not informed, some values will be inferred from the page "
+"attributes."
+msgstr ""
+
 msgid "New Page"
 msgstr ""
 
-msgid "General Information"
-msgstr "基本情報"
-
-msgid "Availability"
-msgstr ""
-
-msgid "Extras"
+msgid "Home"
 msgstr ""

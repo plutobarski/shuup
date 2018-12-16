@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Shuup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-29 15:06+0000\n"
+"POT-Creation-Date: 2018-12-16 16:20+0000\n"
 "PO-Revision-Date: 2016-04-19 08:32+0000\n"
 "Last-Translator: Shuup Admin <admin@shuup.com>\n"
 "Language-Team: Chinese (Mandarin) (http://www.transifex.com/shuup/shuup/"
@@ -20,14 +20,26 @@ msgstr ""
 "Generated-By: Babel 2.1.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+msgid "Plain text"
+msgstr ""
+
+msgid "HTML"
+msgstr ""
+
 msgid "Subject"
 msgstr "标题"
 
 msgid "Email Body"
 msgstr "电子邮件主文"
 
+msgid "Content type"
+msgstr ""
+
 msgid "Recipient"
 msgstr "收件人"
+
+msgid "Reply-To"
+msgstr ""
 
 msgid "Language"
 msgstr "语言"
@@ -47,9 +59,6 @@ msgstr ""
 
 msgid "Notifications"
 msgstr "通知"
-
-msgid "Notification scripts"
-msgstr "脚本通知"
 
 msgid "Show notification scripts"
 msgstr "显示脚本通知"
@@ -83,14 +92,53 @@ msgstr "模板"
 msgid "Bind to Variable"
 msgstr ""
 
-msgid "Edit Script Contents..."
+#, fuzzy
+#| msgid "Edit Script Contents..."
+msgid "Edit Script Contents"
 msgstr "脚本内容编辑……"
+
+#, fuzzy
+#| msgid "Edit Script"
+msgid "Edit Script (advanced)"
+msgstr "脚本编辑"
+
+#, fuzzy
+#| msgid "Template"
+msgid "Edit Template"
+msgstr "模板"
+
+msgid "Save"
+msgstr ""
 
 msgid "Name"
 msgstr "名称"
 
 msgid "Enabled"
 msgstr "启用"
+
+#, fuzzy
+#| msgid "Enable Script"
+msgid "New Script"
+msgstr "启用脚本"
+
+#, fuzzy
+#| msgid "Template"
+msgid "New From Template"
+msgstr "模板"
+
+msgid "Script created from template!"
+msgstr ""
+
+msgid "Template Script not found!"
+msgstr ""
+
+msgid "Templated script not found!"
+msgstr ""
+
+#, fuzzy
+#| msgid "Script Name"
+msgid "Script updated!"
+msgstr "脚本名"
 
 msgid ""
 "Check whether the bound value `value` exists and is non-empty and non-zero."
@@ -153,6 +201,9 @@ msgstr ""
 msgid "critical"
 msgstr ""
 
+msgid "shop"
+msgstr ""
+
 msgid "recipient type"
 msgstr ""
 
@@ -186,6 +237,49 @@ msgstr "名称"
 msgid "enabled"
 msgstr "启用"
 
+#, fuzzy
+#| msgid "event identifier"
+msgid "template identifier"
+msgstr "事件标识符"
+
+msgid "the template identifier used to create this script"
+msgstr ""
+
+msgid "The subject of the email"
+msgstr ""
+
+#, fuzzy
+#| msgid "Email Body"
+msgid "Email content"
+msgstr "电子邮件主文"
+
+msgid "The content of the email."
+msgstr ""
+
+msgid "Customer"
+msgstr ""
+
+msgid "Other destination"
+msgstr ""
+
+msgid "Send to?"
+msgstr ""
+
+msgid ""
+"You can send this email to the customer or to other email of your choice."
+msgstr ""
+
+msgid "Destination"
+msgstr ""
+
+msgid "Fill with the destination email address."
+msgstr ""
+
+msgid ""
+"Recipient is a required field when you don't want to send the email to "
+"customer."
+msgstr ""
+
 msgid "Edit Script Information"
 msgstr "脚本信息编辑"
 
@@ -197,6 +291,18 @@ msgstr "脚本详情"
 
 msgid "OK"
 msgstr "OK"
+
+msgid "Show available variables"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Select the script template to be created"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
 
 msgid "Edit Script"
 msgstr "脚本编辑"
@@ -215,6 +321,29 @@ msgstr "变量"
 
 msgid "Save changes"
 msgstr "保存更改"
+
+#, fuzzy
+#| msgid "Script Name"
+msgid "Script Template: {}"
+msgstr "脚本名"
+
+msgid "Configure the Script Template"
+msgstr ""
+
+#, fuzzy
+#| msgid "Edit Script"
+msgid "Modify Script"
+msgstr "脚本编辑"
+
+#, fuzzy
+#| msgid "Create a new script"
+msgid "Create Script"
+msgstr "创建新的脚本"
+
+#, fuzzy
+#| msgid "created on"
+msgid "Create"
+msgstr "创建"
 
 msgid "Boolean"
 msgstr "布尔"

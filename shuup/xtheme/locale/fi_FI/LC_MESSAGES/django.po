@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Aarni Koskela, 2015
 # Antti Mäki <antti@anttimaki.com>, 2015
@@ -25,15 +25,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Shuup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-21 23:57+0000\n"
+"POT-Creation-Date: 2018-12-16 16:20+0000\n"
 "PO-Revision-Date: 2018-09-28 21:19+0000\n"
 "Last-Translator: Panu Tulimäki <panu@shuup.com>\n"
-"Language-Team: Finnish (Finland) (http://www.transifex.com/shuup/shuup/language/fi_FI/)\n"
+"Language-Team: Finnish (Finland) (http://www.transifex.com/shuup/shuup/"
+"language/fi_FI/)\n"
+"Language: fi_FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.1.1\n"
-"Language: fi_FI\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Theme identifier must match"
@@ -78,7 +79,9 @@ msgstr "Teeman kustomoitu CSS/JS"
 msgid ""
 "Select the themes that will have this snippet injected. Leave the field "
 "blank to inject in all themes."
-msgstr "Valitse teemat, joihin tämä koodinpätkä liitetään. Jätä tyhjäksi, mikäli haluat liitää tämän koodinpätkän jokaiseen teemaan."
+msgstr ""
+"Valitse teemat, joihin tämä koodinpätkä liitetään. Jätä tyhjäksi, mikäli "
+"haluat liitää tämän koodinpätkän jokaiseen teemaan."
 
 msgid "Select the location of the page to inject the snippet."
 msgstr "Valitse koodinpätkän sijainti sivulla."
@@ -360,7 +363,9 @@ msgstr "Tallenna lisäosa"
 msgid ""
 "Remember to publish your changes for this placeholder when you are done, by "
 "clicking the Publish Changes button at the top."
-msgstr "Muista lopuksi julkaista alueen muutokset painamalla Julkaise muutokset nappia."
+msgstr ""
+"Muista lopuksi julkaista alueen muutokset painamalla Julkaise muutokset "
+"nappia."
 
 msgid "Edit Placeholder"
 msgstr "Muokkaa aluetta"
@@ -369,7 +374,10 @@ msgid ""
 "Edit plugins inside this placeholder. By saving the individual plugin, the "
 "changes are saved as a draft, and only you are able to see the changes. To "
 "make your changes Public, Click the Publish Changes button."
-msgstr "Muokkaa alueen lisäosia. Tallentamalla yksittäisen lisäosan muutokset tallennetaan tilapäisesti ja vain sinä näet ne. Muutokset voit julkaista painamalla Julkaise muutokset nappia."
+msgstr ""
+"Muokkaa alueen lisäosia. Tallentamalla yksittäisen lisäosan muutokset "
+"tallennetaan tilapäisesti ja vain sinä näet ne. Muutokset voit julkaista "
+"painamalla Julkaise muutokset nappia."
 
 msgid "Add new cell"
 msgstr "Lisää uusi solu"
@@ -399,14 +407,16 @@ msgstr "Teemalla ei ole asetuksia."
 msgid "Select theme"
 msgstr "Valitse teema"
 
-msgid "Click here to configure the theme"
-msgstr "Klikkaa tätä asentaaksesi teeman"
+#, fuzzy
+#| msgid "Theme plugins"
+msgid "Theme Guide"
+msgstr "Teemaliitännäiset"
 
 msgid "Author"
 msgstr "Tekijä"
 
-msgid "Show guide"
-msgstr "Näytä ohjeistus"
+msgid "Configure"
+msgstr ""
 
 msgid "Activate"
 msgstr "Aktivoi"

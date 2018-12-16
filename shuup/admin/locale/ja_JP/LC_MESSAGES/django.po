@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Shuup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-29 15:06+0000\n"
+"POT-Creation-Date: 2018-12-16 16:20+0000\n"
 "PO-Revision-Date: 2016-06-28 21:58+0000\n"
 "Last-Translator: Tuomas Suutari <tuomas.suutari@shuup.com>\n"
 "Language-Team: Japanese (Japan) (http://www.transifex.com/shuup/shuup/"
@@ -23,17 +23,131 @@ msgstr ""
 msgid "Home"
 msgstr "ホーム"
 
-msgid "Browse"
-msgstr "ブラウズ"
+#, python-format
+msgid ""
+"Please enter a correct %(username)s and password. Note that both fields may "
+"be case-sensitive. In case of multiple accounts with same email only "
+"username can be used to login."
+msgstr ""
 
-msgid "Clear"
-msgstr "クリア"
+msgid "This account is inactive."
+msgstr ""
+
+msgid "Username or email address"
+msgstr ""
+
+#, fuzzy
+#| msgid "Create new"
+msgid "Create New"
+msgstr "新規作成"
+
+msgid "Monday"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "Wednesday"
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Sunday"
+msgstr ""
 
 msgid "Select"
 msgstr ""
 
+#, fuzzy
+#| msgid "Product Media"
+msgid "Select Media"
+msgstr "商品メディア"
+
+#, fuzzy
+#| msgid "Product Images"
+msgid "Select Image"
+msgstr "商品画像"
+
+#, fuzzy
+#| msgid "Product"
+msgid "Select Product"
+msgstr "商品"
+
+#, fuzzy
+#| msgid "New Contact"
+msgid "Select Contact"
+msgstr "新しいコンタクト"
+
+msgid "Orders"
+msgstr "注文"
+
+msgid "Products"
+msgstr "商品"
+
+msgid "Contacts"
+msgstr "コンタクト"
+
+msgid "Campaigns"
+msgstr ""
+
+#, fuzzy
+#| msgid "Contact"
+msgid "Content"
+msgstr "コンタクト"
+
+msgid "Elements"
+msgstr ""
+
+msgid "Design"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Reports"
+msgstr ""
+
+msgid "Shops"
+msgstr "ショップ"
+
+msgid "Settings"
+msgstr ""
+
+msgid "Payment & Shipping"
+msgstr ""
+
+msgid "Currency"
+msgstr ""
+
 msgid "Attributes"
 msgstr "属性"
+
+msgid "Other settings"
+msgstr ""
+
+msgid "Addons"
+msgstr ""
+
+msgid "Data Transfer"
+msgstr ""
+
+msgid "Taxes"
+msgstr "税"
+
+msgid "Permissions"
+msgstr "許可"
+
+#, fuzzy
+#| msgid "Order Status"
+msgid "Other Settings"
+msgstr "注文状況"
 
 msgid "Identifier"
 msgstr "識別子"
@@ -62,8 +176,55 @@ msgstr "# の商品タイプで使用される"
 msgid "Categories"
 msgstr "カテゴリー"
 
-msgid "Products"
+msgid "Add a product category to organize your products"
+msgstr ""
+
+#, fuzzy
+#| msgid "New User"
+msgid "New category"
+msgstr "新しいユーザー"
+
+msgid "Can not use this category as parent for this shop."
+msgstr ""
+
+msgid "Primary Category"
+msgstr "主要カテゴリー"
+
+msgid "Set this category as a primary for selected products."
+msgstr ""
+
+#, fuzzy
+#| msgid "Primary Category"
+msgid "Additional Category"
+msgstr "主要カテゴリー"
+
+msgid "Add selected products to this category"
+msgstr ""
+
+#, fuzzy
+#| msgid "Products"
+msgid "Remove Products"
 msgstr "商品"
+
+msgid "Remove selected products from this category"
+msgstr ""
+
+msgid "Invalid category"
+msgstr ""
+
+#, python-format
+msgid "Visibility settings copied to %d product(s)"
+msgstr ""
+
+#, fuzzy, python-format
+#| msgid "File deleted."
+msgid "%s has been deleted."
+msgstr "フォルダは削除されました"
+
+#, fuzzy
+#| msgid "No image"
+msgid "Image"
+msgstr "画像無し"
 
 msgid "Status"
 msgstr "ステータス"
@@ -71,17 +232,10 @@ msgstr "ステータス"
 msgid "Visibility"
 msgstr "可視性"
 
-msgid "Parent"
-msgstr "親"
-
-msgid "Contact Groups"
+#, fuzzy
+#| msgid "Contact Groups"
+msgid "Contact Group Pricing Display"
 msgstr "コンタクトグループ"
-
-msgid "Contacts"
-msgstr "コンタクト"
-
-msgid "Price display mode"
-msgstr ""
 
 msgid "unspecified"
 msgstr ""
@@ -94,6 +248,29 @@ msgstr ""
 
 msgid "hide prices"
 msgstr ""
+
+msgid "shop"
+msgstr ""
+
+msgid "Price display mode"
+msgstr ""
+
+msgid "Set how prices are displayed to contacts in this group."
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+#, fuzzy
+#| msgid "Visibility Mode"
+msgid "Display Mode"
+msgstr "可視性モード"
+
+msgid "Unspecified"
+msgstr ""
+
+msgid "Contact Groups"
+msgstr "コンタクトグループ"
 
 msgid "member"
 msgstr ""
@@ -114,11 +291,79 @@ msgstr[0] ""
 msgid "Number of Members"
 msgstr "会員数"
 
-msgid "Active customers"
-msgstr "アクティブカスタマー"
+#, python-format
+msgid "User %(bind_user)s already has a contact"
+msgstr ""
 
-msgid "Based on orders within 30 days"
-msgstr "30日以内のオーダーに基づいて"
+msgid ""
+"The contact groups this contact belongs to. Contact groups are defined in "
+"Contacts - Contact Groups and are used to configure sales, campaigns, and "
+"product pricing tailored for a set of users."
+msgstr ""
+
+msgid "The shops this contact belongs to"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "The primary language to be used in all communications with the contact."
+msgstr ""
+
+msgid "The company name."
+msgstr ""
+
+msgid "The contacts that are members of this company."
+msgstr ""
+
+msgid "Gender"
+msgstr ""
+
+msgid "Merchant Notes"
+msgstr ""
+
+msgid "Website URL"
+msgstr ""
+
+msgid "Account Manager"
+msgstr ""
+
+#, fuzzy
+#| msgid "Tax number"
+msgid "Company: Tax Number"
+msgstr "税番号"
+
+#, fuzzy
+#| msgid "Company"
+msgid "Company: Members"
+msgstr "会社"
+
+msgid "Select Language"
+msgstr ""
+
+#, fuzzy
+#| msgid "Contact Groups"
+msgid "Contact Group"
+msgstr "コンタクトグループ"
+
+#, fuzzy
+#| msgid "Contacts"
+msgid "Edit Contacts"
+msgstr "コンタクト"
+
+#, fuzzy
+#| msgid "Contact Groups"
+msgid "Set Contact Groups"
+msgstr "コンタクトグループ"
+
+msgid "Basic Information"
+msgstr "基本情報"
+
+msgid "Addresses"
+msgstr "住所"
+
+msgid "Members"
+msgstr ""
 
 msgid "The Shuup frontend is not enabled."
 msgstr "Shuupのフロントエンドは有効になっていません。"
@@ -157,8 +402,16 @@ msgstr ""
 msgid "Activate Contact"
 msgstr ""
 
-msgid "Edit..."
-msgstr "編集…"
+#, fuzzy
+#| msgid "Actions"
+msgid "Options"
+msgstr "アクション"
+
+msgid "Actions"
+msgstr "アクション"
+
+msgid "Edit"
+msgstr "編集"
 
 msgid "You can not deactivate a superuser."
 msgstr ""
@@ -176,15 +429,19 @@ msgstr "アクティブ"
 msgid "inactive"
 msgstr "非アクティブ"
 
+#, fuzzy
+#| msgid "Company"
+msgid "New Company"
+msgstr "会社"
+
+msgid "New Contact"
+msgstr "新しいコンタクト"
+
 msgid "Person"
 msgstr "人物"
 
 msgid "Company"
 msgstr "会社"
-
-#, python-format
-msgid "User %(bind_user)s already has a contact"
-msgstr ""
 
 msgid "Email"
 msgstr "Eメール"
@@ -207,8 +464,19 @@ msgstr ""
 msgid "Groups"
 msgstr ""
 
+msgid "Registered in"
+msgstr ""
+
 msgid "Contact"
 msgstr "コンタクト"
+
+msgid "No group"
+msgstr ""
+
+#, fuzzy
+#| msgid "Shops"
+msgid "No shops"
+msgstr "ショップ"
 
 msgid "Inactive"
 msgstr "アクティブでない"
@@ -225,14 +493,173 @@ msgstr "電話: %s"
 msgid "%d orders"
 msgstr ""
 
+msgid "Mass Edit: Contacts"
+msgstr ""
+
+msgid "Contacts changed successfully"
+msgstr ""
+
+#, fuzzy
+#| msgid "Contact Groups"
+msgid "Mass Edit: Contact Groups"
+msgstr "コンタクトグループ"
+
+msgid "Contacts Groups changed successfully"
+msgstr ""
+
 msgid "The contact does not have an associated user."
 msgstr "コンタクトは関連するユーザーがいません。"
+
+msgid "About Us"
+msgstr ""
+
+msgid "Privacy Policy"
+msgstr ""
+
+msgid "Terms and Conditions"
+msgstr ""
+
+msgid "Refund Policy"
+msgstr ""
+
+msgid "{{ order.shop }} - Order {{ order.identifier }} Received"
+msgstr ""
+
+msgid "Send customer order confirmation email"
+msgstr ""
+
+msgid ""
+"We will configure a notification to send the customer an email after a "
+"placed order. You can disable this option later or even change the layout of "
+"the email."
+msgstr ""
+
+msgid "Create About Us page"
+msgstr ""
+
+msgid ""
+"We have already created an 'About Us' template for you based on your shop "
+"information. You must review the page and change it accordingly."
+msgstr ""
+
+msgid ""
+"We will create an 'About Us' template for you. We will base content of the "
+"page on your shop information. After we are done, you must review the page "
+"and change it accordingly."
+msgstr ""
+
+msgid "Create Privacy Policy page"
+msgstr ""
+
+msgid ""
+"We have already created a 'Privacy Policy' template for you based on your "
+"shop information. You must review the page and change it accordingly."
+msgstr ""
+
+msgid ""
+"We will create a 'Privacy Policy' template for you. We will base content of "
+"the page on your shop information. After we are done, you must review the "
+"page and change it accordingly."
+msgstr ""
+
+msgid "Create Terms and Conditions page"
+msgstr ""
+
+msgid ""
+"We have already created a 'Terms & Conditions' template for you based on "
+"your shop information. You must review the page and change it accordingly."
+msgstr ""
+
+msgid ""
+"We will create an 'Terms & Conditions' template for you. We will base "
+"content of the page on your shop information. After we are done, you must "
+"review the page and change it accordingly."
+msgstr ""
+
+msgid "Create Refund Policy page"
+msgstr ""
+
+msgid ""
+"We have already created a 'Refund Policy' template for you based on your "
+"shop information. You must review the page and change it accordingly."
+msgstr ""
+
+msgid ""
+"We will create an 'Refund Policy' template for you. We will base content of "
+"the page on your shop information. After we are done, you must review the "
+"page and change it accordingly."
+msgstr ""
+
+msgid "Configure the footer"
+msgstr ""
+
+msgid ""
+"We will now configure your shop footer and fill it with some of your shop's "
+"information. Don't worry, you can change this at any time."
+msgstr ""
+
+msgid "Content & Behavior"
+msgstr ""
+
+msgid ""
+"Add the initial content and configure the customer notifications for your "
+"shop"
+msgstr ""
+
+msgid "Configure notifications for your shop"
+msgstr ""
+
+msgid "Add the initial content"
+msgstr ""
+
+msgid "Configure the initial content pages"
+msgstr ""
+
+msgid "Configure some notifications"
+msgstr ""
+
+msgid "Currencies"
+msgstr ""
+
+msgid "Code"
+msgstr "コード"
+
+#, fuzzy
+#| msgid "Filter by name..."
+msgid "Filter by code"
+msgstr "名前でフィルタ..."
+
+msgid "Decimal places"
+msgstr ""
+
+#, fuzzy
+#| msgid "Dashboard"
+msgid "Customers Dashboard"
+msgstr "ダッシュボード"
+
+msgid "Active customers"
+msgstr "アクティブカスタマー"
+
+msgid "Based on orders within 30 days"
+msgstr "30日以内のオーダーに基づいて"
 
 msgid "Demo"
 msgstr "デモ"
 
 msgid "Manufacturers"
 msgstr "メーカー"
+
+msgid ""
+"Select shops for this manufacturer. Keep it blank to share with all shops."
+msgstr ""
+
+msgid "You have no permission to change a shared Manufacturer."
+msgstr ""
+
+#, fuzzy
+#| msgid "Shop Logo"
+msgid "Logo"
+msgstr "ショップロゴ"
 
 msgid "Media"
 msgstr "メディア"
@@ -255,25 +682,42 @@ msgstr ""
 msgid "Folder %s deleted."
 msgstr ""
 
+#, fuzzy
+#| msgid "Browse"
+msgid "Browse Media"
+msgstr "ブラウズ"
+
 #, python-format
 msgid "%(file)s uploaded to %(folder)s"
+msgstr ""
+
+msgid "Can not rename shared folder."
 msgstr ""
 
 msgid "Folder renamed."
 msgstr "フォルダの名前は変更されました。"
 
+msgid "Can not delete shared folder."
+msgstr ""
+
+msgid "Can not rename shared file."
+msgstr ""
+
 msgid "File renamed."
 msgstr "ファイルの名前は変更されました。"
+
+msgid "Can not delete shared file."
+msgstr ""
 
 msgid "File deleted."
 msgstr "フォルダは削除されました"
 
+msgid "Can not move shared file."
+msgstr ""
+
 #, python-format
 msgid "%(file)s moved from %(old)s to %(new)s."
 msgstr ""
-
-msgid "Orders"
-msgstr "注文"
 
 msgid "Show orders"
 msgstr ""
@@ -285,28 +729,18 @@ msgstr "未処理注文"
 msgid "%d outstanding orders"
 msgstr ""
 
-msgid "Sales per Month (last year)"
-msgstr "月ごとの売上高 (前年)"
+#, fuzzy
+#| msgid "New User"
+msgid "New order"
+msgstr "新しいユーザー"
 
-#, python-format
-msgid "Sales (%(currency)s)"
-msgstr ""
+msgid "Order Status"
+msgstr "注文状況"
 
-#, python-format
-msgid "Based on %d orders"
-msgstr ""
-
-msgid "Today's Sales"
-msgstr "本日の売上高"
-
-msgid "Lifetime Sales"
-msgstr ""
-
-msgid "Average Purchase"
-msgstr "平均購入"
-
-msgid "Open Orders Value"
-msgstr ""
+#, fuzzy
+#| msgid "Status"
+msgid "List Statuses"
+msgstr "ステータス"
 
 #, python-format
 msgid "The quantity '%(quantity)s' (for line %(text)s) is invalid (%(error)s)"
@@ -331,14 +765,7 @@ msgstr ""
 msgid "Product %(product)s is not available in the %(shop)s shop."
 msgstr ""
 
-#, python-format
-msgid "Product %(product)s is not orderable: %(error)s"
-msgstr ""
-
 msgid "Please add lines to the order."
-msgstr ""
-
-msgid "Name is required for customer"
 msgstr ""
 
 msgid "Tax number is not set for company."
@@ -353,32 +780,36 @@ msgstr ""
 msgid "Please select payment method."
 msgstr ""
 
+msgid "Cancel"
+msgstr ""
+
+msgid "Print Confirmation PDF(s)"
+msgstr ""
+
+msgid "Selecting all is not supported."
+msgstr ""
+
+msgid "Print Delivery PDF(s)"
+msgstr ""
+
 msgid "Payments"
 msgstr ""
 
-msgid "Order Contents"
-msgstr ""
+#, fuzzy
+#| msgid "Create Shipment"
+msgid "Shipments"
+msgstr "配送の作成"
 
 msgid "Log Entries"
 msgstr ""
 
-msgid "Create Refund"
+msgid "Admin comment/notes"
 msgstr ""
 
-msgid "This order cannot be refunded"
-msgstr ""
-
-msgid "Create Payment"
-msgstr ""
-
-msgid "This order cannot be paid at this point"
-msgstr ""
-
-msgid "Create Shipment"
-msgstr "配送の作成"
-
-msgid "There are no products to ship"
-msgstr "配送する商品はありません"
+#, fuzzy
+#| msgid "Payment Status"
+msgid "Set Status"
+msgstr "支払状況"
 
 msgid "Set Complete"
 msgstr ""
@@ -397,6 +828,44 @@ msgstr ""
 
 msgid "This order cannot modified at this point"
 msgstr ""
+
+msgid "Create Payment"
+msgstr ""
+
+msgid "Set Paid"
+msgstr ""
+
+msgid "Create Shipment"
+msgstr "配送の作成"
+
+msgid "Create Refund"
+msgstr ""
+
+#, fuzzy
+#| msgid "Addresses"
+msgid "Edit Addresses"
+msgstr "住所"
+
+msgid "Billing Address"
+msgstr "請求先住所"
+
+msgid "Shipping Address"
+msgstr "お届け先住所"
+
+#, python-format
+msgid "%(field)s updated from: %(old_address)s"
+msgstr ""
+
+#, python-format
+msgid "%(field)s saved successfully."
+msgstr ""
+
+#, python-format
+msgid "Save -- %s"
+msgstr ""
+
+msgid "Save"
+msgstr "保存"
 
 msgid "Unable to set order as completed at this point"
 msgstr ""
@@ -461,16 +930,59 @@ msgstr ""
 msgid "Order has already been paid"
 msgstr ""
 
-msgid "Line number"
+msgid "Only orders which are not paid or deferred can be set as paid."
+msgstr ""
+
+msgid "Only zero price orders can be set as paid without creating a payment."
+msgstr ""
+
+msgid "Zero amount payment"
+msgstr ""
+
+msgid "Order marked as paid."
+msgstr ""
+
+msgid "Payment doesn't exist."
+msgstr ""
+
+#, fuzzy
+#| msgid "File deleted."
+msgid "Payment deleted."
+msgstr "フォルダは削除されました"
+
+msgid "Line"
+msgstr ""
+
+msgid ""
+"The line to refund. To refund an amount not associated with any line, select "
+"'Refund arbitrary amount'."
 msgstr ""
 
 msgid "Quantity"
 msgstr "数量"
 
+msgid "The number of units to refund."
+msgstr ""
+
+msgid "Line Text/Comment"
+msgstr ""
+
+msgid ""
+"The text describing the nature of the refund and/or the reason for the "
+"refund."
+msgstr ""
+
 msgid "Amount"
 msgstr ""
 
+msgid "The amount including tax to refund."
+msgstr ""
+
 msgid "Restock products"
+msgstr ""
+
+msgid ""
+"If checked, the quantity is adding back into the sellable product inventory."
 msgstr ""
 
 #, python-format
@@ -483,10 +995,13 @@ msgstr ""
 msgid "This order already has existing refunds"
 msgstr ""
 
+msgid "Refund arbitrary amount"
+msgstr ""
+
 msgid "Refund amount exceeds order amount."
 msgstr ""
 
-msgid "Refund amount cannot be 0"
+msgid "Refund amounts should match sign on parent line."
 msgstr ""
 
 msgid "Refund created."
@@ -494,9 +1009,6 @@ msgstr ""
 
 #, python-format
 msgid "Create Full Refund -- %s"
-msgstr ""
-
-msgid "Cancel"
 msgstr ""
 
 msgid "Could not create full refund."
@@ -512,25 +1024,67 @@ msgstr ""
 msgid "Supplier"
 msgstr "供給者"
 
+msgid ""
+"Select the shipment supplier. You can only ship the suppliers assigned to "
+"order lines."
+msgstr ""
+
+#, python-format
+msgid "%(product_name)s (%(supplier)s)"
+msgstr ""
+
 msgid "No products to ship."
 msgstr "配送する商品はありません。"
+
+#, fuzzy
+#| msgid "Shipping address"
+msgid "Shipping address is not set."
+msgstr "お届け先住所"
 
 #, python-format
 msgid "Shipment %s created."
 msgstr ""
 
+#, python-format
+msgid "Shipment %s has been deleted."
+msgstr ""
+
+msgid "Identifier already exists"
+msgstr ""
+
+#, fuzzy
+#| msgid "Order Status"
+msgid "Order Statuses"
+msgstr "注文状況"
+
+msgid "Public Name"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
 msgid "Permission Groups"
+msgstr ""
+
+msgid "The permission group name."
 msgstr ""
 
 msgid "Module Permissions"
 msgstr ""
 
 msgid ""
+"Select the modules that should be accessible by this permission group. "
 "Modules with the same permissions as selected modules will be added "
 "automatically."
 msgstr ""
 
-msgid "Members"
+msgid "Set the users that belong to this permission group."
+msgstr ""
+
+msgid "Create new Permission Group"
 msgstr ""
 
 msgid "Product Types"
@@ -538,6 +1092,11 @@ msgstr "商品タイプ"
 
 msgid "Product types"
 msgstr "商品タイプ"
+
+msgid ""
+"Select attributes that go with your product type. These are defined in "
+"Products Settings - Attributes."
+msgstr ""
 
 msgid "Number of Attributes"
 msgstr "属性数"
@@ -550,7 +1109,39 @@ msgstr ""
 msgid "Create Product with SKU \"%s\""
 msgstr ""
 
+#, fuzzy
+#| msgid "Product"
+msgid "New product"
+msgstr "商品"
+
+msgid "Import"
+msgstr ""
+
+msgid "Add a product to see it in your store"
+msgstr ""
+
+#, fuzzy
+#| msgid "Product Images"
+msgid "Primary Product Image"
+msgstr "商品画像"
+
+msgid ""
+"The main product image. You can add additional images on the Product Images "
+"tab."
+msgstr ""
+
+msgid "Given value is already in use, please use unique SKU and try again."
+msgstr ""
+
+msgid ""
+"Number of units that can be purchased after the product is out of stock. Set "
+"to blank for product to be purchasable without limits"
+msgstr ""
+
 msgid "Minimum Purchase Quantity must be greater than 0."
+msgstr ""
+
+msgid "Backorder maximum must be greater than or equal to 0."
 msgstr ""
 
 #, python-format
@@ -595,6 +1186,20 @@ msgstr ""
 msgid "variable combination"
 msgstr ""
 
+msgid "Set visible"
+msgstr ""
+
+msgid "Set invisible"
+msgstr ""
+
+msgid "Export CSV"
+msgstr ""
+
+#, fuzzy
+#| msgid "Products"
+msgid "Edit products"
+msgstr "商品"
+
 #, python-format
 msgid "%s has been marked deleted."
 msgstr ""
@@ -616,9 +1221,6 @@ msgstr "商品"
 msgid "Edit Cross-Sell: %s"
 msgstr ""
 
-msgid "Save"
-msgstr "保存"
-
 msgid "Changes saved."
 msgstr "変更は保存されました"
 
@@ -626,10 +1228,13 @@ msgstr "変更は保存されました"
 msgid "Edit Media: %s"
 msgstr "メディアを編集する: %s"
 
-msgid "Are you sure? This will remove all products from package."
+msgid "Files added to product."
 msgstr ""
 
 msgid "Clear package"
+msgstr ""
+
+msgid "Are you sure? This will remove all products from package."
 msgstr ""
 
 #, python-format
@@ -665,11 +1270,13 @@ msgstr "バリエーションはクリアされました。"
 msgid "Variation simplified."
 msgstr "バリエーションは単純化されました。"
 
+#, fuzzy
+#| msgid "Primary image"
+msgid "Primary Image"
+msgstr "主要画像"
+
 msgid "SKU"
 msgstr "最小管理単位"
-
-msgid "Filter by SKU..."
-msgstr "最小管理単位でフィルターする..."
 
 msgid "Barcode"
 msgstr ""
@@ -680,17 +1287,32 @@ msgstr ""
 msgid "Mode"
 msgstr "モード"
 
-msgid "Primary Category"
-msgstr "主要カテゴリー"
+#, fuzzy
+#| msgid "Filter by name..."
+msgid "Filter by category name..."
+msgstr "名前でフィルタ..."
+
+#, fuzzy
+#| msgid "Categories"
+msgid "Additional Categories"
+msgstr "カテゴリー"
+
+#, fuzzy
+#| msgid "Purchasing"
+msgid "Purchasable"
+msgstr "購買"
+
+msgid "Mass Edit: Products"
+msgstr ""
+
+msgid "Products changed successfully"
+msgstr ""
 
 msgid "Manage Cross-Selling"
 msgstr "クロスセリングを管理する"
 
 msgid "Cross-Selling"
 msgstr "クロスセリング"
-
-msgid "Actions"
-msgstr "アクション"
 
 #, python-format
 msgid "Child: %s"
@@ -722,11 +1344,201 @@ msgstr ""
 msgid "Convert to Variation Parent"
 msgstr ""
 
+msgid "Save and Exit"
+msgstr "保存して終了する"
+
+msgid "Save and Create New"
+msgstr "保存して新規作成する"
+
+msgid "Save as a copy"
+msgstr ""
+
+#, fuzzy
+#| msgid "Dashboard"
+msgid "Sales Dashboard"
+msgstr "ダッシュボード"
+
+#, fuzzy
+#| msgid "Sales per Month (last year)"
+msgid "Sales per Month (past 12 months)"
+msgstr "月ごとの売上高 (前年)"
+
+#, fuzzy
+#| msgid "Average Purchase"
+msgid "Average Sales"
+msgstr "平均購入"
+
+#, fuzzy
+#| msgid "Sales Units"
+msgid "Sales"
+msgstr "販売単位"
+
+msgid "Cumulative Total Sales"
+msgstr ""
+
+#, python-format
+msgid "Based on %d orders"
+msgstr ""
+
+msgid "Today's Sales"
+msgstr "本日の売上高"
+
+msgid "Lifetime Sales"
+msgstr ""
+
+msgid "Average Purchase"
+msgstr "平均購入"
+
+msgid "Open Orders Value"
+msgstr ""
+
 msgid "Sales Units"
 msgstr "販売単位"
 
+msgid "Display Units"
+msgstr ""
+
+msgid "Symbol"
+msgstr ""
+
 msgid "Allowed decimals"
 msgstr "可小数"
+
+msgid ""
+"There is sample data installed. Access \"Settings > Sample Data\" for more "
+"information."
+msgstr ""
+
+msgid ""
+"There is sample data installed. Click here to consolidate or delete them."
+msgstr ""
+
+msgid "Sample Data"
+msgstr ""
+
+msgid "Cosmetics and perfumes"
+msgstr ""
+
+msgid "USpicy Makeup Brushes"
+msgstr ""
+
+msgid ""
+"Professional 10 pieces makeup brush set with soft oval toothbrush design"
+msgstr ""
+
+msgid "Precision Eyelash Curler"
+msgstr ""
+
+msgid ""
+"Precision Eyelash Curler is the professional choice of makeup artists "
+"everywhere."
+msgstr ""
+
+msgid "PureMoist Lipstick"
+msgstr ""
+
+msgid ""
+"PureMoist Lipstick has a moisturizing formula designed to quench, comfort "
+"and protect lips."
+msgstr ""
+
+msgid "Clinique Happy"
+msgstr ""
+
+msgid "A hint of citrus. A wealth of flowers. A mix of emotions."
+msgstr ""
+
+msgid "Tommy Girld by Tommy Hilfiger Perfume"
+msgstr ""
+
+msgid ""
+"A refreshing and energetic floral - with low notes of sandalwood and heather."
+msgstr ""
+
+msgid "Bvlgari Omnia Crystalline Eau de Toilette"
+msgstr ""
+
+msgid ""
+"Give yourself over to this fragrance as intoxicating and pure as a woman's "
+"soul is fragile."
+msgstr ""
+
+msgid "Still Jennifer Lopez Perfume"
+msgstr ""
+
+msgid ""
+"Be driven with vitality and confidence, as you wear the Jennifer Lopez Still "
+"fragrance."
+msgstr ""
+
+msgid "La Vie Est Belle"
+msgstr ""
+
+msgid "A captivating new scent joins the La vie est belle path to happiness."
+msgstr ""
+
+msgid "Smooth Viking Beard Brush"
+msgstr ""
+
+msgid "Just a beard brush."
+msgstr ""
+
+msgid "Beard & Stash Oil"
+msgstr ""
+
+msgid "This oil is natural, and is made with the perfect combination of oils."
+msgstr ""
+
+msgid "Sample Carousel"
+msgstr ""
+
+msgid "Business Segment"
+msgstr ""
+
+msgid "Select your business segment to install categories."
+msgstr ""
+
+#, fuzzy
+#| msgid "Categories"
+msgid "Install Categories"
+msgstr "カテゴリー"
+
+msgid "Check this to install sample categories."
+msgstr ""
+
+#, fuzzy
+#| msgid "Products"
+msgid "Install Products"
+msgstr "商品"
+
+msgid "Check this to install sample products."
+msgstr ""
+
+msgid "Install Carousel"
+msgstr ""
+
+msgid "Check this to install a sample carousel."
+msgstr ""
+
+#, fuzzy
+#| msgid "Categories"
+msgid "Uninstall Categories"
+msgstr "カテゴリー"
+
+#, fuzzy
+#| msgid "Products"
+msgid "Uninstall Products"
+msgstr "商品"
+
+msgid "Uninstall Carousel"
+msgstr ""
+
+msgid "Sample data were consolidated"
+msgstr ""
+
+msgid ""
+"To start shopping right now, please install some sample data into your shop"
+msgstr ""
 
 msgid "Service Providers"
 msgstr ""
@@ -738,8 +1550,60 @@ msgstr ""
 msgid "Edit %(model)s"
 msgstr ""
 
+msgid ""
+"The service provider type. This can be any of the shipping carriers or "
+"payment processors configured for your shop."
+msgstr ""
+
 #, python-brace-format
 msgid "Create {service_name}"
+msgstr ""
+
+msgid "Provider"
+msgstr ""
+
+#, python-format
+msgid "Please activate at least one %s."
+msgstr ""
+
+msgid "Carrier"
+msgstr ""
+
+msgid ""
+"To start shipping products right away, please add shipping methods for your "
+"shop"
+msgstr ""
+
+#, fuzzy
+#| msgid "Shipping & Payment"
+msgid "shipping method"
+msgstr "配送料と配送情報"
+
+msgid "Payment Provider"
+msgstr ""
+
+msgid ""
+"To start accepting payments right away, please add payment methods for your "
+"shop"
+msgstr ""
+
+msgid "payment method"
+msgstr ""
+
+#, fuzzy
+#| msgid "Username"
+msgid "Service name"
+msgstr "ユーザーネーム"
+
+msgid "The name shown in the shop checkout process."
+msgstr ""
+
+#, fuzzy
+#| msgid "Actions"
+msgid "Instructions"
+msgstr "アクション"
+
+msgid "Additional instructions shown in the shop checkout process."
 msgstr ""
 
 msgid "Shipping Methods"
@@ -751,16 +1615,41 @@ msgstr ""
 msgid "Service"
 msgstr ""
 
-msgid "Select carrier before filling other fields."
+msgid "Select a service to use for this service provider."
 msgstr ""
 
-msgid "Select payment processor before filling other fields."
+msgid ""
+"The carrier to use for this shipping method. Select a carrier before filling "
+"other fields."
+msgstr ""
+
+msgid ""
+"The payment processor to use for this payment method. Select a payment "
+"processor before filling out the other fields."
 msgstr ""
 
 msgid "Price"
 msgstr ""
 
 msgid "Waive limit"
+msgstr ""
+
+msgid "Available in countries"
+msgstr ""
+
+msgid "Unavailable in countries"
+msgstr ""
+
+msgid "Select accepted countries for this service."
+msgstr ""
+
+msgid "Select this to accept all countries in EU."
+msgstr ""
+
+msgid "Select restricted countries for this service."
+msgstr ""
+
+msgid "Select this to restrict this service for countries in EU"
 msgstr ""
 
 msgid "Service choice"
@@ -772,30 +1661,190 @@ msgstr ""
 msgid "Shop"
 msgstr ""
 
-msgid "Carrier"
-msgstr ""
-
 msgid "Payment Processor"
 msgstr ""
 
 msgid "Weight-based pricing range"
 msgstr ""
 
-msgid "Shops"
-msgstr "ショップ"
+msgid "System Settings"
+msgstr ""
 
-msgid "System"
-msgstr "システム"
+msgid "unique"
+msgstr ""
+
+msgid "running"
+msgstr ""
+
+msgid "shop running"
+msgstr ""
+
+msgid "Reference number length"
+msgstr ""
+
+msgid ""
+"Length of the order reference number not including the checksum number. This "
+"can vary based on the country your shop is in. If you set the length to 19, "
+"the actual length is going to be 20 because the checksum is being added."
+msgstr ""
+
+msgid "Reference number prefix"
+msgstr ""
+
+msgid "Order minimum total"
+msgstr ""
+
+msgid "The minimum sum that an order needs to reach to be created."
+msgstr ""
+
+#, fuzzy
+#| msgid "Order Status"
+msgid "Order Settings"
+msgstr "注文状況"
+
+msgid "Order Reference number method"
+msgstr ""
+
+msgid ""
+"This option defines how the reference numbers for orders are built. The "
+"options are:<br><br><b>Unique</b><br>Order reference number is unique system "
+"wide, regardless of the amount of shops.<br><br><b>Running</b><br>Order "
+"number is running system wide, regardless of the amount of shops."
+"<br><br><b>Shop Running</b><br>Every shop has its own running numbers for "
+"reference."
+msgstr ""
+
+#, fuzzy
+#| msgid "Changes saved."
+msgid "Settings saved"
+msgstr "変更は保存されました"
+
+msgid "Reset Defaults"
+msgstr ""
+
+#, fuzzy
+#| msgid "Changes saved."
+msgid "Changes saved successfully"
+msgstr "変更は保存されました"
+
+msgid "No changes detected"
+msgstr ""
+
+msgid "Save system settings"
+msgstr ""
+
+msgid "Add a logo to make your store stand out"
+msgstr ""
+
+msgid "Add logo"
+msgstr ""
+
+msgid "Set \"{}\" as the active shop"
+msgstr ""
+
+msgid "Available Shops [currently active: {}]"
+msgstr ""
 
 msgid ""
 "This field cannot be changed since there are existing orders for this shop."
 msgstr ""
 
+msgid ""
+"The primary shop currency. This is the currency used when selling your "
+"products."
+msgstr ""
+
+msgid "Staff"
+msgstr "スタッフ"
+
+msgid "Select staff members for this shop."
+msgstr ""
+
+msgid "Domain is unique. Please enter a unique value."
+msgstr ""
+
+msgid "Shop name"
+msgstr ""
+
+#, fuzzy
+#| msgid "First Name"
+msgid "First name"
+msgstr "名"
+
+#, fuzzy
+#| msgid "First Name"
+msgid "Your first name."
+msgstr "名"
+
+#, fuzzy
+#| msgid "Last Name"
+msgid "Last name"
+msgstr "苗字"
+
+msgid "Your last name."
+msgstr ""
+
+msgid "Zip/Postal code"
+msgstr ""
+
+msgid "State/Province"
+msgstr ""
+
+#, fuzzy
+#| msgid "Addresses"
+msgid "Address"
+msgstr "住所"
+
+#, fuzzy
+#| msgid "Addresses"
+msgid "Address (2)"
+msgstr "住所"
+
+msgid ""
+"The shop street address. This may be used to provide estimated shipping "
+"costs."
+msgstr ""
+
+msgid "The shop zip/postal code."
+msgstr ""
+
+msgid "The city in which your shop is located."
+msgstr ""
+
+msgid "The country in which your shop is located."
+msgstr ""
+
+msgid "There are still some pending actions to complete!"
+msgstr ""
+
+msgid "Your store is now live!"
+msgstr ""
+
+msgid "Shop {} is now active!"
+msgstr ""
+
 msgid "Domain"
 msgstr "ドメイン"
 
+msgid "Shop Details"
+msgstr ""
+
+msgid "Add an address so you can get paid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Tax Classes"
+msgid "Default Tax Class"
+msgstr "税クラス"
+
 msgid "Suppliers"
 msgstr "供給者"
+
+msgid "Select shops for this supplier. Keep it blank to share with all shops."
+msgstr ""
+
+msgid "It is not possible to manage inventory when no module is selected."
+msgstr ""
 
 #, python-format
 msgid "No %s module"
@@ -803,6 +1852,12 @@ msgstr ""
 
 msgid "Module"
 msgstr "モジュール"
+
+msgid "Shuup Support"
+msgstr ""
+
+msgid "System"
+msgstr "システム"
 
 msgid "Telemetry"
 msgstr "遠隔測定"
@@ -812,8 +1867,8 @@ msgid ""
 "for more information."
 msgstr ""
 
-msgid "Taxes"
-msgstr "税"
+msgid "Opt-in for telemetry"
+msgstr ""
 
 msgid "Customer Tax Groups"
 msgstr "カスタマー税グループ"
@@ -821,22 +1876,54 @@ msgstr "カスタマー税グループ"
 msgid "Tax Classes"
 msgstr "税クラス"
 
-msgid "Code"
-msgstr "コード"
-
 msgid "Rate"
 msgstr ""
 
 msgid "Users"
 msgstr "ユーザー"
 
+msgid "Add some users to help manage your shop"
+msgstr ""
+
+#, fuzzy
+#| msgid "New User"
+msgid "New user"
+msgstr "新しいユーザー"
+
+#, python-format
+msgid ""
+"\n"
+"    Welcome %(first_name)s!\n"
+"\n"
+"    You've been added as an administrator to %(shop_url)s. Here are some "
+"details:\n"
+"        Shop url: %(shop_url)s\n"
+"        Login url: %(admin_url)s\n"
+"        Your username: %(username)s\n"
+"        Your password: Please contact your admin.\n"
+msgstr ""
+
 msgid "Password"
 msgstr "パスワード"
 
-msgid "Permissions"
-msgstr "許可"
+#, fuzzy
+#| msgid "Reset password"
+msgid "The user password."
+msgstr "パスワードをリセットする"
 
 msgid "See the permissions view to change these."
+msgstr ""
+
+msgid "See Contacts - Permission Groups to change these."
+msgstr ""
+
+msgid "The user email address. Used for password resets."
+msgstr ""
+
+msgid "The first name of the user."
+msgstr ""
+
+msgid "The last name of the user."
 msgstr ""
 
 msgid "staff"
@@ -849,6 +1936,19 @@ msgid "No special permissions"
 msgstr ""
 
 msgid "No permission groups"
+msgstr ""
+
+#, fuzzy
+#| msgid "General Information"
+msgid "Send email confirmation"
+msgstr "基本情報"
+
+msgid ""
+"Send an email to the user to let them know they've been added as a shop "
+"user. Applicable only for users with staff status."
+msgstr ""
+
+msgid "Please enter an email to send a confirmation"
 msgstr ""
 
 msgid "Change Password"
@@ -866,9 +1966,6 @@ msgstr ""
 msgid "Contact Details"
 msgstr ""
 
-msgid "New Contact"
-msgstr "新しいコンタクト"
-
 msgid "Create a new contact and associate it with this user"
 msgstr ""
 
@@ -878,12 +1975,35 @@ msgstr "ユーザーをアクティブ化"
 msgid "Deactivate User"
 msgstr "ユーザーの非アクティブ化"
 
+msgid "Login as User"
+msgstr ""
+
 #, python-format
 msgid "User bound to contact %(contact)s."
 msgstr ""
 
 #, python-format
+msgid "You've been added as an admin user to %s"
+msgstr ""
+
+msgid "User"
+msgstr "ユーザー"
+
+#, python-format
 msgid "%(user)s is now %(state)s."
+msgstr ""
+
+msgid "No shop configured."
+msgstr ""
+
+msgid "You are already logged in."
+msgstr ""
+
+msgid "This user is not active."
+msgstr ""
+
+#, python-brace-format
+msgid "You're now logged in as {username}"
 msgstr ""
 
 msgid "Username"
@@ -895,9 +2015,6 @@ msgstr "名"
 msgid "Last Name"
 msgstr "苗字"
 
-msgid "Staff"
-msgstr "スタッフ"
-
 msgid "Superuser"
 msgstr "スーパーユーザー"
 
@@ -908,9 +2025,6 @@ msgstr "名: %s"
 #, python-format
 msgid "Last Name: %s"
 msgstr "苗字: %s"
-
-msgid "User"
-msgstr "ユーザー"
 
 msgid "The two password fields didn't match."
 msgstr "二つのパスワードフィールドが一致しませんでした。"
@@ -953,6 +2067,11 @@ msgstr ""
 msgid "Sending the password recovery email failed."
 msgstr "パスワード再設定のメールを送ることができませんでした。"
 
+msgid ""
+"The permission groups that this user belongs to. Permission groups are "
+"configured through Contacts - Permission Groups."
+msgstr ""
+
 msgid "You can't unset this status for yourself."
 msgstr ""
 
@@ -967,16 +2086,34 @@ msgstr ""
 msgid "Permissions changed for %s."
 msgstr ""
 
+msgid "You must be a staff user"
+msgstr ""
+
+msgid "You are not a staff member of this shop"
+msgstr ""
+
 msgid "New Attribute"
 msgstr ""
 
 msgid "Login"
 msgstr "ログイン"
 
+#, fuzzy
+#| msgid "Welcome!"
+msgid "Welcome back"
+msgstr "ようこそ！"
+
+#, fuzzy
+#| msgid "Your Password"
+msgid "Forgot your password?"
+msgstr "あなたのパスワード"
+
 msgid "Logged out"
 msgstr "ログアウト"
 
-msgid "You have been logged out. Good bye!"
+#, fuzzy
+#| msgid "You have been logged out. Good bye!"
+msgid "You have been securely logged out. Hope to see you soon!"
 msgstr "あなたはログアウトされました。さようなら！"
 
 msgid "Log in again"
@@ -985,20 +2122,61 @@ msgstr "もう一度ログインする"
 msgid "Visit shop"
 msgstr "ショップに行く"
 
-msgid "Menu"
-msgstr "メニュー"
+#, python-format
+msgid "Hi %(fullname)s"
+msgstr ""
+
+#, python-format
+msgid "In case you've forgotten, your username is %(username)s."
+msgstr ""
+
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr ""
+
+msgid "Please go to the following page and choose a new password:"
+msgstr ""
+
+#, fuzzy
+#| msgid "Password"
+msgid "Password Recovery"
+msgstr "パスワード"
+
+#, fuzzy
+#| msgid "Reset password"
+msgid "Reset Password"
+msgstr "パスワードをリセットする"
+
+#, fuzzy
+#| msgid "Sending the password recovery email failed."
+msgid "Send password recovery instructions"
+msgstr "パスワード再設定のメールを送ることができませんでした。"
 
 msgid "Dashboard"
 msgstr "ダッシュボード"
 
+msgid "Quicklinks"
+msgstr ""
+
+msgid "Menu"
+msgstr "メニュー"
+
 msgid "Search for"
 msgstr "を検索"
 
-msgid "Settings"
+msgid "Support ID: "
+msgstr ""
+
+msgid "Go home"
 msgstr ""
 
 msgid "Hello"
 msgstr "こんにちは"
+
+msgid "Show Tour"
+msgstr ""
 
 msgid "Log out"
 msgstr "ログアウト"
@@ -1006,8 +2184,28 @@ msgstr "ログアウト"
 msgid "General Information"
 msgstr "基本情報"
 
+msgid "Copy visibility settings to products"
+msgstr ""
+
 msgid "Category Image"
 msgstr "カテゴリー画像"
+
+msgid "* Products that has this category as a primary category."
+msgstr ""
+
+msgid "Add a new product category"
+msgstr ""
+
+msgid ""
+"You are adding a new product category. When people search your store, they "
+"can find your product under the category you choose for it, like the aisle "
+"signs at the supermarket."
+msgstr ""
+
+msgid ""
+"You can add a name, description, picture or anything you want to make it "
+"stand out."
+msgstr ""
 
 msgid "General information"
 msgstr "基本情報"
@@ -1018,20 +2216,17 @@ msgstr ""
 msgid "Add more"
 msgstr ""
 
-msgid "Addresses"
-msgstr "住所"
+msgid "Billing address"
+msgstr " 請求先住所"
 
-msgid "Billing Address"
-msgstr "請求先住所"
+msgid "No billing address defined."
+msgstr ""
 
-msgid "Shipping Address"
+msgid "Shipping address"
 msgstr "お届け先住所"
 
-msgid "Basic details"
-msgstr "基本詳細"
-
-msgid "Basic Information"
-msgstr "基本情報"
+msgid "No shipping address defined."
+msgstr ""
 
 msgid "Full Name"
 msgstr ""
@@ -1045,25 +2240,912 @@ msgstr ""
 msgid "Companies"
 msgstr ""
 
-msgid "Account Manager"
-msgstr ""
-
-msgid "Merchant Notes"
-msgstr ""
-
-msgid "Shipping address"
-msgstr "お届け先住所"
-
-msgid "No shipping address defined."
-msgstr ""
-
-msgid "Billing address"
-msgstr " 請求先住所"
-
-msgid "No billing address defined."
-msgstr ""
-
 msgid "No members."
+msgstr ""
+
+msgid "Use billing address as shipping address"
+msgstr ""
+
+msgid "Basic details"
+msgstr "基本詳細"
+
+msgid "COMPANY NAME"
+msgstr ""
+
+#, python-format
+msgid ""
+"You can enter here the information about <strong>%(public_name)s</strong>."
+msgstr ""
+
+msgid "Your order has been received and will be processed as soon as possible."
+msgstr ""
+
+msgid "For reference, here's a list of your order's contents."
+msgstr ""
+
+msgid "Please note that no record of your order being paid currently exists."
+msgstr ""
+
+msgid "Thank you for shopping with us!"
+msgstr ""
+
+msgid "YOUR E-MAIL HERE"
+msgstr ""
+
+msgid "YOUR ADDRESS HERE"
+msgstr ""
+
+msgid "SECTION 1 - WHAT DO WE DO WITH YOUR INFORMATION?"
+msgstr ""
+
+msgid ""
+"When you purchase something from our store, as part of the buying and "
+"selling process, we collect the personal information you give us such as "
+"your name, address and email address."
+msgstr ""
+
+msgid ""
+"When you browse our store, we also automatically receive your computer’s "
+"internet protocol (IP) address in order to provide us with information that "
+"helps us learn about your browser and operating system."
+msgstr ""
+
+msgid ""
+"Email marketing (if applicable): With your permission, we may send you "
+"emails about our store, new products and other updates."
+msgstr ""
+
+msgid "SECTION 2 - CONSENT"
+msgstr ""
+
+msgid "How do you get my consent?"
+msgstr ""
+
+msgid ""
+"When you provide us with personal information to complete a transaction, "
+"verify your credit card, place an order, arrange for a delivery or return a "
+"purchase, we imply that you consent to our collecting it and using it for "
+"that specific reason only."
+msgstr ""
+
+msgid ""
+"If we ask for your personal information for a secondary reason, like "
+"marketing, we will either ask you directly for your expressed consent, or "
+"provide you with an opportunity to say no."
+msgstr ""
+
+msgid "How do I withdraw my consent?"
+msgstr ""
+
+#, python-format
+msgid ""
+"If after you opt-in, you change your mind, you may withdraw your consent for "
+"us to contact you, for the continued collection, use or disclosure of your "
+"information, at anytime, by contacting us at <strong>%(shop_email)s</strong> "
+"or mailing us at: <strong>%(shop_address)s</strong>"
+msgstr ""
+
+msgid "SECTION 3 - DISCLOSURE"
+msgstr ""
+
+msgid ""
+"We may disclose your personal information if we are required by law to do so "
+"or if you violate our Terms of Service."
+msgstr ""
+
+msgid "SECTION 4 - SHUUP"
+msgstr ""
+
+msgid ""
+"Our store is hosted on Shuup. They provide us with the online e-commerce "
+"platform that allows us to sell our products and services to you."
+msgstr ""
+
+msgid ""
+"Your data is stored through Shuup’s data storage, databases and the general "
+"Shuup application. They store your data on a secure server behind a firewall."
+msgstr ""
+
+#, fuzzy
+#| msgid "Payment Status"
+msgid "Payment"
+msgstr "支払状況"
+
+msgid ""
+"If you choose a direct payment gateway to complete your purchase, then Shuup "
+"stores your credit card data. It is encrypted through the Payment Card "
+"Industry Data Security Standard (PCI-DSS). Your purchase transaction data is "
+"stored only as long as is necessary to complete your purchase transaction. "
+"After that is complete, your purchase transaction information is deleted."
+msgstr ""
+
+msgid ""
+"All direct payment gateways adhere to the standards set by PCI-DSS as "
+"managed by the PCI Security Standards Council, which is a joint effort of "
+"brands like Visa, MasterCard, American Express and Discover."
+msgstr ""
+
+msgid ""
+"PCI-DSS requirements help ensure the secure handling of credit card "
+"information by our store and its service providers."
+msgstr ""
+
+msgid ""
+"For more insight, you may also want to read Shuup’s Terms of Service here or "
+"Privacy Statement here."
+msgstr ""
+
+msgid "SECTION 5 - THIRD-PARTY SERVICES"
+msgstr ""
+
+msgid ""
+"In general, the third-party providers used by us will only collect, use and "
+"disclose your information to the extent necessary to allow them to perform "
+"the services they provide to us."
+msgstr ""
+
+msgid ""
+"However, certain third-party service providers, such as payment gateways and "
+"other payment transaction processors, have their own privacy policies in "
+"respect to the information we are required to provide to them for your "
+"purchase-related transactions."
+msgstr ""
+
+msgid ""
+"For these providers, we recommend that you read their privacy policies so "
+"you can understand the manner in which your personal information will be "
+"handled by these providers."
+msgstr ""
+
+msgid ""
+"In particular, remember that certain providers may be located in or have "
+"facilities that are located in a different jurisdiction than either you or "
+"us. So if you elect to proceed with a transaction that involves the services "
+"of a third-party service provider, then your information may become subject "
+"to the laws of the jurisdiction(s) in which that service provider or its "
+"facilities are located."
+msgstr ""
+
+msgid ""
+"As an example, if you are located in Canada and your transaction is "
+"processed by a payment gateway located in the United States, then your "
+"personal information used in completing that transaction may be subject to "
+"disclosure under United States legislation, including the Patriot Act."
+msgstr ""
+
+msgid ""
+"Once you leave our store’s website or are redirected to a third-party "
+"website or application, you are no longer governed by this Privacy Policy or "
+"our website’s Terms of Service."
+msgstr ""
+
+msgid "Links"
+msgstr ""
+
+msgid ""
+"When you click on links on our store, they may direct you away from our "
+"site. We are not responsible for the privacy practices of other sites and "
+"encourage you to read their privacy statements."
+msgstr ""
+
+msgid "SECTION 6 - SECURITY"
+msgstr ""
+
+msgid ""
+"To protect your personal information, we take reasonable precautions and "
+"follow industry best practices to make sure it is not inappropriately lost, "
+"misused, accessed, disclosed, altered or destroyed."
+msgstr ""
+
+#, python-format
+msgid ""
+"If you provide us with your credit card information, the information is "
+"encrypted using secure socket layer technology (SSL) and stored with a "
+"AES-256 encryption.  Although no method of transmission over the Internet or "
+"electronic storage is 100%% secure, we follow all PCI-DSS requirements and "
+"implement additional generally accepted industry standards."
+msgstr ""
+
+msgid "COOKIES"
+msgstr ""
+
+msgid ""
+"Here is a list of cookies that we use. We’ve listed them here so you can "
+"choose if you want to opt-out of cookies or not."
+msgstr ""
+
+msgid ""
+"unique token, sessional, Allows Shuup to store information about your "
+"session (referrer, landing page, etc)."
+msgstr ""
+
+msgid "SECTION 7 - AGE OF CONSENT"
+msgstr ""
+
+msgid ""
+"By using this site, you represent that you are at least the age of majority "
+"in your state or province of residence, or that you are the age of majority "
+"in your state or province of residence and you have given us your consent to "
+"allow any of your minor dependents to use this site."
+msgstr ""
+
+msgid "SECTION 8 - CHANGES TO THIS PRIVACY POLICY"
+msgstr ""
+
+msgid ""
+"We reserve the right to modify this privacy policy at any time, so please "
+"review it frequently. Changes and clarifications will take effect "
+"immediately upon their posting on the website. If we make material changes "
+"to this policy, we will notify you here that it has been updated, so that "
+"you are aware of what information we collect, how we use it, and under what "
+"circumstances, if any, we use and/or disclose it."
+msgstr ""
+
+msgid ""
+"If our store is acquired or merged with another company, your information "
+"may be transferred to the new owners so that we may continue to sell "
+"products to you."
+msgstr ""
+
+msgid "QUESTIONS AND CONTACT INFORMATION"
+msgstr ""
+
+#, python-format
+msgid ""
+"If you would like to: access, correct, amend or delete any personal "
+"information we have about you, register a complaint, or simply want more "
+"information contact our Privacy Compliance Officer at <strong>"
+"%(shop_email)s</strong> or by mail at <strong>%(shop_address)s</strong>."
+msgstr ""
+
+msgid "YOUR COMPANY NAME HERE"
+msgstr ""
+
+msgid ""
+"Our policy lasts 30 days. If 30 days have gone by since your purchase, "
+"unfortunately we can’t offer you a refund or exchange."
+msgstr ""
+
+msgid ""
+"To be eligible for a return, your item must be unused and in the same "
+"condition that you received it. It must also be in the original packaging."
+msgstr ""
+
+msgid ""
+"Several types of goods are exempt from being returned. Perishable goods such "
+"as food, flowers, newspapers or magazines cannot be returned. We also do not "
+"accept products that are intimate or sanitary goods, hazardous materials, or "
+"flammable liquids or gases."
+msgstr ""
+
+msgid "Additional non-returnable items:"
+msgstr ""
+
+msgid "Gift cards"
+msgstr ""
+
+msgid "Downloadable software products"
+msgstr ""
+
+msgid "Some health and personal care items"
+msgstr ""
+
+msgid "To complete your return, we require a receipt or proof of purchase."
+msgstr ""
+
+msgid "Please do not send your purchase back to the manufacturer."
+msgstr ""
+
+msgid ""
+"There are certain situations where only partial refunds are granted: (if "
+"applicable)"
+msgstr ""
+
+msgid "Book with obvious signs of use"
+msgstr ""
+
+msgid ""
+"CD, DVD, VHS tape, software, video game, cassette tape, or vinyl record that "
+"has been opened."
+msgstr ""
+
+msgid ""
+"Any item not in its original condition, is damaged or missing parts for "
+"reasons not due to our error."
+msgstr ""
+
+msgid "Any item that is returned more than 30 days after delivery"
+msgstr ""
+
+msgid "Refunds (if applicable)"
+msgstr ""
+
+msgid ""
+"Once your return is received and inspected, we will send you an email to "
+"notify you that we have received your returned item. We will also notify you "
+"of the approval or rejection of your refund."
+msgstr ""
+
+msgid ""
+"If you are approved, then your refund will be processed, and a credit will "
+"automatically be applied to your credit card or original method of payment, "
+"within a certain amount of days."
+msgstr ""
+
+msgid "Late or missing refunds (if applicable)"
+msgstr ""
+
+msgid ""
+"If you haven’t received a refund yet, first check your bank account again."
+msgstr ""
+
+msgid ""
+"Then contact your credit card company, it may take some time before your "
+"refund is officially posted."
+msgstr ""
+
+msgid ""
+"Next contact your bank. There is often some processing time before a refund "
+"is posted."
+msgstr ""
+
+#, python-format
+msgid ""
+"If you’ve done all of this and you still have not received your refund yet, "
+"please contact us at <strong>%(shop_email)s</strong>."
+msgstr ""
+
+msgid "Sale items (if applicable)"
+msgstr ""
+
+msgid ""
+"Only regular priced items may be refunded, unfortunately sale items cannot "
+"be refunded."
+msgstr ""
+
+msgid "Exchanges (if applicable)"
+msgstr ""
+
+#, python-format
+msgid ""
+"We only replace items if they are defective or damaged.  If you need to "
+"exchange it for the same item, send us an email at <strong>%(shop_email)s</"
+"strong> and send your item to: <strong>%(shop_address)s</strong>."
+msgstr ""
+
+msgid "Gifts"
+msgstr ""
+
+msgid ""
+"If the item was marked as a gift when purchased and shipped directly to you, "
+"you’ll receive a gift credit for the value of your return. Once the returned "
+"item is received, a gift certificate will be mailed to you."
+msgstr ""
+
+msgid ""
+"If the item wasn’t marked as a gift when purchased, or the gift giver had "
+"the order shipped to themselves to give to you later, we will send a refund "
+"to the gift giver and he will find out about your return."
+msgstr ""
+
+#, fuzzy
+#| msgid "Shipping Status"
+msgid "Shipping"
+msgstr "運送状況"
+
+#, python-format
+msgid ""
+"To return your product, you should mail your product to: <strong>"
+"%(shop_address)s</strong>."
+msgstr ""
+
+msgid ""
+"You will be responsible for paying for your own shipping costs for returning "
+"your item. Shipping costs are non-refundable. If you receive a refund, the "
+"cost of return shipping will be deducted from your refund."
+msgstr ""
+
+msgid ""
+"Depending on where you live, the time it may take for your exchanged product "
+"to reach you, may vary."
+msgstr ""
+
+msgid ""
+"If you are shipping an item over $75, you should consider using a trackable "
+"shipping service or purchasing shipping insurance. We don’t guarantee that "
+"we will receive your returned item."
+msgstr ""
+
+msgid "OVERVIEW"
+msgstr ""
+
+#, python-format
+msgid ""
+"This website is operated by <strong>%(public_name)s</strong>. Throughout the "
+"site, the terms “we”, “us” and “our” refer to <strong>%(public_name)s</"
+"strong>. <strong>%(public_name)s</strong> offers this website, including all "
+"information, tools and services available from this site to you, the user, "
+"conditioned upon your acceptance of all terms, conditions, policies and "
+"notices stated here."
+msgstr ""
+
+msgid ""
+"By visiting our site and/ or purchasing something from us, you engage in our "
+"“Service” and agree to be bound by the following terms and conditions "
+"(“Terms of Service”, “Terms”), including those additional terms and "
+"conditions and policies referenced herein and/or available by hyperlink. "
+"These Terms of Service apply  to all users of the site, including without "
+"limitation users who are browsers, vendors, customers, merchants, and/ or "
+"contributors of content."
+msgstr ""
+
+msgid ""
+"Please read these Terms of Service carefully before accessing or using our "
+"website. By accessing or using any part of the site, you agree to be bound "
+"by these Terms of Service. If you do not agree to all the terms and "
+"conditions of this agreement, then you may not access the website or use any "
+"services. If these Terms of Service are considered an offer, acceptance is "
+"expressly limited to these Terms of Service."
+msgstr ""
+
+msgid ""
+"Any new features or tools which are added to the current store shall also be "
+"subject to the Terms of Service. You can review the most current version of "
+"the Terms of Service at any time on this page. We reserve the right to "
+"update, change or replace any part of these Terms of Service by posting "
+"updates and/or changes to our website. It is your responsibility to check "
+"this page periodically for changes. Your continued use of or access to the "
+"website following the posting of any changes constitutes acceptance of those "
+"changes."
+msgstr ""
+
+msgid "SECTION 1 - ONLINE STORE TERMS"
+msgstr ""
+
+msgid ""
+"By agreeing to these Terms of Service, you represent that you are at least "
+"the age of majority in your state or province of residence, or that you are "
+"the age of majority in your state or province of residence and you have "
+"given us your consent to allow any of your minor dependents to use this site."
+msgstr ""
+
+msgid ""
+"You may not use our products for any illegal or unauthorized purpose nor may "
+"you, in the use of the Service, violate any laws in your jurisdiction "
+"(including but not limited to copyright laws)."
+msgstr ""
+
+msgid ""
+"You must not transmit any worms or viruses or any code of a destructive "
+"nature."
+msgstr ""
+
+msgid ""
+"A breach or violation of any of the Terms will result in an immediate "
+"termination of your Services."
+msgstr ""
+
+msgid "SECTION 2 - GENERAL CONDITIONS"
+msgstr ""
+
+msgid ""
+"We reserve the right to refuse service to anyone for any reason at any time."
+msgstr ""
+
+msgid ""
+"You understand that your content (not including credit card information), "
+"may be transferred unencrypted and involve (a) transmissions over various "
+"networks; and (b) changes to conform and adapt to technical requirements of "
+"connecting networks or devices. Credit card information is always encrypted "
+"during transfer over networks."
+msgstr ""
+
+msgid ""
+"You agree not to reproduce, duplicate, copy, sell, resell or exploit any "
+"portion of the Service, use of the Service, or access to the Service or any "
+"contact on the website through which the service is provided, without "
+"express written permission by us."
+msgstr ""
+
+msgid ""
+"The headings used in this agreement are included for convenience only and "
+"will not limit or otherwise affect these Terms."
+msgstr ""
+
+msgid "SECTION 3 - ACCURACY, COMPLETENESS AND TIMELINESS OF INFORMATION"
+msgstr ""
+
+msgid ""
+"We are not responsible if information made available on this site is not "
+"accurate, complete or current. The material on this site is provided for "
+"general information only and should not be relied upon or used as the sole "
+"basis for making decisions without consulting primary, more accurate, more "
+"complete or more timely sources of information. Any reliance on the material "
+"on this site is at your own risk."
+msgstr ""
+
+msgid ""
+"This site may contain certain historical information. Historical "
+"information, necessarily, is not current and is provided for your reference "
+"only. We reserve the right to modify the contents of this site at any time, "
+"but we have no obligation to update any information on our site. You agree "
+"that it is your responsibility to monitor changes to our site."
+msgstr ""
+
+msgid "SECTION 4 - MODIFICATIONS TO THE SERVICE AND PRICES"
+msgstr ""
+
+msgid "Prices for our products are subject to change without notice."
+msgstr ""
+
+msgid ""
+"We reserve the right at any time to modify or discontinue the Service (or "
+"any part or content thereof) without notice at any time."
+msgstr ""
+
+msgid ""
+"We shall not be liable to you or to any third-party for any modification, "
+"price change, suspension or discontinuance of the Service."
+msgstr ""
+
+msgid "SECTION 5 - PRODUCTS OR SERVICES (if applicable)"
+msgstr ""
+
+msgid ""
+"Certain products or services may be available exclusively online through the "
+"website. These products or services may have limited quantities and are "
+"subject to return or exchange only according to our Return Policy."
+msgstr ""
+
+msgid ""
+"We have made every effort to display as accurately as possible the colors "
+"and images of our products that appear at the store. We cannot guarantee "
+"that your computer monitor's display of any color will be accurate."
+msgstr ""
+
+msgid ""
+"We reserve the right, but are not obligated, to limit the sales of our "
+"products or Services to any person, geographic region or jurisdiction. We "
+"may exercise this right on a case-by-case basis. We reserve the right to "
+"limit the quantities of any products or services that we offer. All "
+"descriptions of products or product pricing are subject to change at anytime "
+"without notice, at the sole discretion of us. We reserve the right to "
+"discontinue any product at any time. Any offer for any product or service "
+"made on this site is void where prohibited."
+msgstr ""
+
+msgid ""
+"We do not warrant that the quality of any products, services, information, "
+"or other material purchased or obtained by you will meet your expectations, "
+"or that any errors in the Service will be corrected."
+msgstr ""
+
+msgid "SECTION 6 - ACCURACY OF BILLING AND ACCOUNT INFORMATION"
+msgstr ""
+
+msgid ""
+"We reserve the right to refuse any order you place with us. We may, in our "
+"sole discretion, limit or cancel quantities purchased per person, per "
+"household or per order. These restrictions may include orders placed by or "
+"under the same customer account, the same credit card, and/or orders that "
+"use the same billing and/or shipping address. In the event that we make a "
+"change to or cancel an order, we may attempt to notify you by contacting the "
+"e-mail and/or billing address/phone number provided at the time the order "
+"was made. We reserve the right to limit or prohibit orders that, in our sole "
+"judgment, appear to be placed by dealers, resellers or distributors."
+msgstr ""
+
+msgid ""
+"You agree to provide current, complete and accurate purchase and account "
+"information for all purchases made at our store. You agree to promptly "
+"update your account and other information, including your email address and "
+"credit card numbers and expiration dates, so that we can complete your "
+"transactions and contact you as needed."
+msgstr ""
+
+msgid "For more detail, please review our Returns Policy."
+msgstr ""
+
+msgid "SECTION 7 - OPTIONAL TOOLS"
+msgstr ""
+
+msgid ""
+"We may provide you with access to third-party tools over which we neither "
+"monitor nor have any control nor input."
+msgstr ""
+
+msgid ""
+"You acknowledge and agree that we provide access to such tools ”as is” and "
+"“as available” without any warranties, representations or conditions of any "
+"kind and without any endorsement. We shall have no liability whatsoever "
+"arising from or relating to your use of optional third-party tools."
+msgstr ""
+
+msgid ""
+"Any use by you of optional tools offered through the site is entirely at "
+"your own risk and discretion and you should ensure that you are familiar "
+"with and approve of the terms on which tools are provided by the relevant "
+"third-party provider(s)."
+msgstr ""
+
+msgid ""
+"We may also, in the future, offer new services and/or features through the "
+"website (including, the release of new tools and resources). Such new "
+"features and/or services shall also be subject to these Terms of Service."
+msgstr ""
+
+msgid "SECTION 8 - THIRD-PARTY LINKS"
+msgstr ""
+
+msgid ""
+"Certain content, products and services available via our Service may include "
+"materials from third-parties."
+msgstr ""
+
+msgid ""
+"Third-party links on this site may direct you to third-party websites that "
+"are not affiliated with us. We are not responsible for examining or "
+"evaluating the content or accuracy and we do not warrant and will not have "
+"any liability or responsibility for any third-party materials or websites, "
+"or for any other materials, products, or services of third-parties."
+msgstr ""
+
+msgid ""
+"We are not liable for any harm or damages related to the purchase or use of "
+"goods, services, resources, content, or any other transactions made in "
+"connection with any third-party websites. Please review carefully the third-"
+"party's policies and practices and make sure you understand them before you "
+"engage in any transaction. Complaints, claims, concerns, or questions "
+"regarding third-party products should be directed to the third-party."
+msgstr ""
+
+msgid "SECTION 9 - USER COMMENTS, FEEDBACK AND OTHER SUBMISSIONS"
+msgstr ""
+
+msgid ""
+"If, at our request, you send certain specific submissions (for example "
+"contest entries) or without a request from us you send creative ideas, "
+"suggestions, proposals, plans, or other materials, whether online, by email, "
+"by postal mail, or otherwise (collectively, 'comments'), you agree that we "
+"may, at any time, without restriction, edit, copy, publish, distribute, "
+"translate and otherwise use in any medium any comments that you forward to "
+"us. We are and shall be under no obligation (1) to maintain any comments in "
+"confidence; (2) to pay compensation for any comments; or (3) to respond to "
+"any comments."
+msgstr ""
+
+msgid ""
+"We may, but have no obligation to, monitor, edit or remove content that we "
+"determine in our sole discretion are unlawful, offensive, threatening, "
+"libelous, defamatory, pornographic, obscene or otherwise objectionable or "
+"violates any party’s intellectual property or these Terms of Service."
+msgstr ""
+
+msgid ""
+"You agree that your comments will not violate any right of any third-party, "
+"including copyright, trademark, privacy, personality or other personal or "
+"proprietary right. You further agree that your comments will not contain "
+"libelous or otherwise unlawful, abusive or obscene material, or contain any "
+"computer virus or other malware that could in any way affect the operation "
+"of the Service or any related website. You may not use a false e-mail "
+"address, pretend to be someone other than yourself, or otherwise mislead us "
+"or third-parties as to the origin of any comments. You are solely "
+"responsible for any comments you make and their accuracy. We take no "
+"responsibility and assume no liability for any comments posted by you or any "
+"third-party."
+msgstr ""
+
+msgid "SECTION 10 - PERSONAL INFORMATION"
+msgstr ""
+
+msgid ""
+"Your submission of personal information through the store is governed by our "
+"Privacy Policy. To view our Privacy Policy."
+msgstr ""
+
+msgid "SECTION 11 - ERRORS, INACCURACIES AND OMISSIONS"
+msgstr ""
+
+msgid ""
+"Occasionally there may be information on our site or in the Service that "
+"contains typographical errors, inaccuracies or omissions that may relate to "
+"product descriptions, pricing, promotions, offers, product shipping charges, "
+"transit times and availability. We reserve the right to correct any errors, "
+"inaccuracies or omissions, and to change or update information or cancel "
+"orders if any information in the Service or on any related website is "
+"inaccurate at any time without prior notice (including after you have "
+"submitted your order)."
+msgstr ""
+
+msgid ""
+"We undertake no obligation to update, amend or clarify information in the "
+"Service or on any related website, including without limitation, pricing "
+"information, except as required by law. No specified update or refresh date "
+"applied in the Service or on any related website, should be taken to "
+"indicate that all information in the Service or on any related website has "
+"been modified or updated."
+msgstr ""
+
+msgid "SECTION 12 - PROHIBITED USES"
+msgstr ""
+
+msgid ""
+"In addition to other prohibitions as set forth in the Terms of Service, you "
+"are prohibited from using the site or its content: (a) for any unlawful "
+"purpose; (b) to solicit others to perform or participate in any unlawful "
+"acts; (c) to violate any international, federal, provincial or state "
+"regulations, rules, laws, or local ordinances; (d) to infringe upon or "
+"violate our intellectual property rights or the intellectual property rights "
+"of others; (e) to harass, abuse, insult, harm, defame, slander, disparage, "
+"intimidate, or discriminate based on gender, sexual orientation, religion, "
+"ethnicity, race, age, national origin, or disability; (f) to submit false or "
+"misleading information; (g) to upload or transmit viruses or any other type "
+"of malicious code that will or may be used in any way that will affect the "
+"functionality or operation of the Service or of any related website, other "
+"websites, or the Internet; (h) to collect or track the personal information "
+"of others; (i) to spam, phish, pharm, pretext, spider, crawl, or scrape; (j) "
+"for any obscene or immoral purpose; or (k) to interfere with or circumvent "
+"the security features of the Service or any related website, other websites, "
+"or the Internet. We reserve the right to terminate your use of the Service "
+"or any related website for violating any of the prohibited uses."
+msgstr ""
+
+msgid "SECTION 13 - DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY"
+msgstr ""
+
+msgid ""
+"We do not guarantee, represent or warrant that your use of our service will "
+"be uninterrupted, timely, secure or error-free."
+msgstr ""
+
+msgid ""
+"We do not warrant that the results that may be obtained from the use of the "
+"service will be accurate or reliable."
+msgstr ""
+
+msgid ""
+"You agree that from time to time we may remove the service for indefinite "
+"periods of time or cancel the service at any time, without notice to you."
+msgstr ""
+
+msgid ""
+"You expressly agree that your use of, or inability to use, the service is at "
+"your sole risk. The service and all products and services delivered to you "
+"through the service are (except as expressly stated by us) provided 'as is' "
+"and 'as available' for your use, without any representation, warranties or "
+"conditions of any kind, either express or implied, including all implied "
+"warranties or conditions of merchantability, merchantable quality, fitness "
+"for a particular purpose, durability, title, and non-infringement."
+msgstr ""
+
+#, python-format
+msgid ""
+"In no case shall <strong>%(public_name)s</strong>, our directors, officers, "
+"employees, affiliates, agents, contractors, interns, suppliers, service "
+"providers or licensors be liable for any injury, loss, claim, or any direct, "
+"indirect, incidental, punitive, special, or consequential damages of any "
+"kind, including, without limitation lost profits, lost revenue, lost "
+"savings, loss of data, replacement costs, or any similar damages, whether "
+"based in contract, tort (including negligence), strict liability or "
+"otherwise, arising from your use of any of the service or any products "
+"procured using the service, or for any other claim related in any way to "
+"your use of the service or any product, including, but not limited to, any "
+"errors or omissions in any content, or any loss or damage of any kind "
+"incurred as a result of the use of the service or any content (or product) "
+"posted, transmitted, or otherwise made available via the service, even if "
+"advised of their possibility. Because some states or jurisdictions do not "
+"allow the exclusion or the limitation of liability for consequential or "
+"incidental damages, in such states or jurisdictions, our liability shall be "
+"limited to the maximum extent permitted by law."
+msgstr ""
+
+msgid "SECTION 14 - INDEMNIFICATION"
+msgstr ""
+
+#, python-format
+msgid ""
+"You agree to indemnify, defend and hold harmless <strong>%(public_name)s</"
+"strong> and our parent, subsidiaries, affiliates, partners, officers, "
+"directors, agents, contractors, licensors, service providers, "
+"subcontractors, suppliers, interns and employees, harmless from any claim or "
+"demand, including reasonable attorneys’ fees, made by any third-party due to "
+"or arising out of your breach of these Terms of Service or the documents "
+"they incorporate by reference, or your violation of any law or the rights of "
+"a third-party."
+msgstr ""
+
+msgid "SECTION 15 - SEVERABILITY"
+msgstr ""
+
+msgid ""
+"In the event that any provision of these Terms of Service is determined to "
+"be unlawful, void or unenforceable, such provision shall nonetheless be "
+"enforceable to the fullest extent permitted by applicable law, and the "
+"unenforceable portion shall be deemed to be severed from these Terms of "
+"Service, such determination shall not affect the validity and enforceability "
+"of any other remaining provisions."
+msgstr ""
+
+msgid "SECTION 16 - TERMINATION"
+msgstr ""
+
+msgid ""
+"The obligations and liabilities of the parties incurred prior to the "
+"termination date shall survive the termination of this agreement for all "
+"purposes."
+msgstr ""
+
+msgid ""
+"These Terms of Service are effective unless and until terminated by either "
+"you or us. You may terminate these Terms of Service at any time by notifying "
+"us that you no longer wish to use our Services, or when you cease using our "
+"site."
+msgstr ""
+
+msgid ""
+"If in our sole judgment you fail, or we suspect that you have failed, to "
+"comply with any term or provision of these Terms of Service, we also may "
+"terminate this agreement at any time without notice and you will remain "
+"liable for all amounts due up to and including the date of termination; and/"
+"or accordingly may deny you access to our Services (or any part thereof)."
+msgstr ""
+
+msgid "SECTION 17 - ENTIRE AGREEMENT"
+msgstr ""
+
+msgid ""
+"The failure of us to exercise or enforce any right or provision of these "
+"Terms of Service shall not constitute a waiver of such right or provision."
+msgstr ""
+
+msgid ""
+"These Terms of Service and any policies or operating rules posted by us on "
+"this site or in respect to The Service constitutes the entire agreement and "
+"understanding between you and us and govern your use of the Service, "
+"superseding any prior or contemporaneous agreements, communications and "
+"proposals, whether oral or written, between you and us (including, but not "
+"limited to, any prior versions of the Terms of Service)."
+msgstr ""
+
+msgid ""
+"Any ambiguities in the interpretation of these Terms of Service shall not be "
+"construed against the drafting party."
+msgstr ""
+
+msgid "SECTION 18 - GOVERNING LAW"
+msgstr ""
+
+#, python-format
+msgid ""
+"These Terms of Service and any separate agreements whereby we provide you "
+"Services shall be governed by and construed in accordance with the laws of "
+"<strong>%(shop_address)s</strong>."
+msgstr ""
+
+msgid "SECTION 19 - CHANGES TO TERMS OF SERVICE"
+msgstr ""
+
+msgid ""
+"You can review the most current version of the Terms of Service at any time "
+"at this page."
+msgstr ""
+
+msgid ""
+"We reserve the right, at our sole discretion, to update, change or replace "
+"any part of these Terms of Service by posting updates and changes to our "
+"website. It is your responsibility to check our website periodically for "
+"changes. Your continued use of or access to our website or the Service "
+"following the posting of any changes to these Terms of Service constitutes "
+"acceptance of those changes."
+msgstr ""
+
+msgid "SECTION 20 - CONTACT INFORMATION"
+msgstr ""
+
+#, python-format
+msgid ""
+"Questions about the Terms of Service should be sent to us at <strong>"
+"%(shop_email)s</strong>."
 msgstr ""
 
 msgid "Remove block"
@@ -1088,20 +3170,124 @@ msgstr ""
 msgid "Shuup %(version)s"
 msgstr ""
 
+msgid ""
+"This is the dashboard for your store. It’s like the flight deck for your "
+"ecommerce spaceship. You can control everything from here."
+msgstr ""
+
+msgid ""
+"Check out your shoppers’ info, add more products or categories, setup "
+"marketing campaigns, see orders and sales stats, and track the money you’ve "
+"made."
+msgstr ""
+
+msgid "Every setting you could possibly need is in here."
+msgstr ""
+
+msgid "Table Columns"
+msgstr ""
+
+#, fuzzy
+#| msgid "Active customers"
+msgid "Active headers"
+msgstr "アクティブカスタマー"
+
+msgid "Selectable headers"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Bad Request"
+msgstr ""
+
+msgid "Unfortunately the server couldn't process your request."
+msgstr ""
+
+#, fuzzy
+#| msgid "Permissions"
+msgid "Permission Denied"
+msgstr "許可"
+
+msgid "Unfortunately you didn't have permission to display this page."
+msgstr ""
+
+msgid "Internal Server Error"
+msgstr ""
+
+msgid ""
+"Unfortunately an internal server error occurred. Try refreshing the page or "
+"try again later."
+msgstr ""
+
+msgid "Edit the selected object"
+msgstr ""
+
+#, python-brace-format
+msgid "Required. {field_help}"
+msgstr ""
+
+#, python-brace-format
+msgid "Optional. {field_help}"
+msgstr ""
+
+#, fuzzy
+#| msgid "Welcome!"
+msgid "Welcome to Shuup!"
+msgstr "ようこそ！"
+
+msgid ""
+"You're almost done! Complete the following steps to sell your products online"
+msgstr ""
+
+msgid "Hi, new shop owner!"
+msgstr ""
+
+msgid "Welcome to your store admin!"
+msgstr ""
+
+msgid ""
+"Let’s go through some of the things you can do here. Click next to begin."
+msgstr ""
+
 msgid "Date"
 msgstr "日付"
 
-msgid "Order Status"
-msgstr "注文状況"
+msgid "This action effects on all items."
+msgstr ""
 
-msgid "Edit"
-msgstr "編集"
+#, python-format
+msgid "This action affects %(item_count)s item(s)."
+msgstr ""
 
 msgid "Upload"
 msgstr "アップロード"
 
+msgid "Comment"
+msgstr ""
+
+msgid "Save comment"
+msgstr ""
+
+#, fuzzy
+#| msgid "Changes saved."
+msgid "Comment saved."
+msgstr "変更は保存されました"
+
+msgid "There was an error updating the admin comment."
+msgstr ""
+
 msgid "Description"
 msgstr "記述"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "No payments have been created yet."
+msgstr ""
+
+msgid "Are you sure you want to delete this payment?"
+msgstr ""
 
 msgid "Text"
 msgstr ""
@@ -1110,6 +3296,9 @@ msgid "Taxless Unit Price"
 msgstr ""
 
 msgid "Taxless Discount"
+msgstr ""
+
+msgid "Taxless Discount Percentage"
 msgstr ""
 
 msgid "Tax"
@@ -1139,11 +3328,35 @@ msgstr ""
 msgid "Add to Log"
 msgstr ""
 
+msgid "Log entry added."
+msgstr ""
+
 msgid "There was an error adding the log entry."
+msgstr ""
+
+msgid "Tracking Code"
+msgstr ""
+
+#, fuzzy
+#| msgid "Create new"
+msgid "Created"
+msgstr "新規作成"
+
+msgid "No shipments have been created yet."
+msgstr ""
+
+msgid ""
+"Shipped shipments should not be deleted. Deletion will affect products "
+"physical stock count. Delete anyway?"
 msgstr ""
 
 msgid "Line #"
 msgstr ""
+
+#, fuzzy
+#| msgid "Quantity"
+msgid "Refunded Quantity"
+msgstr "数量"
 
 msgid "Refund Amount"
 msgstr ""
@@ -1152,6 +3365,9 @@ msgid "Are you sure you want to create a full refund?"
 msgstr ""
 
 msgid "Confirm Refund"
+msgstr ""
+
+msgid "Order Contents"
 msgstr ""
 
 msgid "Paid"
@@ -1163,8 +3379,13 @@ msgstr ""
 msgid "Refunded"
 msgstr ""
 
-msgid "Add More Refunds "
+msgid "Add Another Refund"
 msgstr ""
+
+#, fuzzy
+#| msgid "Order Date"
+msgid "Order Line"
+msgstr "注文日付"
 
 msgid "To Ship"
 msgstr ""
@@ -1184,8 +3405,15 @@ msgstr ""
 msgid "Ship All"
 msgstr ""
 
-msgid "Details & Status"
-msgstr ""
+#, fuzzy
+#| msgid "Basic details"
+msgid "Details"
+msgstr "基本詳細"
+
+#, fuzzy
+#| msgid "Order Status"
+msgid "Order Details"
+msgstr "注文状況"
 
 msgid "Order Number"
 msgstr ""
@@ -1195,6 +3423,16 @@ msgstr ""
 
 msgid "Label"
 msgstr ""
+
+#, fuzzy
+#| msgid "Payment Status"
+msgid "Payment Method"
+msgstr "支払状況"
+
+#, fuzzy
+#| msgid "Shipping Status"
+msgid "Shipping Method"
+msgstr "運送状況"
 
 msgid "Ordered by"
 msgstr ""
@@ -1211,23 +3449,48 @@ msgstr ""
 msgid "Total Price"
 msgstr ""
 
+#, fuzzy
+#| msgid "Customer"
+msgid "Customer Comment"
+msgstr "カスタマー"
+
 msgid "Tracking codes"
 msgstr ""
 
+#, fuzzy
+#| msgid "User Information"
+msgid "Address Information"
+msgstr "ユーザー情報"
+
 msgid "Error!"
+msgstr ""
+
+msgid "All the required product information."
 msgstr ""
 
 msgid "Additional Details"
 msgstr ""
 
-msgid "Accounting"
-msgstr "会計"
-
-msgid "Physical Properties"
-msgstr "物理的特性"
+msgid "Product features such as size, weight and keywords are located here."
+msgstr ""
 
 msgid "Manufacturer"
 msgstr "メーカー"
+
+msgid "If you know the manufacturer of the product select it here."
+msgstr ""
+
+msgid "Additional"
+msgstr ""
+
+msgid ""
+"Strictly shop related information. For example set the minimum price "
+"applicable in this shop."
+msgstr ""
+
+#, python-format
+msgid "These settings apply only for shop: <b>%(shop_name)s</b>."
+msgstr ""
 
 #, python-format
 msgid "Product image %(index)s"
@@ -1243,35 +3506,83 @@ msgstr "主要画像"
 msgid "Set as primary image"
 msgstr "主要画像に設定"
 
-msgid "No image"
-msgstr "画像無し"
-
-msgid "Delete"
-msgstr "削除"
-
-msgid "Advanced options"
-msgstr "詳細設定"
-
 msgid "Product Images"
 msgstr "商品画像"
 
-msgid "Product Media"
-msgstr "商品メディア"
+#, fuzzy
+#| msgid "Product Types"
+msgid "Product Files"
+msgstr "商品タイプ"
 
-msgid "Add new image"
-msgstr "新しい画像を追加する"
-
-msgid "Add new media"
+msgid "You can attach files such as manual to the merchandise(s) here."
 msgstr ""
 
-msgid "Purchasing"
-msgstr "購買"
+msgid "Showcase your merchandise here."
+msgstr ""
 
-msgid "Shipping & Payment"
-msgstr "配送料と配送情報"
+msgid "Drop files here or click to <a href=\"#\">browse</a>."
+msgstr ""
+
+msgid "All the orders that have this product."
+msgstr ""
+
+msgid "No orders found"
+msgstr ""
 
 msgid "This product is currently not orderable."
 msgstr "この商品は現在注文できません。"
+
+msgid "Add a new product"
+msgstr ""
+
+msgid "You are adding a product."
+msgstr ""
+
+msgid ""
+"To make it stand out, give it an awesome description and picture. This is "
+"what will help your shoppers learn about your products. It will also help "
+"shoppers find them in the store and on the web."
+msgstr ""
+
+msgid ""
+"You can set its price or size and many other things in the option boxes for "
+"each product."
+msgstr ""
+
+msgid "If you know the product manufacturer, it can be set here."
+msgstr ""
+
+#, fuzzy
+#| msgid "General Information"
+msgid "Additional Information"
+msgstr "基本情報"
+
+#, fuzzy
+#| msgid "Product Images"
+msgid "Images"
+msgstr "商品画像"
+
+#, fuzzy
+#| msgid "Contact Groups"
+msgid "Contact Group Pricing"
+msgstr "コンタクトグループ"
+
+msgid ""
+"Set specific prices for your customer segments such as loyalty, tier status "
+"or season here."
+msgstr ""
+
+#, fuzzy
+#| msgid "Contact Groups"
+msgid "Contact Group Discounts"
+msgstr "コンタクトグループ"
+
+msgid ""
+"Here you can set individual discount amounts for different contact groups. "
+"\" +\n"
+"                    \"The discount amount may be visible on storefront. "
+"These groups are defined in"
+msgstr ""
 
 msgid "Cross-sells"
 msgstr ""
@@ -1282,13 +3593,21 @@ msgstr ""
 msgid "File "
 msgstr "ファイル"
 
-msgid "Package Products"
+#, python-format
+msgid "Logical count: %(logical_count)s %(sales_unit)s"
+msgstr ""
+
+#, python-format
+msgid "Physical count: %(physical_count)s %(sales_unit)s"
 msgstr ""
 
 msgid "This product is not yet a package."
 msgstr ""
 
 msgid "To create a package, choose products below."
+msgstr ""
+
+msgid "Package Products"
 msgstr ""
 
 msgid "Simple Variation Children"
@@ -1314,6 +3633,83 @@ msgid ""
 "Variables tab and then link them to products here."
 msgstr ""
 
+#, fuzzy
+#| msgid "Orders"
+msgid "Recent Orders"
+msgstr "注文"
+
+msgid "Store Overview"
+msgstr ""
+
+#, fuzzy
+#| msgid "Customer"
+msgid "Customers"
+msgstr "カスタマー"
+
+msgid "Today"
+msgstr ""
+
+msgid "Month to date (MTD)"
+msgstr ""
+
+msgid "Year to date (YTD)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Total"
+msgid "Totals"
+msgstr "合計"
+
+msgid "Consolidate Data"
+msgstr ""
+
+msgid ""
+"Your shop currently has some sample data installed. Select below which "
+"objects you want to uninstall."
+msgstr ""
+
+msgid ""
+"After the consolidation, preserved objects will lose their status of Sample "
+"Object and it will be no longer possible to distinguish them from the others."
+msgstr ""
+
+msgid "Caution: this action cannot be undone."
+msgstr ""
+
+msgid "Consolidate"
+msgstr ""
+
+msgid "Your shop has no sample data installed!"
+msgstr ""
+
+msgid "Select the objects you want to install"
+msgstr ""
+
+msgid "Manually process payments"
+msgstr ""
+
+msgid "Manage payments outside of Shuup"
+msgstr ""
+
+msgid "Manual"
+msgstr ""
+
+msgid "Manual process shipping"
+msgstr ""
+
+msgid "Handle shipping outside of Shuup"
+msgstr ""
+
+#, fuzzy
+#| msgid "Deactivate User"
+msgid "Deactivate"
+msgstr "ユーザーの非アクティブ化"
+
+#, fuzzy
+#| msgid "Active"
+msgid "Activate"
+msgstr "アクティブ"
+
 msgid ""
 "Define price based basket weight range. Range minimum is counted in range "
 "only as zero."
@@ -1325,17 +3721,58 @@ msgstr ""
 msgid "Behavior component type"
 msgstr ""
 
+msgid ""
+"The behaviors for this service. These behaviors can be used to add costs to "
+"the order or can be used to restrict availability of the service."
+msgstr ""
+
 msgid "Add component"
 msgstr ""
 
-msgid "Shop Logo"
-msgstr "ショップロゴ"
+#, fuzzy
+#| msgid "User Information"
+msgid "Order Configuration"
+msgstr "ユーザー情報"
+
+#, python-format
+msgid ""
+"The field \"Reference number prefix\" is disabled because the order "
+"reference number generation method doesn't support a prefix. You can edit "
+"this setting from <a href=\"%(url)s\">system settings</a>."
+msgstr ""
+
+#, fuzzy
+#| msgid "Product Images"
+msgid "Shop Images"
+msgstr "商品画像"
 
 msgid "Maintenance Mode"
 msgstr "メンテナンスモード"
 
 msgid "Contact Address"
 msgstr ""
+
+msgid "News &amp; Updates"
+msgstr ""
+
+#, fuzzy
+#| msgid "Supplier"
+msgid "Support"
+msgstr "供給者"
+
+msgid "Community Links"
+msgstr ""
+
+msgid "Community Forums"
+msgstr ""
+
+msgid "Shuup Blog"
+msgstr ""
+
+#, fuzzy
+#| msgid "Contacts"
+msgid "Contact Us"
+msgstr "コンタクト"
 
 msgid "About Shuup Telemetry"
 msgstr ""
@@ -1414,6 +3851,16 @@ msgstr ""
 msgid "Send Reset Email"
 msgstr ""
 
+msgid ""
+"Please fill out the following information to get your store up and running"
+msgstr ""
+
+msgid "All information entered here can be edited later."
+msgstr ""
+
+msgid "Click here for help"
+msgstr ""
+
 msgid "Create new"
 msgstr "新規作成"
 
@@ -1423,12 +3870,6 @@ msgstr ""
 
 msgid "Discard Changes"
 msgstr "変更を破棄する"
-
-msgid "Save and Exit"
-msgstr "保存して終了する"
-
-msgid "Save and Create New"
-msgstr "保存して新規作成する"
 
 #, python-format
 msgid "Are you sure you wish to delete %s?"
@@ -1441,6 +3882,14 @@ msgstr ""
 msgid "objects"
 msgstr ""
 
+msgid "Unknown error"
+msgstr ""
+
+#, fuzzy
+#| msgid "Actions"
+msgid "Mass Action"
+msgstr "アクション"
+
 #, python-format
 msgid "Can't view this page. %(reason)s"
 msgstr ""
@@ -1448,14 +3897,25 @@ msgstr ""
 msgid "Log in with different credentials..."
 msgstr ""
 
-msgid "You must be logged in."
+msgid "Sign in to continue"
 msgstr ""
 
 msgid "You must be a staff member."
 msgstr ""
 
+msgid "There is no active shop available. Contact support for more details."
+msgstr ""
+
 #, python-format
-msgid "You do not have the required permissions: %r"
+msgid "You do not have the required permissions: %s"
+msgstr ""
+
+#, fuzzy
+#| msgid "Username"
+msgid "Unnamed"
+msgstr "ユーザーネーム"
+
+msgid "Item"
 msgstr ""
 
 #, python-format
@@ -1478,12 +3938,61 @@ msgstr ""
 msgid "Only one %(model)s permitted."
 msgstr ""
 
+#, fuzzy
+#| msgid "Edit"
+msgid "Mass Edit"
+msgstr "編集"
+
+msgid "Invalid object."
+msgstr ""
+
+msgid "Invalid model."
+msgstr ""
+
+#, python-format
+msgid "You do not have the required permission(s): %s"
+msgstr ""
+
+msgid "Unauthorized"
+msgstr ""
+
+msgid "Object not found"
+msgstr ""
+
+msgid "Storefront"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Complete wizard"
+msgstr ""
+
+msgid "Complete the setup wizard"
+msgstr ""
+
+msgid "Publish your store"
+msgstr ""
+
+msgid "Let customers browse your store and make purchases"
+msgstr ""
+
+#, fuzzy
+#| msgid "Visit shop"
+msgid "Publish shop"
+msgstr "ショップに行く"
+
+msgid ""
+"A reset password email was sent. Please, follow the instructions to set a "
+"new password."
+msgstr ""
+
+msgid "This recovery link is invalid."
+msgstr ""
+
+msgid "Password changed successfully!"
+msgstr ""
+
 #, python-format
 msgid "Couldn't get selections for %s."
 msgstr ""
-
-msgid "not shipped (non-deliverable)"
-msgstr "not shipped"
-
-msgid "shipped (deliverable)"
-msgstr "shipped"

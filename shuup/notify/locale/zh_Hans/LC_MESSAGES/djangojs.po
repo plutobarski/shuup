@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Shuup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-29 15:06+0000\n"
+"POT-Creation-Date: 2018-12-16 16:20+0000\n"
 "PO-Revision-Date: 2016-02-05 12:24+0000\n"
 "Last-Translator: Shuup Admin <admin@shuup.com>\n"
 "Language-Team: Chinese (Mandarin) (http://www.transifex.com/shuup/shuup/"
@@ -63,8 +63,12 @@ msgstr "删除"
 msgid "Are you sure you wish to delete this step?"
 msgstr "您确定要删除这一步吗？"
 
-#, javascript-format
-msgid "If %s of these conditions hold..."
+msgid "If"
+msgstr ""
+
+#, fuzzy
+#| msgid "If %s of these conditions hold..."
+msgid "of these conditions hold..."
 msgstr "如果 %s 这些条件保留……"
 
 msgid "then execute these actions..."

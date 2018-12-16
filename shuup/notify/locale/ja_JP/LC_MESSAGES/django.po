@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Shuup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-29 15:06+0000\n"
+"POT-Creation-Date: 2018-12-16 16:20+0000\n"
 "PO-Revision-Date: 2016-04-19 08:32+0000\n"
 "Last-Translator: Shuup Admin <admin@shuup.com>\n"
 "Language-Team: Japanese (Japan) (http://www.transifex.com/shuup/shuup/"
@@ -20,13 +20,25 @@ msgstr ""
 "Generated-By: Babel 2.1.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+msgid "Plain text"
+msgstr ""
+
+msgid "HTML"
+msgstr ""
+
 msgid "Subject"
 msgstr ""
 
 msgid "Email Body"
 msgstr ""
 
+msgid "Content type"
+msgstr ""
+
 msgid "Recipient"
+msgstr ""
+
+msgid "Reply-To"
 msgstr ""
 
 msgid "Language"
@@ -45,9 +57,6 @@ msgstr ""
 
 msgid "Notifications"
 msgstr "通知"
-
-msgid "Notification scripts"
-msgstr ""
 
 msgid "Show notification scripts"
 msgstr ""
@@ -81,14 +90,53 @@ msgstr "テンプレート"
 msgid "Bind to Variable"
 msgstr ""
 
-msgid "Edit Script Contents..."
+#, fuzzy
+#| msgid "Edit Script Contents..."
+msgid "Edit Script Contents"
 msgstr "スクリプトの内容を編集する..."
+
+#, fuzzy
+#| msgid "Edit Script"
+msgid "Edit Script (advanced)"
+msgstr "スクリプトを編集する"
+
+#, fuzzy
+#| msgid "Template"
+msgid "Edit Template"
+msgstr "テンプレート"
+
+msgid "Save"
+msgstr ""
 
 msgid "Name"
 msgstr "名前"
 
 msgid "Enabled"
 msgstr ""
+
+#, fuzzy
+#| msgid "Enable Script"
+msgid "New Script"
+msgstr "スクリプトを有効にする"
+
+#, fuzzy
+#| msgid "Template"
+msgid "New From Template"
+msgstr "テンプレート"
+
+msgid "Script created from template!"
+msgstr ""
+
+msgid "Template Script not found!"
+msgstr ""
+
+msgid "Templated script not found!"
+msgstr ""
+
+#, fuzzy
+#| msgid "Script Name"
+msgid "Script updated!"
+msgstr "スクリプトネーム"
 
 msgid ""
 "Check whether the bound value `value` exists and is non-empty and non-zero."
@@ -151,6 +199,9 @@ msgstr ""
 msgid "critical"
 msgstr ""
 
+msgid "shop"
+msgstr ""
+
 msgid "recipient type"
 msgstr ""
 
@@ -184,6 +235,45 @@ msgstr ""
 msgid "enabled"
 msgstr ""
 
+msgid "template identifier"
+msgstr ""
+
+msgid "the template identifier used to create this script"
+msgstr ""
+
+msgid "The subject of the email"
+msgstr ""
+
+msgid "Email content"
+msgstr ""
+
+msgid "The content of the email."
+msgstr ""
+
+msgid "Customer"
+msgstr ""
+
+msgid "Other destination"
+msgstr ""
+
+msgid "Send to?"
+msgstr ""
+
+msgid ""
+"You can send this email to the customer or to other email of your choice."
+msgstr ""
+
+msgid "Destination"
+msgstr ""
+
+msgid "Fill with the destination email address."
+msgstr ""
+
+msgid ""
+"Recipient is a required field when you don't want to send the email to "
+"customer."
+msgstr ""
+
 msgid "Edit Script Information"
 msgstr ""
 
@@ -194,6 +284,18 @@ msgid "Script Details"
 msgstr "スクリプト詳細"
 
 msgid "OK"
+msgstr ""
+
+msgid "Show available variables"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Select the script template to be created"
+msgstr ""
+
+msgid "Cancel"
 msgstr ""
 
 msgid "Edit Script"
@@ -213,6 +315,27 @@ msgstr "変数"
 
 msgid "Save changes"
 msgstr "変更を保存する"
+
+#, fuzzy
+#| msgid "Script Name"
+msgid "Script Template: {}"
+msgstr "スクリプトネーム"
+
+msgid "Configure the Script Template"
+msgstr ""
+
+#, fuzzy
+#| msgid "Edit Script"
+msgid "Modify Script"
+msgstr "スクリプトを編集する"
+
+#, fuzzy
+#| msgid "Create a new script"
+msgid "Create Script"
+msgstr "スクリプトを新規作成する"
+
+msgid "Create"
+msgstr ""
 
 msgid "Boolean"
 msgstr "ブーリアン"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Shuup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-29 15:06+0000\n"
+"POT-Creation-Date: 2018-12-16 16:20+0000\n"
 "PO-Revision-Date: 2016-02-05 12:24+0000\n"
 "Last-Translator: Shuup Admin <admin@shuup.com>\n"
 "Language-Team: Japanese (Japan) (http://www.transifex.com/shuup/shuup/"
@@ -25,9 +25,6 @@ msgstr ""
 
 msgid "Tax Rules"
 msgstr ""
-
-msgid "Taxes"
-msgstr "税"
 
 msgid "Show tax rules"
 msgstr ""
@@ -71,6 +68,9 @@ msgstr ""
 msgid "enabled"
 msgstr "使用可能"
 
+msgid "Check this if this tax rule is active."
+msgstr ""
+
 msgid "tax classes"
 msgstr ""
 
@@ -78,6 +78,9 @@ msgid "Tax classes of the items to be taxed"
 msgstr ""
 
 msgid "customer tax groups"
+msgstr ""
+
+msgid "The customer tax groups for which this tax rule is limited."
 msgstr ""
 
 msgid "country codes pattern"
@@ -108,6 +111,9 @@ msgid ""
 msgstr ""
 
 msgid "tax"
+msgstr ""
+
+msgid "The tax to apply when this rule is applied."
 msgstr ""
 
 msgid "Tax rule {} ({})"

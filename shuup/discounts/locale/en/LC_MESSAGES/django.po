@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 01:41+0000\n"
+"POT-Creation-Date: 2018-12-16 16:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -114,12 +114,6 @@ msgid "Date created"
 msgstr ""
 
 msgid "Select discounts linked to this coupon code."
-msgstr ""
-
-msgid "Shops"
-msgstr ""
-
-msgid "Select shops for this discount. Keep it blank to share with all shops."
 msgstr ""
 
 #, python-format
@@ -328,7 +322,7 @@ msgstr ""
 msgid "to hour"
 msgstr ""
 
-msgid "weekdays"
+msgid "weekday"
 msgstr ""
 
 msgid "time range"

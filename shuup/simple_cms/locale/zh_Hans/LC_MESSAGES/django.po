@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Shuup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-29 15:06+0000\n"
+"POT-Creation-Date: 2018-12-16 16:20+0000\n"
 "PO-Revision-Date: 2016-03-29 08:44+0000\n"
 "Last-Translator: Shuup Admin <admin@shuup.com>\n"
 "Language-Team: Chinese (Mandarin) (http://www.transifex.com/shuup/shuup/"
@@ -20,8 +20,10 @@ msgstr ""
 "Generated-By: Babel 2.1.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Simple CMS"
-msgstr "简单内容管理系统"
+#, fuzzy
+#| msgid "content"
+msgid "Content Pages"
+msgstr "内容"
 
 msgid "Pages"
 msgstr "页面"
@@ -29,14 +31,28 @@ msgstr "页面"
 msgid "Show pages"
 msgstr "显示页面"
 
+msgid "Add a web page"
+msgstr ""
+
+#, fuzzy
+#| msgid "New Page"
+msgid "New page"
+msgstr "新页面"
+
 msgid "Available from"
 msgstr "可从"
 
 msgid "Available to"
 msgstr "可供"
 
+msgid "Template"
+msgstr ""
+
 msgid "URL already exists."
 msgstr "URL已经存在。"
+
+msgid "URL must be unique"
+msgstr ""
 
 #, python-format
 msgid "%(label)s is required when any %(language)s field is filled."
@@ -44,6 +60,9 @@ msgstr "填充任何 %(language)s 字段时 %(label)s 是必需的。"
 
 msgid "Please fill at least one language fully."
 msgstr "请至少以一种语言填完。"
+
+msgid "A page may not be made a child of itself."
+msgstr ""
 
 msgid "Title"
 msgstr "名称"
@@ -57,11 +76,39 @@ msgstr "创建日期"
 msgid "Page"
 msgstr "页面"
 
+msgid "Content in this placeholder is shown for this page only."
+msgstr ""
+
+#, python-format
+msgid "Content in this placeholder is shown for %(title)s only."
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Article"
+msgstr ""
+
+msgid "shop"
+msgstr ""
+
 msgid "available from"
 msgstr "可从"
 
+msgid ""
+"Set an available from date to restrict the page to be available only after a "
+"certain date and time. This is useful for pages describing sales campaigns "
+"or other time-sensitive pages."
+msgstr ""
+
 msgid "available to"
 msgstr "可供"
+
+msgid ""
+"Set an available to date to restrict the page to be available only after a "
+"certain date and time. This is useful for pages describing sales campaigns "
+"or other time-sensitive pages."
+msgstr ""
 
 msgid "created by"
 msgstr "创建于"
@@ -81,20 +128,71 @@ msgstr "该标识符可用于模板里创建URL"
 msgid "visible in menu"
 msgstr "在菜单可见"
 
+msgid ""
+"Check this if this page should have a link in the top menu of the store "
+"front."
+msgstr ""
+
 msgid "parent"
+msgstr ""
+
+msgid ""
+"Set this to a parent page if this page should be subcategorized under "
+"another page."
 msgstr ""
 
 msgid "list children on page"
 msgstr ""
 
+msgid "Check this if this page should list its children pages."
+msgstr ""
+
+msgid "show child page timestamps"
+msgstr ""
+
+msgid ""
+"Check this if you want to show timestamps on the child pages. Please note, "
+"that this requires the children to be listed on the page as well."
+msgstr ""
+
+msgid "deleted"
+msgstr ""
+
 msgid "title"
 msgstr "名称"
+
+msgid "The page title. This is shown anywhere links to your page are shown."
+msgstr ""
 
 msgid "URL"
 msgstr "URL"
 
+msgid ""
+"The page url. Choose a descriptive url so that search engines can rank your "
+"page higher. Often the best url is simply the page title with spaces "
+"replaced with dashes."
+msgstr ""
+
 msgid "content"
 msgstr "内容"
+
+msgid ""
+"The page content. This is the text that is displayed when customers click on "
+"your page link.You can leave this empty and add all page content through "
+"placeholder editor in shop front.To edit the style of the page you can use "
+"the Snippet plugin which is in shop front editor."
+msgstr ""
+
+msgid "Template path"
+msgstr ""
+
+#, fuzzy
+#| msgid "Untitled"
+msgid "render title"
+msgstr "无标题"
+
+msgid "Check this if this page should have a visible title"
+msgstr ""
 
 msgid "page"
 msgstr "页面"
@@ -104,6 +202,47 @@ msgstr "页面"
 
 msgid "Untitled"
 msgstr "无标题"
+
+msgid "Image"
+msgstr ""
+
+msgid "The image of your object."
+msgstr ""
+
+msgid "type"
+msgstr ""
+
+msgid ""
+"The title of your object as it should appear within the graph, e.g. The Rock."
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "A one to two sentence description of your object."
+msgstr ""
+
+msgid "Section"
+msgstr ""
+
+msgid ""
+"A high-level section name, e.g. Technology. Only applicable when type is "
+"Article."
+msgstr ""
+
+msgid "Tags"
+msgstr ""
+
+msgid ""
+"Tag words associated with this article. Only applicable when type is Article."
+msgstr ""
+
+msgid "Article author"
+msgstr ""
+
+msgid ""
+"The name of the author for the article. Only applicable when type is Article."
+msgstr ""
 
 msgid "CMS Page Links"
 msgstr ""
@@ -117,14 +256,22 @@ msgstr ""
 msgid "Hide expired pages"
 msgstr ""
 
+#, fuzzy
+#| msgid "New Page"
+msgid "Default Page"
+msgstr "新页面"
+
+msgid "Page with sidebar"
+msgstr ""
+
+msgid ""
+"Fill the fields below to add extra OpenGraph information to the page meta.\n"
+"        If not informed, some values will be inferred from the page "
+"attributes."
+msgstr ""
+
 msgid "New Page"
 msgstr "新页面"
 
-msgid "General Information"
-msgstr "基本信息"
-
-msgid "Availability"
-msgstr "可用性"
-
-msgid "Extras"
-msgstr "额外"
+msgid "Home"
+msgstr ""

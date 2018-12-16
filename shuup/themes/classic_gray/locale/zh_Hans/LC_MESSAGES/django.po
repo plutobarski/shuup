@@ -8,14 +8,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-04 20:16+0000\n"
+"POT-Creation-Date: 2018-12-16 16:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "This theme has no special settings to configure."
+msgstr ""
 
 msgid "Home"
 msgstr ""
@@ -24,5 +28,33 @@ msgstr ""
 msgid "Welcome to %(shop_name)s!"
 msgstr ""
 
+msgid "Menu"
+msgstr ""
+
+msgid "Products"
+msgstr ""
+
 msgid "Show Frontpage Welcome Text"
+msgstr ""
+
+msgid "Hide prices"
+msgstr ""
+
+msgid "Set shop in catalog mode"
+msgstr ""
+
+msgid "Show supplier info"
+msgstr ""
+
+msgid ""
+"Show supplier name in product-box, product-detail, basket- and order-lines"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Midnight Blue"
+msgstr ""
+
+msgid "Candy Pink"
 msgstr ""

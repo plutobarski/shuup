@@ -98,10 +98,22 @@ MIDDLEWARE_CLASSES = [
 ROOT_URLCONF = 'shuup_workbench.urls'
 WSGI_APPLICATION = 'shuup_workbench.wsgi.application'
 
-DATABASES = {
+"""DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+"""
+
+DATABASES = {
+    'default':{
+         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'shuup-dev',
+        'USER': 'ic_apps',
+        'PASSWORD': 'ironm111',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
     }
 }
 
@@ -147,6 +159,7 @@ LANGUAGES = [
     ('ru', 'Russian'),
     ('sv', 'Swedish'),
     ('zh-hans', 'Simplified Chinese'),
+    ('pl', 'Polish'),
 ]
 
 PARLER_DEFAULT_LANGUAGE_CODE = "en"
