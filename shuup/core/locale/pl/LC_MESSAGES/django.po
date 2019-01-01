@@ -2421,20 +2421,20 @@ msgid ""
 msgstr ""
 
 msgid "Name of the display unit, e.g. Grams."
-msgstr ""
+msgstr "Nazwa jednostki wyświetlanej np. Gramy"
 
 msgid "An abbreviated name of the display unit, e.g. 'g'."
-msgstr ""
+msgstr "Skrócona nazwa wyświetlanej jednostki"
 
 msgid "display units"
-msgstr ""
+msgstr "jednostka wyśiwtlana"
 
 msgid "Pieces"
-msgstr ""
+msgstr "Sztuki"
 
 msgctxt "Symbol for pieces unit"
 msgid "pc."
-msgstr ""
+msgstr "Symbol dla jednostki Sztuki"
 
 #, python-brace-format
 msgctxt "Display value with unit symbol (with or without space)"
@@ -2442,44 +2442,44 @@ msgid "{value}{symbol}"
 msgstr ""
 
 msgid "No Choice"
-msgstr ""
+msgstr "Brak wyboru"
 
 msgid "The total should be greater than {} to be ordered."
-msgstr ""
+msgstr "Całość powinna być większa od {} aby mogła być zamówiona."
 
 #, python-format
 msgid "%s not available in this shop"
-msgstr ""
+msgstr "%s nie jest dostępny w tym sklepie"
 
 msgid "Default Pricing"
-msgstr ""
+msgstr "Domyślny Cennik"
 
 msgid "Insufficient stock"
-msgstr ""
+msgstr "Niewystarczający stan"
 
 #, python-format
 msgid "%(name)s (physical stock: %(quantity)s)"
-msgstr ""
+msgstr "%(name)s (fizyczny stan: %(quantity)s)"
 
 #, python-format
 msgid ""
 "Insufficient physical stock count for following products: %(product_counts)s"
-msgstr ""
+msgstr "Niewystarczający fizyczna ilośc dla produktu : %(product_counts)s"
 
 msgid "inventory"
-msgstr ""
+msgstr "zapas"
 
 msgid "restock"
-msgstr ""
+msgstr "uzupełnienie stoku"
 
 msgid "restock logical"
-msgstr ""
+msgstr "uzupełnienie stoku logicznego"
 
 msgid "Untaxed"
-msgstr ""
+msgstr "Nieopodatkowany"
 
 msgid "This field cannot be changed since it is protected."
-msgstr ""
+msgstr "To pole nie może być zmienione dopóki jest polem chronionym."
 
 msgid "Region"
 msgstr ""
@@ -2491,10 +2491,10 @@ msgid "Email"
 msgstr ""
 
 msgid "Please provide either username or email, not both."
-msgstr ""
+msgstr "Proszę wprowadzić username lub email"
 
 msgid "Please provide either username or email."
-msgstr ""
+msgstr "Proszę wprowadzić username lub email"
 
 msgid "First Last"
 msgstr ""
