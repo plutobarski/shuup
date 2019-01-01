@@ -340,7 +340,7 @@ msgid "tax number"
 msgstr "nnumer podatkowy(NIP)"
 
 msgid "The business tax number. For example, EIN in US or VAT code in Europe."
-msgstr "Biznesowy numer podatkowy", Dla przykładu EIN w USA lub VAT w EU.
+msgstr "Biznesowy numer podatkowy, Dla przykładu EIN w USA lub VAT w EU."
 
 msgid "phone"
 msgstr "telefon"
@@ -1647,52 +1647,55 @@ msgid ""
 msgstr ""
 
 msgid "product type"
-msgstr ""
+msgstr "typ produktu"
 
 msgid "product types"
-msgstr ""
+msgstr "typy produktu"
 
 msgid "mode"
-msgstr ""
+msgstr "tryb"
 
 msgid "variation parent"
 msgstr ""
 
 msgid "stock"
-msgstr ""
+msgstr "stan"
 
 msgid "Set to stocked if inventory should be managed within Shuup."
-msgstr ""
+msgstr "Ustaw na magazynowy, jeżeli stan ma być zarządzany w sklepie."
 
 msgid "shipping mode"
-msgstr ""
+msgstr "tryb wysyłki"
 
 msgid "Set to shipped if the product requires shipment."
-msgstr ""
+msgstr "Ustaw jako wysłany, jeżeli produkt wymaga wysyłki"
 
 msgid "sales unit"
-msgstr ""
+msgstr "jednostak sprzedażowa"
 
 msgid ""
 "Select a sales unit for your product. This is shown in your store front and "
 "is used to determine whether the product can be purchased using fractional "
 "amounts. Sales units are defined in Products - Sales Units."
-msgstr ""
+msgstr "Wybierz jednostkę sprzedażową dla produktu. Pojawi się w twoim sklepie z frontu i "
+"będzie użyte do determinacji czy produkt może być zakupiony przy użyciu niecałkowitych ilości."
+"Jednostki sprzedażowe są zdefinjowane w Produkty - Jednostki Sprzedażowe."
 
 msgid "tax class"
-msgstr ""
+msgstr "klasa podatkowa"
 
 msgid ""
 "Select a tax class for your product. The tax class is used to determine "
 "which taxes to apply to your product. Tax classes are defined in Settings - "
 "Tax Classes. The rules by which taxes are applied are defined in Settings - "
 "Tax Rules."
-msgstr ""
+msgstr "Wybierz klasę podatkową dla produktu. Klasa podatkowa jest używana do determinacji "
+"które podatki powinny być użyte dla twojego produktu. Klasy podatkowe są zdefinjowane w Ustawienia - Klasy Podatkowe."
 
 msgid ""
 "Select a product type for your product. These allow you to configure custom "
 "attributes to help with classification and analysis."
-msgstr ""
+msgstr "Wyberz typ produktu. Pozowli Ci to skonfigurować twoje atrybuty przydatne przy klasyfikacji i analizie."
 
 msgid "SKU"
 msgstr ""
@@ -1702,7 +1705,8 @@ msgid ""
 "identification code that helps you track it through your inventory. People "
 "often use the number by the barcode on the product, but you can set up any "
 "numerical system you want to keep track of products."
-msgstr ""
+msgstr "Wprowadź numer SKU produktu. Jest to identyfikator produktu, który pozwoli Ci śledzić jego stan. Ludzie "
+"zwykle używają tego kodu jako kodu kreskowego, ale masz pełną dowolność nazewnictwa i nomenklatury."
 
 msgid "GTIN"
 msgstr ""
@@ -1711,18 +1715,19 @@ msgid ""
 "You can enter a Global Trade Item Number. This is typically a 14 digit "
 "identification number for all of your trade items. It can often be found by "
 "the barcode."
-msgstr ""
+msgstr "Możesz wprowadzić EAN (GTIN). Zwykle to 14 cyforwy nnumer identyfikacyjny każdego produktu handlowego. Zwykle jest kodem kreskowym."
 
 msgid "barcode"
-msgstr ""
+msgstr "kod kreskowy"
 
 msgid ""
 "You can enter the barcode number for your product. This is useful for "
 "inventory/stock tracking and analysis."
-msgstr ""
+msgstr "Wprowadź kod kreskowy dla produktu. Jest to użyteczne dla "
+"zarządzania stokiem, śledzeniem stoku i analizą. "
 
 msgid "bookkeeping account"
-msgstr ""
+msgstr "konto księgowe"
 
 msgid "profit center"
 msgstr ""
@@ -1731,74 +1736,81 @@ msgid "cost center"
 msgstr ""
 
 msgid "width (mm)"
-msgstr ""
+msgstr "szerokość (mm)"
 
 msgid ""
 "Set the measured width of your product or product packaging. This will "
 "provide customers with your product size and help with calculating shipping "
 "costs."
-msgstr ""
+msgstr "Wprowadź zmierzoną szerokość produktu lub opakowania. Jest pomocne przy "
+"obliczaniu kosztów przesyłki."
 
 msgid "height (mm)"
-msgstr ""
+msgstr "wysokość (mm)"
 
 msgid ""
 "Set the measured height of your product or product packaging. This will "
 "provide customers with your product size and help with calculating shipping "
 "costs."
-msgstr ""
+msgstr "Wprowadź zmierzoną wysokość produktu lub opakowania. Jest pomocne przy "
+"obliczaniu kosztów przesyłki."
 
 msgid "depth (mm)"
-msgstr ""
+msgstr "głębokość (mm)"
 
 msgid ""
 "Set the measured depth or length of your product or product packaging. This "
 "will provide customers with your product size and help with calculating "
 "shipping costs."
-msgstr ""
+msgstr "Wprowadź zmierzoną głębokość produktu lub opakowania. Jest pomocne przy "
+"obliczaniu kosztów przesyłki."
 
 msgid "net weight (g)"
-msgstr ""
+msgstr "waga netto (g)"
 
 msgid ""
 "Set the measured weight of your product WITHOUT its packaging. This will "
 "provide customers with your product weight."
-msgstr ""
+msgstr "Wprowadź zmierzoną wagę produktu bez opakowania."
 
 msgid "gross weight (g)"
-msgstr ""
+msgstr "waga brutto (g)"
 
 msgid ""
 "Set the measured gross Weight of your product WITH its packaging. This will "
 "help with calculating shipping costs."
-msgstr ""
+msgstr "Wprowadź zmierzoną wagę produktu z opakowaniem. Jest pomocne przy "
+"obliczaniu kosztów przesyłki."
 
 msgid ""
 "Select a manufacturer for your product. These are defined in Products "
 "Settings - Manufacturers"
-msgstr ""
+msgstr "Wybierz producenta. Definiuje się ich w Ustawienia Produktu - Producenci."
 
 msgid ""
 "Enter a URL Slug for your product. This is what your product page URL will "
 "be. A default will be created using the product name."
-msgstr ""
+msgstr "Wprowadź url. To jest url, pod którym będzie widoczny produkt. Domyślnie "
+"zostanie użyta nazwa produktu."
 
 msgid "keywords"
-msgstr ""
+msgstr "słowa kluczowe"
 
 msgid ""
 "You can enter keywords that describe your product. This will help your "
 "shoppers learn about your products. It will also help shoppers find them in "
 "the store and on the web."
-msgstr ""
+msgstr "Wprowadź słowa kluczowe opisujące produkt. Pomoże to shopperowi "
+"w sklasyfikowaniu produktu. Są one pomocne przy wyszukiwaniu w sklepie i na stronie."
 
 msgid "variation name"
-msgstr ""
+msgstr "nazwa wariantu"
 
 msgid ""
 "You can enter a name for the variation of your product. This could be for "
 "example different colors or versions."
-msgstr ""
+msgstr "Wprowadź nazwę wariantu dla produktu. Może to być dla przykładu różny kolor lub"
+"rozmiar."
 
 msgid ""
 "Multilevel parentage hierarchies aren't supported (parent is a child already)"
@@ -1818,29 +1830,29 @@ msgid ""
 msgstr ""
 
 msgid "Product is currently not a normal product, can't turn into package"
-msgstr ""
+msgstr "Produkt aktualnie jest normalnym produktem, nie może być użyty jako paczka."
 
 msgid "Package can't contain itself"
-msgstr ""
+msgstr "Paczka nie może zawierać samej siebie."
 
 msgid "Variation parents can not belong into a package"
 msgstr ""
 
 msgid "Packages can't be nested"
-msgstr ""
+msgstr "Paczka nie może być zagnieżdżona."
 
 #, python-format
 msgid "Quantity %s is invalid"
-msgstr ""
+msgstr "Ilość %s jest nieprawidłowa"
 
 msgid "primary product"
-msgstr ""
+msgstr "domyśłny produkt"
 
 msgid "secondary product"
-msgstr ""
+msgstr "drugoorzędny produkt"
 
 msgid "weight"
-msgstr ""
+msgstr "waga"
 
 msgid "cross sell link"
 msgstr ""
@@ -1852,54 +1864,54 @@ msgid "translated value"
 msgstr ""
 
 msgid "product attribute"
-msgstr ""
+msgstr "atrybut produktu"
 
 msgid "product attributes"
-msgstr ""
+msgstr "atrybuty produktu"
 
 msgid "Check this if this service provider can be used when placing orders"
-msgstr ""
+msgstr "Zaznacz jeżeli dostawca może być użyty do złożenia zamówienia"
 
 msgid "The service provider name."
-msgstr ""
+msgstr "Nazwa dostawcy usługi"
 
 msgid "Check this if this service is selectable on checkout."
-msgstr ""
+msgstr "Zaznacz jeżeli usługa może być wybierana podczas zamówienia."
 
 msgid "The shop for this service."
-msgstr ""
+msgstr "Sklep dla tej usługi"
 
 msgid "choice identifier"
-msgstr ""
+msgstr "identyfikator wyboru"
 
 msgid ""
 "The tax class to use for this service. Tax classes are defined in Settings - "
 "Tax Classes."
-msgstr ""
+msgstr "Klasa podatkowa dla tej usługi. Klasy podatkowe definiujemy w zakładce Ustawienia - Klasy Podatkowe."
 
 msgid "behavior components"
 msgstr ""
 
 #, python-format
 msgid "%s is disabled"
-msgstr ""
+msgstr "%s jest nieaktywny"
 
 #, python-format
 msgid "%s is for different shop"
-msgstr ""
+msgstr "%s jest dla innego sklepu"
 
 #, python-format
 msgid "%(service_name)s: %(sub_item)s"
 msgstr ""
 
 msgid "Fixed cost"
-msgstr ""
+msgstr "Ustalony koszt"
 
 msgid "Add fixed cost to price of the service."
-msgstr ""
+msgstr "Dodaj ustalone koszty do ceny usługi."
 
 msgid "The fixed cost to apply to this service."
-msgstr ""
+msgstr "Ustalone koszty do dołączenia do usługi."
 
 msgid "The order line text to display when this behavior is applied."
 msgstr ""
@@ -1921,143 +1933,143 @@ msgid "The total price of products at which this service cost is waived."
 msgstr ""
 
 msgid "Weight limits"
-msgstr ""
+msgstr "Limity wagowe"
 
 msgid "Limit availability of the service based on total weight of products."
-msgstr ""
+msgstr "Limit dostępności usługi na podstawie całkowitej wagi produktów."
 
 msgid "minimum weight"
-msgstr ""
+msgstr "waga minimalna"
 
 msgid "The minimum weight required for this service to be available."
-msgstr ""
+msgstr "Minimalna waga wymagana dla tej usługi, aby mogła być dostępna."
 
 msgid "maximum weight"
-msgstr ""
+msgstr "maksymalna waga"
 
 msgid "The maximum weight allowed by this service."
-msgstr ""
+msgstr "Maksymalna waga dopuszczalna dla usługi."
 
 msgid "Minimum weight not met."
-msgstr ""
+msgstr "Minimalna waga nie została osiągnięta."
 
 msgid "Maximum weight exceeded."
-msgstr ""
+msgstr "Maksymalna waga została przekroczona."
 
 msgid "min weight (g)"
-msgstr ""
+msgstr "minimalna waga (g)"
 
 msgid "The minimum weight, in grams, for this price to apply."
-msgstr ""
+msgstr "Minimalna waga, w gramach, do zastosowania przy tej cenie."
 
 msgid "max weight (g)"
-msgstr ""
+msgstr "maksymalna waga (g))"
 
 msgid "The maximum weight, in grams, before this price no longer applies."
-msgstr ""
+msgstr "Maksymalna waga,  wgramach, poniżej której nie zmieni się cena."
 
 msgid "The cost to apply to this service when the weight criteria is met."
-msgstr ""
+msgstr "Koszty zastosowane dla tej usługi kiedy kryteria wagowe zostaną spełnione."
 
 msgid "Weight-based pricing"
-msgstr ""
+msgstr "Cena zależna od wagi"
 
 msgid ""
 "Define price based on basket weight. Range minimums is counted in range only "
 "as zero."
-msgstr ""
+msgstr "Zdefiniuj cenę na podstawie wagi koszyka."
 
 msgid "Weight does not match with any range."
-msgstr ""
+msgstr "Waga nie pasuje do żadnego zakresu."
 
 msgid "Contact group availability"
-msgstr ""
+msgstr "Dostępność grupy kontaktów"
 
 msgid "Limit service availability for specific contact groups."
-msgstr ""
+msgstr "Ogranicz dostępność usługi dla specyficznych grup kontaktowych."
 
 msgid "groups"
-msgstr ""
+msgstr "grupy"
 
 msgid "The contact groups for which this service is available."
-msgstr ""
+msgstr "Grupy, dlla których ta usługa jest dostępna."
 
 msgid "Customer does not belong to any group."
-msgstr ""
+msgstr "Klient nie należy do żdanej grupy."
 
 msgid "Service is not available for any of the customers groups."
-msgstr ""
+msgstr "Usługa jest niedostępna dla żadnej grupy."
 
 msgid "Staff only availability"
-msgstr ""
+msgstr "Dostępne tylko dla personelu"
 
 msgid "Limit service availability to staff only"
-msgstr ""
+msgstr "Ogranicz dostępność usługi jedynie dla personelu."
 
 msgid "Service is only available for staff"
-msgstr ""
+msgstr "Usługa jest dostępna tylko dla personelu."
 
 msgid "Order total limit"
-msgstr ""
+msgstr "Całkowity limit zamówienia"
 
 msgid "Limit service availability based on order total"
-msgstr ""
+msgstr "Limit dostępności usługi na podstawie całego zamówienia."
 
 msgid "min price value"
-msgstr ""
+msgstr "minimalna cena"
 
 msgid "max price value"
-msgstr ""
+msgstr "maksymalna cena"
 
 msgid "Order total does not match with service limits."
-msgstr ""
+msgstr "Zamówienie nie spełnia kryteriów limitów dla usługi."
 
 msgid "Country limit"
-msgstr ""
+msgstr "Ograniczenie według kraju"
 
 msgid "Limit service availability based on countries selected"
-msgstr ""
+msgstr "Ograniczenie dostępności usługi na podstawie wybranych krajów."
 
 msgid "available in countries"
-msgstr ""
+msgstr "dostępność w krajach"
 
 msgid "available in european countries"
-msgstr ""
+msgstr "dostępność w europejskich krajach."
 
 msgid "unavailable in countries"
-msgstr ""
+msgstr "niedostępnie w krajach"
 
 msgid "unavailable in european countries"
-msgstr ""
+msgstr "niedostępne w europejskich krajach."
 
 msgid "Service is not available without country."
-msgstr ""
+msgstr "Usługa niedostępna bez podania kraju."
 
 msgid "Service is not available for this country."
-msgstr ""
+msgstr "Usługa nie jest dostępna w tym kraju."
 
 msgid "round to nearest with ties going away from zero"
-msgstr ""
+msgstr "zaokrąglenie w górę"
 
 msgid "round to nearest with ties going towards zero"
-msgstr ""
+msgstr "zaokrąglenie w dół"
 
 msgid "round away from zero"
-msgstr ""
+msgstr "zaokrąglenie w górę"
 
 msgid "round towards zero"
-msgstr ""
+msgstr "zaokrąglenie w dół"
 
 msgid "payment processor"
 msgstr ""
 
 msgid "The payment method name. This name is shown to customers on checkout."
-msgstr ""
+msgstr "Nazwa metody płatności. Nazwa jest pokazywana klientom podczas składania zamówienia."
 
 msgid ""
 "The payment method description. This description is shown to customers on "
 "checkout."
-msgstr ""
+msgstr "Opis metody płatności. Ten opis jest pokazywany klientom podczas składania zamówienia."
 
 msgid "rounding quantize"
 msgstr ""
@@ -2078,20 +2090,20 @@ msgid "custom payment processors"
 msgstr ""
 
 msgid "Manually processed payment"
-msgstr ""
+msgstr "Manualna płatność"
 
 msgid "Cash payment"
-msgstr ""
+msgstr "Gotówka "
 
 msgid "carrier"
 msgstr ""
 
 msgid "The shipping method name. This name is shown to customers on checkout."
-msgstr ""
+msgstr "Nazwa metody wysyłki. Ta nazwa wyśiwtlana jest klientowi podczas składania zamówienia."
 
 msgid ""
 "The shipping method description. This name is shown to customers on checkout."
-msgstr ""
+msgstr "Opis metody wysyłki. Ta nazwa wyśiwtlana jest klientowi podczas składania zamówienia."
 
 msgid "custom carrier"
 msgstr ""
@@ -2100,145 +2112,147 @@ msgid "custom carriers"
 msgstr ""
 
 msgid "Manually processed shipment"
-msgstr ""
+msgstr "Wysyłka procesowana ręcznie"
 
 msgid "not sent"
-msgstr ""
+msgstr "niewysłana"
 
 msgid "sent"
-msgstr ""
+msgstr "wysłana"
 
 msgid "received"
-msgstr ""
+msgstr "odebrana"
 
 msgid "error"
-msgstr ""
+msgstr "błąd"
 
 msgid "outgoing"
-msgstr ""
+msgstr "wychodząca"
 
 msgid "incoming"
-msgstr ""
+msgstr "przychodząca"
 
 msgid "tracking code"
-msgstr ""
+msgstr "kod śledzenia"
 
 msgid "volume"
-msgstr ""
+msgstr "objętość"
 
 msgid "shipment"
-msgstr ""
+msgstr "wysyłka"
 
 msgid "shipments"
-msgstr ""
+msgstr "wysyłki"
 
 msgid "unit volume"
-msgstr ""
+msgstr "jednostka objętości"
 
 msgid "unit weight"
-msgstr ""
+msgstr "jednostka wagi"
 
 msgid "sent product"
-msgstr ""
+msgstr "wysłany produkt"
 
 msgid "sent products"
-msgstr ""
+msgstr "wysłane produkty"
 
 msgid ""
 "The following fields cannot be changed since there are existing orders for "
 "this shop"
-msgstr ""
+msgstr "Te pola nie mogą być zmienione dopóki istanieją powiązane zamówienia."
 
 msgid "domain"
-msgstr ""
+msgstr "domena"
 
 msgid ""
 "Your shop domain name. Use this field to configure the URL that is used to "
 "visit your site. Note: this requires additional configuration through your "
 "internet domain registrar."
-msgstr ""
+msgstr "Nazwa twojej domeny. To pole służy do konfiguracji adresu url dla twojego sklepu."
+"Ta operacja wymaga dodatkowej konfiguracji po stronie rejestratora domeny."
 
 msgid "Your shop status. Disable your shop if it is no longer in use."
-msgstr ""
+msgstr "Status twojego sklepu. Wyłącz swoj sklep, jeżeli nie jest używany."
 
 msgid "options"
-msgstr ""
+msgstr "opcje"
 
 msgid ""
 "The primary shop currency. This is the currency used when selling your "
 "products."
-msgstr ""
+msgstr "Podstawowa waluta w sklepie. Ta waluta będzie używana podczas sprzedaży w twoim sklepie."
 
 msgid ""
 "This option defines whether product prices entered in admin include taxes. "
 "Note this behavior can be overridden with contact group pricing."
-msgstr ""
+msgstr "Ta opcja definiuje, czy cena wprowadzona w panelu admina zawiera podatek."
+"Pamiętaj to zachowanie może być nadpisane przez grupę cenową."
 
 msgid "Shop logo. Will be shown at theme."
-msgstr ""
+msgstr "Logo sklepu. Będzie widoczne w templatce."
 
 msgid "favicon"
 msgstr ""
 
 msgid "Shop favicon. Will be shown next to the address on browser."
-msgstr ""
+msgstr "Favicon dla sklepu. Będzię widoczna obok adresu w przeglądarce."
 
 msgid "maintenance mode"
-msgstr ""
+msgstr "tryb edycji"
 
 msgid ""
 "Check this if you would like to make your shop temporarily unavailable while "
 "you do some shop maintenance."
-msgstr ""
+msgstr "Zaznacz jeżeli chcesz, aby sklep był tymczasowo niedostępny dopóki nie zakończysz zaplanowanych prac."
 
 msgid "contact address"
 msgstr ""
 
 msgid "staff members"
-msgstr ""
+msgstr "członkowie personelu"
 
 msgid "The shop name. This name is displayed throughout admin."
-msgstr ""
+msgstr "Nazwa sklepu. Nazwa wyświetlana w panelu admina."
 
 msgid ""
 "The public shop name. This name is displayed in the store front and in any "
 "customer email correspondence."
-msgstr ""
+msgstr "Publiczna nazwa sklepu. Nazwa wyświetlana na froncie sklepu i w każdej korespodencji z klientami."
 
 msgid "maintenance message"
-msgstr ""
+msgstr "wiadomość o trybie edycji"
 
 msgid ""
 "The message to display to customers while your shop is in maintenance mode."
-msgstr ""
+msgstr "Wiadomość wyświetllana klintom podczas niedostępności sklepu."
 
 msgid "alert limit"
-msgstr ""
+msgstr "limit powiadomień"
 
 msgid "physical stock count"
-msgstr ""
+msgstr "fizyczny stok"
 
 msgid "logical stock count"
-msgstr ""
+msgstr "logiczny stok"
 
 msgid "internal"
-msgstr ""
+msgstr "wewnętrzny"
 
 msgid "external"
-msgstr ""
+msgstr "zewnętrzny"
 
 msgid ""
 "The product suppliers name. Suppliers can be used manage the inventory of "
 "stocked products."
-msgstr ""
+msgstr "Nazwa dostawcy produktu. Dostawca może być użyty do zarządzania stokiem produktu."
 
 msgid "supplier type"
-msgstr ""
+msgstr "typ dostawcy"
 
 msgid ""
 "The supplier type indicates whether the products are supplied through an "
 "internal supplier or an external supplier."
-msgstr ""
+msgstr "Typ dostawcy określa czy produkt jest dostarczany przez wewnętrzego lub zewnętrznego dostawcę."
 
 msgid "stock managed"
 msgstr ""
@@ -2246,107 +2260,108 @@ msgstr ""
 msgid ""
 "Check this if this supplier will be used to manage the inventory of stocked "
 "products."
-msgstr ""
+msgstr "Zaznacz jeżeli ten dostawca będzie używany do zarządzania stokiem produktu."
 
 msgid ""
 "Select the supplier module to use for this supplier. Supplier modules define "
 "the rules by which inventory is managed."
-msgstr ""
+msgstr "Wybierz moduł dostawcy. Moduły dostawcy definiują reguły zarządzania stokiem."
 
 msgid "module data"
 msgstr ""
 
 msgid "You can select which shops the supplier is available to."
-msgstr ""
+msgstr "Możesz wybrać które sklepy są dostępne dla dostawcy."
 
 msgid "Indicates whether this supplier is currently enabled."
-msgstr ""
+msgstr "Określa czy ten dostawca jest aktywny."
 
 msgid "Cannot change business critical fields of Tax that is in use"
-msgstr ""
+msgstr "Nie można zmienić krytycznych pól takich jak Identyfikator podatkowy w użyciu."
 
 msgid "The abbreviated tax code name."
-msgstr ""
+msgstr "Skrócona nazwa podatkowa"
 
 msgid ""
 "The tax name. This is shown in order lines in order invoices and "
 "confirmations."
-msgstr ""
+msgstr "Nazwa podatku. Wyświetlana na liniach zamówienia, faktury oraz potwierdzeń."
 
 msgid "tax rate"
-msgstr ""
+msgstr "stawka podatku"
 
 msgid "The percentage rate of the tax."
-msgstr ""
+msgstr "Wartość procentowa podatku"
 
 msgid "tax amount value"
-msgstr ""
+msgstr "wartość podatku"
 
 msgid "The flat amount of the tax. Mutually exclusive with percentage rates."
-msgstr ""
+msgstr "Wyrównan wartość podatku. Wzajemne wykluczenie z wartością procentową."
 
 msgid "currency of tax amount"
-msgstr ""
+msgstr "waluta podatku"
 
 msgid "Check this if this tax is valid and active."
-msgstr ""
+msgstr "Zaznacz jeżeli ten podatek jest poprawny i aktywny."
 
 msgid "Either rate or amount is required"
-msgstr ""
+msgstr "Czy stawka lub wartość jest wymagana"
 
 msgid "Cannot have both rate and amount"
-msgstr ""
+msgstr "Stawka i wartość nie mogą występować jednocześnie"
 
 msgid "Currency is required if amount is specified"
-msgstr ""
+msgstr "Waluta jest wymagana jeżeli występuje wartość"
 
 msgid "taxes"
-msgstr ""
+msgstr "podatkki"
 
 msgid ""
 "The tax class name. Tax classes are used to control how taxes are applied to "
 "products."
-msgstr ""
+msgstr "Nazwa klasy podatku. Klasy podatku używane są do kontroli naliczania podatku do produktu."
 
 msgid "Check this if this tax class is active and valid."
-msgstr ""
+msgstr "Zaznacz jeżeli klasa podatku jest poprawna i aktywna."
 
 msgid "tax classes"
-msgstr ""
+msgstr "klasy podatku"
 
 msgid ""
 "The customer tax group name. Customer tax groups can be used to control how "
 "taxes are applied to a set of customers. "
-msgstr ""
+msgstr "Grupa podatkowa klienta. Używana do określenia jak stosować podatki do danej grupy klientów."
 
 msgid "customer tax group"
-msgstr ""
+msgstr "grupa podatkowa klienta"
 
 msgid "customer tax groups"
-msgstr ""
+msgstr "grupy podatkowe klienta"
 
 msgid "Retail Customers"
-msgstr ""
+msgstr "Klient Detaliczny"
 
 msgid "Company Customers"
-msgstr ""
+msgstr "Klient - Firma"
 
 msgid "allowed decimal places"
-msgstr ""
+msgstr "dozwolone miejsca dziesiętne"
 
 msgid ""
 "The number of decimal places allowed by this sales unit.Set this to a value "
 "greater than zero if products with this sales unit can be sold in fractional "
 "quantities"
-msgstr ""
+msgstr "Ilośc miejsc dziesiętnych dozwolonych dla jednostki sprzedażowej. Ustaw tę wartość większą od zera jeżeli"
+"produkty z daną jednostką sprzedażową mogą być sprzedawane w niepełnych ilościach."
 
 msgid "sales units"
-msgstr ""
+msgstr "jednostki sprzedażowe"
 
 msgid ""
 "The sales unit name to use for products (For example, 'pieces' or 'units'). "
 "Sales units can be set for each product through the product editor view."
-msgstr ""
+msgstr "Jednostka sprzedażowa przeznaczona dla produktu. Może być ustawiona dla każdego produktu poprzez edytor produktu."
 
 msgid "symbol"
 msgstr ""
@@ -2354,38 +2369,40 @@ msgstr ""
 msgid ""
 "An abbreviated name for this sales unit that is shown throughout admin and "
 "order invoices."
-msgstr ""
+msgstr "Skrócona nazwa dla jednostki sprzedażowej, wyświetlana w panelu admina oraz na zamówieniach i fakturach."
 
 msgid "Value must be positive and non-zero"
-msgstr ""
+msgstr "Wartość musi być dodatnia i większa od zera"
 
 msgid "internal unit"
-msgstr ""
+msgstr "jednostka wewnętrzna"
 
 msgid "The sales unit that this display unit is linked to."
-msgstr ""
+msgstr "Jednostka sprzedażowa wyświetlana w powiązaniu z jednostką powiązaną."
 
 msgid "ratio"
-msgstr ""
+msgstr "przelicznik"
 
 msgid ""
 "Size of the display unit in internal unit.  E.g. if internal unit is "
 "kilogram and display unit is gram, ratio is 0.001."
-msgstr ""
+msgstr "Wielkość wyświetlana w wew. jednostkach. Jeżeli wew. jm jest kg i wyświetlana jm jest gram, to przelicznik 0.001"
 
 msgid ""
 "The number of decimal places to use for values in the display unit.  The "
 "internal values are still rounded based on settings of the internal unit."
-msgstr ""
+msgstr "Liczba miejsc dziesiętnych dla wartości w jm wyświetlanych. Wew. "
+"wartości pozostają zaokrąglone bazując na ustawieniach dla wew. jednostki."
 
 msgid "comparison value"
-msgstr ""
+msgstr "wartość do porównania"
 
 msgid ""
 "Value to use when displaying unit prices.  E.g. if the display unit is g and "
 "the comparison value is 100, then unit prices are shown per 100g, like: "
 "$2.95 per 100g."
-msgstr ""
+msgstr "Wartość używana do wyświetlania ceny jednostkowej. Przykładowo wyśw. jm jest gram, "
+"i wartość porównawcza jest 100, wtedy cena jednostkowa jest pokazana jako 100g, dla przykładu 2.95PLN za 100g."
 
 msgid "allow bare number"
 msgstr ""
