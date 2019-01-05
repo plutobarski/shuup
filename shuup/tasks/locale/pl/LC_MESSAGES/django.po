@@ -21,16 +21,16 @@ msgstr ""
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 msgid "Tasks"
-msgstr ""
+msgstr "Zadania"
 
 msgid "Show Tasks"
-msgstr ""
+msgstr "Pokaż zadania"
 
 msgid "Task Types"
-msgstr ""
+msgstr "Typy zadania"
 
 msgid "Show Task Types"
-msgstr ""
+msgstr "Pokaż typy zadań"
 
 #, python-brace-format
 msgid "Changed assigment from {from_contact_name} to {to_contact_name}."
@@ -64,112 +64,112 @@ msgid "Status"
 msgstr ""
 
 msgid "Priority"
-msgstr ""
+msgstr "Priorytet"
 
 msgid "Comments"
-msgstr ""
+msgstr "Komentarze"
 
 msgid "New"
-msgstr ""
+msgstr "Nowy"
 
 msgid "In progress"
-msgstr ""
+msgstr "W trakcie"
 
 msgid "Completed"
-msgstr ""
+msgstr "Ukończony"
 
 msgid "Deleted"
-msgstr ""
+msgstr "Usunięty"
 
 msgid "Public"
-msgstr ""
+msgstr "Publiczny"
 
 msgid "Staff Only"
-msgstr ""
+msgstr "Tylko dla personelu"
 
 msgid "Admins Only"
-msgstr ""
+msgstr "Tylko dla Administratorów"
 
 msgid "shop"
-msgstr ""
+msgstr "sklep"
 
 msgid "name"
-msgstr ""
+msgstr "nazwa"
 
 msgid "task type"
-msgstr ""
+msgstr "typ zadania"
 
 msgid "task types"
-msgstr ""
+msgstr "typy zadania"
 
 msgid "status"
 msgstr ""
 
 msgid "priority"
-msgstr ""
+msgstr "priorytet"
 
 msgid "creator"
-msgstr ""
+msgstr "utworzone przez"
 
 msgid "assigned to"
-msgstr ""
+msgstr "przypisanie do"
 
 msgid "completed by"
-msgstr ""
+msgstr "ukończone przez"
 
 msgid "completed on"
-msgstr ""
+msgstr "data zakończonia"
 
 msgid "created on"
-msgstr ""
+msgstr "data utworzenia"
 
 msgid "modified on"
-msgstr ""
+msgstr "data modyfikacji"
 
 msgid "task"
-msgstr ""
+msgstr "zadanie"
 
 msgid "author"
-msgstr ""
+msgstr "autor"
 
 msgid "visibility"
-msgstr ""
+msgstr "widoczność"
 
 msgid "body"
-msgstr ""
+msgstr "treść"
 
 msgid "New Task"
-msgstr ""
+msgstr "Nowe zadanie"
 
 msgid "General Information"
-msgstr ""
+msgstr "Informacje ogólne"
 
 msgid "Created on"
-msgstr ""
+msgstr "Data utworzenia"
 
 msgid "Completed on"
-msgstr ""
+msgstr "Data ukończenia"
 
 msgid "Completed by"
-msgstr ""
+msgstr "Ukończone przez"
 
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 msgid "Visibility"
-msgstr ""
+msgstr "Widoczność"
 
 msgid "Comment"
-msgstr ""
+msgstr "Komentarz"
 
 msgid "Post a new comment"
-msgstr ""
+msgstr "Dodaj nowy komentarz"
 
 msgid "New Task Type"
-msgstr ""
+msgstr "Nowy typ zadania"
 
 msgid "Last 10 pending tasks assigned for you"
-msgstr ""
+msgstr "ostatnie 10 oczekujących zadań przypisane do Ciebie"
 
 msgid "Task"
-msgstr ""
+msgstr "Zadanie"

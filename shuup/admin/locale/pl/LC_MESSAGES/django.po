@@ -31,49 +31,49 @@ msgid ""
 msgstr ""
 
 msgid "This account is inactive."
-msgstr ""
+msgstr "To konto jest nieaktywne."
 
 msgid "Username or email address"
-msgstr ""
+msgstr "Nazwa użytkownika lub email"
 
 msgid "Create New"
-msgstr ""
+msgstr "Utwórz Nowy"
 
 msgid "Monday"
-msgstr ""
+msgstr "Poniedziałek"
 
 msgid "Tuesday"
-msgstr ""
+msgstr "Wtorek"
 
 msgid "Wednesday"
-msgstr ""
+msgstr "Środa"
 
 msgid "Thursday"
-msgstr ""
+msgstr "Czwartek"
 
 msgid "Friday"
-msgstr ""
+msgstr "Piątek"
 
 msgid "Saturday"
-msgstr ""
+msgstr "Sobota"
 
 msgid "Sunday"
-msgstr ""
+msgstr "Niedziela"
 
 msgid "Select"
-msgstr ""
+msgstr "Wybierz"
 
 msgid "Select Media"
-msgstr ""
+msgstr "Wybierz Pliki"
 
 msgid "Select Image"
-msgstr ""
+msgstr "Wybierz Obraz"
 
 msgid "Select Product"
-msgstr ""
+msgstr "Wybierz Produkt"
 
 msgid "Select Contact"
-msgstr ""
+msgstr "Wyberz Kontakt"
 
 msgid "Orders"
 msgstr "Zamówienia"
@@ -88,13 +88,13 @@ msgid "Campaigns"
 msgstr "Kampanie"
 
 msgid "Content"
-msgstr ""
+msgstr "Treść"
 
 msgid "Elements"
 msgstr "Elementy"
 
 msgid "Design"
-msgstr ""
+msgstr "Projekt"
 
 msgid "Other"
 msgstr "Inne"
@@ -124,7 +124,7 @@ msgid "Addons"
 msgstr "Dodatki"
 
 msgid "Data Transfer"
-msgstr ""
+msgstr "Data Wpłaty"
 
 msgid "Taxes"
 msgstr "Podatki"
@@ -154,7 +154,7 @@ msgid "Visibility Mode"
 msgstr "Tryb widoczności"
 
 msgid "Searchable"
-msgstr ""
+msgstr "Wyszukiwalny"
 
 msgid "Used in # Product Types"
 msgstr "Używany w # Typy Produktów"
@@ -194,62 +194,62 @@ msgstr "Błędna kategoria"
 
 #, python-format
 msgid "Visibility settings copied to %d product(s)"
-msgstr ""
+msgstr "Ustawienia widoczności skopiowane do %d produktu(s)"
 
 #, python-format
 msgid "%s has been deleted."
-msgstr ""
+msgstr "%s został usunięty."
 
 msgid "Image"
-msgstr ""
+msgstr "Obraz"
 
 msgid "Status"
 msgstr ""
 
 msgid "Visibility"
-msgstr ""
+msgstr "Widoczność"
 
 msgid "Contact Group Pricing Display"
-msgstr ""
+msgstr "Grupa Kontaktów - Widoczność Cen"
 
 msgid "unspecified"
-msgstr ""
+msgstr "nieokreślony"
 
 msgid "show prices with taxes included"
-msgstr ""
+msgstr "pokaż ceny z podatkiem"
 
 msgid "show pre-tax prices"
-msgstr ""
+msgstr "pokaż ceny bez podatku"
 
 msgid "hide prices"
-msgstr ""
+msgstr "ukryj ceny"
 
 msgid "shop"
-msgstr ""
+msgstr "sklep"
 
 msgid "Price display mode"
-msgstr ""
+msgstr "Tryb wyświetlania ceny"
 
 msgid "Set how prices are displayed to contacts in this group."
-msgstr ""
+msgstr "Ustaw jak cena powinna być wyświetlana w tej grupie."
 
 msgid "Group"
-msgstr ""
+msgstr "Grupa"
 
 msgid "Display Mode"
-msgstr ""
+msgstr "Tryb Wyświetlania"
 
 msgid "Unspecified"
-msgstr ""
+msgstr "Nieokreślony"
 
 msgid "Contact Groups"
-msgstr ""
+msgstr "Grupy Kontaktów"
 
 msgid "member"
-msgstr ""
+msgstr "członek"
 
 msgid "Remove"
-msgstr ""
+msgstr "Usuń"
 
 #, python-format
 msgid "%(count)s member added"
@@ -264,11 +264,11 @@ msgstr[0] ""
 msgstr[1] ""
 
 msgid "Number of Members"
-msgstr ""
+msgstr "Liczba członków"
 
 #, python-format
 msgid "User %(bind_user)s already has a contact"
-msgstr ""
+msgstr "Użytkownik %(bind_user)s już posiada przypisany kontakt"
 
 msgid ""
 "The contact groups this contact belongs to. Contact groups are defined in "
@@ -280,7 +280,7 @@ msgid "The shops this contact belongs to"
 msgstr ""
 
 msgid "Language"
-msgstr ""
+msgstr "Język"
 
 msgid "The primary language to be used in all communications with the contact."
 msgstr ""
@@ -322,123 +322,123 @@ msgid "Set Contact Groups"
 msgstr ""
 
 msgid "Basic Information"
-msgstr ""
+msgstr "Informacje Podstawowe"
 
 msgid "Addresses"
-msgstr ""
+msgstr "Adresy"
 
 msgid "Members"
-msgstr ""
+msgstr "Członkowie"
 
 msgid "The Shuup frontend is not enabled."
-msgstr ""
+msgstr "Shuup frontend jest nieaktywny"
 
 msgid "Contact has no associated user."
-msgstr ""
+msgstr "Kontakt nie posiada przypisanego użytkownika."
 
 msgid "User has no associated email."
-msgstr ""
+msgstr "Użytkownik nie posiada przypisanego adresu email."
 
 msgid "Reset password"
-msgstr ""
+msgstr "Reset hasła"
 
 msgid "Send a password renewal email."
-msgstr ""
+msgstr "Odzyskaj hasło."
 
 #, python-format
 msgid "Are you sure you wish to send a password recovery email to %s?"
-msgstr ""
+msgstr "Czy na pewno chcesz wysłać maila odzyskującego hasło do %s?"
 
 msgid "New User"
-msgstr ""
+msgstr "Nowy Użytkownik"
 
 msgid "Create a user for the contact."
-msgstr ""
+msgstr "Utwórz użytkownika dla kontakktu."
 
 msgid "New Order"
-msgstr ""
+msgstr "Nowe zamówienie"
 
 msgid "Create an order for the contact."
-msgstr ""
+msgstr "Utwórz zamówienie dla kontaktu."
 
 msgid "Deactivate Contact"
-msgstr ""
+msgstr "Dezaktywacja Kontaktu"
 
 msgid "Activate Contact"
-msgstr ""
+msgstr "Aktywuj Kontakt"
 
 msgid "Options"
-msgstr ""
+msgstr "Opcje"
 
 msgid "Actions"
-msgstr ""
+msgstr "Akcje"
 
 msgid "Edit"
-msgstr ""
+msgstr "Edycja"
 
 msgid "You can not deactivate a superuser."
-msgstr ""
+msgstr "Nie można dezaktywować superusera."
 
 msgid "You can not deactivate yourself."
-msgstr ""
+msgstr "Nie możesz deaktywować siebie."
 
 #, python-format
 msgid "%(contact)s is now %(state)s."
-msgstr ""
+msgstr "%(contact)s jest teraz %(state)s."
 
 msgid "active"
-msgstr ""
+msgstr "aktywny"
 
 msgid "inactive"
-msgstr ""
+msgstr "nieaktywny"
 
 msgid "New Company"
-msgstr ""
+msgstr "Nowa Firma"
 
 msgid "New Contact"
-msgstr ""
+msgstr "Nowy Kontakt"
 
 msgid "Person"
-msgstr ""
+msgstr "Osoba"
 
 msgid "Company"
-msgstr ""
+msgstr "Firma"
 
 msgid "Email"
 msgstr ""
 
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 msgid "Active"
-msgstr ""
+msgstr "Aktywny"
 
 msgid "no"
-msgstr ""
+msgstr "nie"
 
 msgid "yes"
-msgstr ""
+msgstr "tak"
 
 msgid "# Orders"
-msgstr ""
+msgstr "# Zamówienie"
 
 msgid "Groups"
-msgstr ""
+msgstr "Grupy"
 
 msgid "Registered in"
-msgstr ""
+msgstr "Zarejestrowana w"
 
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 msgid "No group"
-msgstr ""
+msgstr "Nr grupy"
 
 msgid "No shops"
-msgstr ""
+msgstr "Brak sklepów"
 
 msgid "Inactive"
-msgstr ""
+msgstr "Nieaktywny"
 
 #, python-format
 msgid "Email: %s"
@@ -446,44 +446,44 @@ msgstr ""
 
 #, python-format
 msgid "Phone: %s"
-msgstr ""
+msgstr "Telefon: %s"
 
 #, python-format
 msgid "%d orders"
-msgstr ""
+msgstr "%d zamówienia"
 
 msgid "Mass Edit: Contacts"
-msgstr ""
+msgstr "Masowa Edycja: Kontakty"
 
 msgid "Contacts changed successfully"
-msgstr ""
+msgstr "Kontakty zostały zmienione"
 
 msgid "Mass Edit: Contact Groups"
-msgstr ""
+msgstr "Masowa Edycja: Grupy Kontaktów"
 
 msgid "Contacts Groups changed successfully"
-msgstr ""
+msgstr "Grupy Kontaktów zostały zmienione."
 
 msgid "The contact does not have an associated user."
-msgstr ""
+msgstr "Kontakt nie posiada przypisanego użytkownika."
 
 msgid "About Us"
-msgstr ""
+msgstr "O Nas"
 
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Polityka prywatności"
 
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "Regulamin"
 
 msgid "Refund Policy"
-msgstr ""
+msgstr "Zwroty"
 
 msgid "{{ order.shop }} - Order {{ order.identifier }} Received"
-msgstr ""
+msgstr "{{ order.shop }} - Zamówienie {{ order.identifier }} Dostarczone"
 
 msgid "Send customer order confirmation email"
-msgstr ""
+msgstr "Wyślij klientowi potwierdzenie zamówienia na email"
 
 msgid ""
 "We will configure a notification to send the customer an email after a "
@@ -492,7 +492,7 @@ msgid ""
 msgstr ""
 
 msgid "Create About Us page"
-msgstr ""
+msgstr "Utwórz stronę O Nas"
 
 msgid ""
 "We have already created an 'About Us' template for you based on your shop "
@@ -506,7 +506,7 @@ msgid ""
 msgstr ""
 
 msgid "Create Privacy Policy page"
-msgstr ""
+msgstr "Utwórz stronę z Polityką Prywatności"
 
 msgid ""
 "We have already created a 'Privacy Policy' template for you based on your "
@@ -520,7 +520,7 @@ msgid ""
 msgstr ""
 
 msgid "Create Terms and Conditions page"
-msgstr ""
+msgstr "Utwórz Regulamin"
 
 msgid ""
 "We have already created a 'Terms & Conditions' template for you based on "
@@ -534,7 +534,7 @@ msgid ""
 msgstr ""
 
 msgid "Create Refund Policy page"
-msgstr ""
+msgstr "Utwórz stronę z polityką zwrotów"
 
 msgid ""
 "We have already created a 'Refund Policy' template for you based on your "
@@ -548,7 +548,7 @@ msgid ""
 msgstr ""
 
 msgid "Configure the footer"
-msgstr ""
+msgstr "Skonfiguruj stopkę"
 
 msgid ""
 "We will now configure your shop footer and fill it with some of your shop's "
@@ -556,7 +556,7 @@ msgid ""
 msgstr ""
 
 msgid "Content & Behavior"
-msgstr ""
+msgstr "Treść i Zachowanie"
 
 msgid ""
 "Add the initial content and configure the customer notifications for your "
@@ -564,43 +564,43 @@ msgid ""
 msgstr ""
 
 msgid "Configure notifications for your shop"
-msgstr ""
+msgstr "Skonfiguruj notyfikację dla twojego sklepu"
 
 msgid "Add the initial content"
-msgstr ""
+msgstr "Dodaj treść początkową"
 
 msgid "Configure the initial content pages"
-msgstr ""
+msgstr "Skonfiguruj początkowe strony z treścią"
 
 msgid "Configure some notifications"
-msgstr ""
+msgstr "Skonfiguruj kilka notyfikacji"
 
 msgid "Currencies"
-msgstr ""
+msgstr "Waluty"
 
 msgid "Code"
-msgstr ""
+msgstr "Kod"
 
 msgid "Filter by code"
-msgstr ""
+msgstr "Filtruj po kodzie"
 
 msgid "Decimal places"
-msgstr ""
+msgstr "Miejsca dziesiętne"
 
 msgid "Customers Dashboard"
-msgstr ""
+msgstr "Panel Klienta"
 
 msgid "Active customers"
-msgstr ""
+msgstr "Aktywni klienci"
 
 msgid "Based on orders within 30 days"
-msgstr ""
+msgstr "Na podstawie zamówień z ostatnich 30 dni"
 
 msgid "Demo"
-msgstr ""
+msgstr "Demo"
 
 msgid "Manufacturers"
-msgstr ""
+msgstr "Producenci"
 
 msgid ""
 "Select shops for this manufacturer. Keep it blank to share with all shops."
@@ -623,18 +623,18 @@ msgstr ""
 
 #, python-brace-format
 msgid "{num} subfolders moved to {folder}."
-msgstr ""
+msgstr "{num} podfolderów przeniesionych do {folder}."
 
 #, python-brace-format
 msgid "{num} files moved to {folder}."
-msgstr ""
+msgstr "{num} plików przeniesionych doo {folder}."
 
 #, python-format
 msgid "Folder %s deleted."
-msgstr ""
+msgstr "Folder %s usunięty."
 
 msgid "Browse Media"
-msgstr ""
+msgstr "Przeglądarka Mediów"
 
 #, python-format
 msgid "%(file)s uploaded to %(folder)s"
@@ -679,7 +679,7 @@ msgid "%d outstanding orders"
 msgstr ""
 
 msgid "New order"
-msgstr ""
+msgstr "Nowe zamówienie"
 
 msgid "Order Status"
 msgstr ""
@@ -1043,7 +1043,7 @@ msgid "Create Product with SKU \"%s\""
 msgstr ""
 
 msgid "New product"
-msgstr ""
+msgstr "Nowy produkt"
 
 msgid "Import"
 msgstr ""
@@ -1116,20 +1116,20 @@ msgid "variable combination"
 msgstr ""
 
 msgid "Set visible"
-msgstr ""
+msgstr "Ustaw widoczność"
 
 msgid "Set invisible"
-msgstr ""
+msgstr "Ustaw niewidoczność"
 
 msgid "Export CSV"
-msgstr ""
+msgstr "Eksport do CSV"
 
 msgid "Edit products"
-msgstr ""
+msgstr "Edytuj produkty"
 
 #, python-format
 msgid "%s has been marked deleted."
-msgstr ""
+msgstr "%s został oznaczony jako usunięty."
 
 msgid "Minimum Purchase Quantity has been rounded to match Sales Unit."
 msgstr ""
@@ -1210,7 +1210,7 @@ msgid "Filter by barcode..."
 msgstr ""
 
 msgid "Mode"
-msgstr ""
+msgstr "Tryb"
 
 msgid "Filter by category name..."
 msgstr ""
@@ -1765,7 +1765,7 @@ msgid "Add some users to help manage your shop"
 msgstr ""
 
 msgid "New user"
-msgstr ""
+msgstr "Nowy użytkownik"
 
 #, python-format
 msgid ""
@@ -2019,7 +2019,7 @@ msgid "Dashboard"
 msgstr ""
 
 msgid "Quicklinks"
-msgstr ""
+msgstr "Na skróty"
 
 msgid "Menu"
 msgstr ""
@@ -3273,7 +3273,7 @@ msgid "Ordered by"
 msgstr ""
 
 msgid "Creator"
-msgstr ""
+msgstr "Utworzone przez"
 
 msgid "Tax number"
 msgstr ""
@@ -3297,31 +3297,31 @@ msgid "Error!"
 msgstr ""
 
 msgid "All the required product information."
-msgstr ""
+msgstr "Wszystkie wymagane informacje o produkcie."
 
 msgid "Additional Details"
-msgstr ""
+msgstr "Dodatkowe Szczegóły"
 
 msgid "Product features such as size, weight and keywords are located here."
-msgstr ""
+msgstr "Cechy produktu tj. rozmiar, waga i słowa kluczowe ustawisz w tej sekcji."
 
 msgid "Manufacturer"
-msgstr ""
+msgstr "Producent"
 
 msgid "If you know the manufacturer of the product select it here."
-msgstr ""
+msgstr "Jeżeli znasz prodcenta produktu możesz go ustawić w tym miejscu."
 
 msgid "Additional"
-msgstr ""
+msgstr "Dodatkowe informacje"
 
 msgid ""
 "Strictly shop related information. For example set the minimum price "
 "applicable in this shop."
-msgstr ""
+msgstr "Informacje związane z konkretnym sklepem. Dla przykładu możesz ustawić cenę minimalną w tym sklepie."
 
 #, python-format
 msgid "These settings apply only for shop: <b>%(shop_name)s</b>."
-msgstr ""
+msgstr "Te ustawienia dotyczą sklepu: <b>%(shop_name)s</b>."
 
 #, python-format
 msgid "Product image %(index)s"
@@ -3338,19 +3338,19 @@ msgid "Set as primary image"
 msgstr ""
 
 msgid "Product Images"
-msgstr ""
+msgstr "Zdjęcia"
 
 msgid "Product Files"
-msgstr ""
+msgstr "Pliki"
 
 msgid "You can attach files such as manual to the merchandise(s) here."
-msgstr ""
+msgstr "Możesz dodać pliki takie jak instrukcja obsługi etc."
 
 msgid "Showcase your merchandise here."
-msgstr ""
+msgstr "Pokaż najkorzystniejsze zdjęcia swojego produktu."
 
 msgid "Drop files here or click to <a href=\"#\">browse</a>."
-msgstr ""
+msgstr "Upuść pliki tutaj lub kliknij w link <a href=\"#\">przeglądaj</a>."
 
 msgid "All the orders that have this product."
 msgstr ""
@@ -3359,7 +3359,7 @@ msgid "No orders found"
 msgstr ""
 
 msgid "This product is currently not orderable."
-msgstr ""
+msgstr "W tej chwili nie można zamawiać tego produktu."
 
 msgid "Add a new product"
 msgstr ""
@@ -3388,7 +3388,7 @@ msgid "Images"
 msgstr ""
 
 msgid "Contact Group Pricing"
-msgstr ""
+msgstr "Grupy - cennik"
 
 msgid ""
 "Set specific prices for your customer segments such as loyalty, tier status "
@@ -3396,7 +3396,7 @@ msgid ""
 msgstr ""
 
 msgid "Contact Group Discounts"
-msgstr ""
+msgstr "Grupy - rabaty"
 
 msgid ""
 "Here you can set individual discount amounts for different contact groups. "

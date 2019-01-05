@@ -1121,62 +1121,62 @@ msgid "Set invisible"
 msgstr ""
 
 msgid "Export CSV"
-msgstr ""
+msgstr "Eksport do CSV"
 
 msgid "Edit products"
-msgstr ""
+msgstr "Edytuj produkt"
 
 #, python-format
 msgid "%s has been marked deleted."
-msgstr ""
+msgstr "%s został oznaczony do usunięcia."
 
 msgid "Minimum Purchase Quantity has been rounded to match Sales Unit."
-msgstr ""
+msgstr "Minimalna Ilośc Zakupowa została zaokrąglona do Jednostki Sprzedażowej."
 
 #, python-format
 msgid "Changes to shop instance for %s saved"
-msgstr ""
+msgstr "Zmiany w sklepie %s zostały zapisane"
 
 msgid "Product is not available."
-msgstr ""
+msgstr "Produkt niedostępny."
 
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 #, python-format
 msgid "Edit Cross-Sell: %s"
-msgstr ""
+msgstr "Edycja Cross-Sell: %s"
 
 msgid "Changes saved."
-msgstr ""
+msgstr "Zmiany zapisane."
 
 #, python-format
 msgid "Edit Media: %s"
-msgstr ""
+msgstr "Edytuj Media: %s"
 
 msgid "Files added to product."
-msgstr ""
+msgstr "Pliki dodane do produktu."
 
 msgid "Clear package"
-msgstr ""
+msgstr "Wyczyść paczkę"
 
 msgid "Are you sure? This will remove all products from package."
-msgstr ""
+msgstr "Jesteś pewny? Ta czynność spowoduje usunięcie wszystkich produktów z paczki."
 
 #, python-format
 msgid "Edit Package: %s"
-msgstr ""
+msgstr "Edytuj Paczkę: %s"
 
 msgid "Package cleared."
-msgstr ""
+msgstr "Paczka wyczyszczona."
 
 msgid ""
 "Are you sure? This will unlink all children and remove all variation "
 "variables."
-msgstr ""
+msgstr "Jesteś pewien? Ta akcja spowoduje usunięcie wszystkich podrzędnych produktów i usunięcie wszystkich wariantów."
 
 msgid "Clear variation"
-msgstr ""
+msgstr "Wyczyść warianty"
 
 msgid ""
 "Are you sure? This will remove all variation variables, converting children "

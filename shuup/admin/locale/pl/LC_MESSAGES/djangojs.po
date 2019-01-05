@@ -720,61 +720,61 @@ msgid "Filters"
 msgstr ""
 
 msgid "Show filters"
-msgstr ""
+msgstr "Filtry"
 
 msgid "Select Action"
-msgstr ""
+msgstr "Akcja"
 
 msgid "Clear Selections"
-msgstr ""
+msgstr "Wyczyść"
 
 msgid "Select All"
-msgstr ""
+msgstr "Zaznacz wszystko"
 
 #, javascript-format
 msgid "Select All %s Items"
-msgstr ""
+msgstr "Zaznacz wszystkie %s pozycji"
 
 #, javascript-format
 msgid "There are no %s to show"
-msgstr ""
+msgstr "Nie ma %s do wyświetlenia"
 
 msgid "There is no item to show"
-msgstr ""
+msgstr "Nie ma pozycji do wyświetlenia"
 
 msgid "with selected filters"
-msgstr ""
+msgstr "z wybranymi filtrami"
 
 msgid "How about creating a new entry?"
-msgstr ""
+msgstr "Co z utworzeniem nowej pozycji?"
 
 msgid "Mass Action complete."
-msgstr ""
+msgstr "Masowa akcja zakończona"
 
 msgid "Something went wrong."
-msgstr ""
+msgstr "Coś poszło nie tak."
 
 #, javascript-format
 msgid "All %s Items Selected"
-msgstr ""
+msgstr "Wszystkie %s Pozycje wybrane"
 
 msgid "You haven't selected anything"
-msgstr ""
+msgstr "Nic nie wybrano"
 
 msgid "Confirm action by clicking OK!"
-msgstr ""
+msgstr "Potwierdź akcję klikając OK!"
 
 msgid "Are you sure you want to delete this media?"
-msgstr ""
+msgstr "Jesteś pewny, że chcesz usunąć ten plik?"
 
 msgid "Set as primary image"
-msgstr ""
+msgstr "Ustaw jako główny obraz"
 
 msgid "Primary image"
-msgstr ""
+msgstr "Główny obraz"
 
 msgid "Finish"
-msgstr ""
+msgstr "Zakończ"
 
 msgid "Skip"
-msgstr ""
+msgstr "Pomiń"

@@ -63,7 +63,7 @@ msgid "product discount"
 msgstr ""
 
 msgid "product discounts"
-msgstr ""
+msgstr "rabaty dla produktu"
 
 msgid "Customer Group Pricing"
 msgstr ""

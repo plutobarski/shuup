@@ -42,7 +42,7 @@ msgid "Customize the look and feel of your shop"
 msgstr ""
 
 msgid "Customize theme"
-msgstr ""
+msgstr "Modyfikuj szablon"
 
 msgid "No theme is active. Click here to activate one."
 msgstr ""

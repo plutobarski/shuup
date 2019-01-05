@@ -21,7 +21,7 @@ msgstr ""
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 msgid "Stock management"
-msgstr ""
+msgstr "Zarządzanie stokiem"
 
 msgid "SKU"
 msgstr ""

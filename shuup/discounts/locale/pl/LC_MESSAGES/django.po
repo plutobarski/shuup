@@ -30,119 +30,119 @@ msgid "Delete Discounts"
 msgstr ""
 
 msgid "Product Discounts Coupon Codes"
-msgstr ""
+msgstr "Kupony - Rabaty na Produkty"
 
 msgid "Discounts"
-msgstr ""
+msgstr "Rabaty"
 
 msgid "Product Discounts"
-msgstr ""
+msgstr "Rabaty Produktowe"
 
 msgid "Archived Product Discounts"
-msgstr ""
+msgstr "Historyczne Rabaty Produktowe"
 
 msgid "Discounts Availability Exceptions"
-msgstr ""
+msgstr "Wyjątki Dostępności Rabatów"
 
 msgid "Product Discounts Availability Exceptions"
-msgstr ""
+msgstr "Wyjątki Dostępności Rabatów Produktowych"
 
 msgid "Discounts Happy Hours"
-msgstr ""
+msgstr "Rabaty - Happy Hours"
 
 msgid "Product Discounts Happy Hours"
-msgstr ""
+msgstr "Rabaty Produktowe - Happy Hours"
 
 msgid "Discount Name"
-msgstr ""
+msgstr "Nazwa Rabatu"
 
 msgid "Filter by name..."
-msgstr ""
+msgstr "Filtrowanie po nazwie..."
 
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 msgid "Filter by product..."
-msgstr ""
+msgstr "Filtrowanie po produkcie..."
 
 msgid "Category"
-msgstr ""
+msgstr "Kateogoria"
 
 msgid "Filter by category..."
-msgstr ""
+msgstr "Filtrowanie po kategorii..."
 
 msgid "Contact Group"
-msgstr ""
+msgstr "Grupa Kontaktów"
 
 msgid "Filter by contact group..."
-msgstr ""
+msgstr "Filtrowanie po grupie kontaktów..."
 
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 msgid "Filter by contact..."
-msgstr ""
+msgstr "Filtrowanie po kontakcie..."
 
 msgid "Coupon code"
-msgstr ""
+msgstr "Kod kuponu"
 
 msgid "Filter by coupon code..."
-msgstr ""
+msgstr "Filtrowanie po kodzie kuponu"
 
 msgid "Effect"
-msgstr ""
+msgstr "Efekt"
 
 msgid "End Date and Time"
-msgstr ""
+msgstr "Data i czas końca"
 
 msgid "Code"
-msgstr ""
+msgstr "Kod"
 
 msgid "Usages"
-msgstr ""
+msgstr "Miejsca użycia"
 
 msgid "Usages Limit per contact"
-msgstr ""
+msgstr "Limit użycia per klient"
 
 msgid "Usage Limit"
-msgstr ""
+msgstr "Limit użycia"
 
 msgid "Active"
-msgstr ""
+msgstr "Aktywny"
 
 msgid "Created by"
-msgstr ""
+msgstr "Utworzone przez"
 
 msgid "Date created"
-msgstr ""
+msgstr "Data utworzenia"
 
 msgid "Select discounts linked to this coupon code."
-msgstr ""
+msgstr "Wybierz rabat powiązany z tym kuponem"
 
 #, python-format
 msgid "%s has been deleted."
-msgstr ""
+msgstr "%s został usunięty."
 
 msgid "Discount percentage"
-msgstr ""
+msgstr "Rabat procentowy"
 
 msgid "The discount percentage for this discount."
-msgstr ""
+msgstr "Procen rabatu dla tego rabatu."
 
 msgid "Exception Name"
-msgstr ""
+msgstr "Nazwa Wyjątku"
 
 msgid "Start Date and Time"
-msgstr ""
+msgstr "Data i Czas startu"
 
 msgid "Select discounts to be ignored on given time frame."
-msgstr ""
+msgstr "Wybierz rabat, który ma być pominięty w danych ramach czasowych."
 
 msgid "Happy Hour Name"
-msgstr ""
+msgstr "Nazwa - Happy Hour"
 
 msgid "Select discounts for this happy hour."
-msgstr ""
+msgstr "Wybierz rabaty dla tych happy hour."
 
 msgid ""
 "12pm is considered noon and 12am as midnight. Start hour is included to the "
@@ -155,13 +155,13 @@ msgid ""
 msgstr ""
 
 msgid "Weekdays the happy hour is active."
-msgstr ""
+msgstr "Dni tygodnia, w których happy hour jest aktywny."
 
 msgid "shops"
-msgstr ""
+msgstr "sklepy"
 
 msgid "name"
-msgstr ""
+msgstr "nazwa"
 
 msgid ""
 "The name for this exception. Used internally with exception lists for "
@@ -172,10 +172,10 @@ msgid "start"
 msgstr ""
 
 msgid "end"
-msgstr ""
+msgstr "koniec"
 
 msgid "availability exception"
-msgstr ""
+msgstr "wyjątek dostępności"
 
 msgid "availability exceptions"
 msgstr ""
@@ -184,161 +184,162 @@ msgid "created on"
 msgstr ""
 
 msgid "usage limit per customer"
-msgstr ""
+msgstr "limit użycia per klient"
 
 msgid "Limit the amount of usages per a single customer."
-msgstr ""
+msgstr "Limit ilości razy użycia per pojedyńczy klient."
 
 msgid "usage limit"
-msgstr ""
+msgstr "limit użycia"
 
 msgid ""
 "Set the absolute limit of usages for this coupon. If the limit is zero (0) "
 "coupon cannot be used."
-msgstr ""
+msgstr "Ustaw całkowity limit użycia dla tego kuponu. Jeżeli limit wynosi (0) "
+"kupon nie może zostać użyty."
 
 msgid "active"
-msgstr ""
+msgstr "aktywny"
 
 msgid "created by"
-msgstr ""
+msgstr "utworzony przez"
 
 msgid "modified by"
-msgstr ""
+msgstr "zmodyfikowany przez"
 
 msgid "modified on"
-msgstr ""
+msgstr "zmodyfikowany na"
 
 msgid ""
 "The name for this discount. Used internally with discount lists for "
 "filtering."
-msgstr ""
+msgstr "Nazwa dla tego rabatu. Używane do celów wewnętrznych filtrowania listy rabatów."
 
 msgid ""
 "Check this if the discount is currently active. Please also set a start and "
 "end date."
-msgstr ""
+msgstr "Sprawdź, czy rabat jest aktualnie aktywny. Dodatkowo ustaw datę początku i końca."
 
 msgid "start date and time"
-msgstr ""
+msgstr "data i czas startu"
 
 msgid ""
 "The date and time the discount starts. This is only applicable if the "
 "discount is marked as active."
-msgstr ""
+msgstr "Data i czas startu obowiązywania rabatu. W użyciu tylko wtedy, gdy rabat jest aktywny."
 
 msgid "end date and time"
-msgstr ""
+msgstr "data i czas końca"
 
 msgid ""
 "The date and time the discount ends. This is only applicable if the discount "
 "is marked as active."
-msgstr ""
+msgstr "Data i czas końca obowiązywania rabatu. W użyciu tylko wtedy, gdy rabat jest aktywny."
 
 msgid "happy hours"
 msgstr ""
 
 msgid "Select happy hours for this discount."
-msgstr ""
+msgstr "Wybierz happy hours dla tego rabatu."
 
 msgid "Select availability for this discount."
-msgstr ""
+msgstr "Wybierz dostępność dla tego rabatu."
 
 msgid "product"
-msgstr ""
+msgstr "produkt"
 
 msgid "Select product for this discount."
-msgstr ""
+msgstr "Wybierz produkt dla tego rabatu."
 
 msgid "exclude selected category"
-msgstr ""
+msgstr "wyklucz wybrane kategorie"
 
 msgid "Exclude products in selected category from this discount."
-msgstr ""
+msgstr "Wyklucz produkty z wybranych kategorii z tego rabatu."
 
 msgid "category"
-msgstr ""
+msgstr "kategoria"
 
 msgid "Select category for this discount."
-msgstr ""
+msgstr "Wybierz kategorię dla tego rabatu."
 
 msgid "contact"
-msgstr ""
+msgstr "kontakt"
 
 msgid "Select contact for this discount."
-msgstr ""
+msgstr "Wybierz kontakt dla tego rabatu."
 
 msgid "exclude selected contact group"
-msgstr ""
+msgstr "wyklucz wybrane grupy kontaktowe"
 
 msgid "Exclude contacts in selected contact group from this discount."
-msgstr ""
+msgstr "Wyklucz kontakty z wybranych grup kontaktowych dla tego rabatu."
 
 msgid "contact group"
-msgstr ""
+msgstr "grupa kontaktowa"
 
 msgid "Select contact group for this discount."
-msgstr ""
+msgstr "Wybierz grupe kontaktową dla tego rabatu."
 
 msgid "coupon code"
-msgstr ""
+msgstr "kod kuponu"
 
 msgid "Select coupon code for this discount."
-msgstr ""
+msgstr "Wybierz kod kuponu dla tego rabatu."
 
 msgid "discounted price"
-msgstr ""
+msgstr "obniżona cena"
 
 msgid "Discounted product price for this discount."
-msgstr ""
+msgstr "Obniżona cena produktu dla tego rabatu."
 
 msgid "discount amount"
-msgstr ""
+msgstr "wartość rabatu"
 
 msgid "Discount amount value for this discount."
-msgstr ""
+msgstr "Wartość rabatu dla tego produktu."
 
 msgid "discount percentage"
-msgstr ""
+msgstr "procent rabatu"
 
 msgid "Discount percentage for this discount."
-msgstr ""
+msgstr "Procent rabatu dla tego rabatu."
 
 msgid "product discount"
-msgstr ""
+msgstr "rabat produktowy"
 
 msgid "product discounts"
-msgstr ""
+msgstr "rabaty produktowe"
 
 msgid "The name for this . Used internally with exception lists for filtering."
-msgstr ""
+msgstr "Nazwa dla tego. Używane wewnętrznie z wyjątkiem list przeznaczonych do filtracji."
 
 msgid "happy hour"
 msgstr ""
 
 msgid "parent"
-msgstr ""
+msgstr "nadrzędny"
 
 msgid "from hour"
-msgstr ""
+msgstr "od godziny"
 
 msgid "to hour"
-msgstr ""
+msgstr "do godziny"
 
 msgid "weekday"
-msgstr ""
+msgstr "dzień tygodnia"
 
 msgid "time range"
-msgstr ""
+msgstr "zakres czasu"
 
 msgid "time ranges"
-msgstr ""
+msgstr "zakresy czasu"
 
 msgid "To hour has to be after from hour"
-msgstr ""
+msgstr "Godzina DO musi wystąpić po godzinie OD"
 
 msgid "Availability"
-msgstr ""
+msgstr "Dostępność"
 
 msgid "Condition"
-msgstr ""
+msgstr "Warunek"

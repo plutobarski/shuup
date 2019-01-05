@@ -28,13 +28,13 @@ msgid "Based on {b} carts over the last {d} days"
 msgstr ""
 
 msgid "Carts"
-msgstr ""
+msgstr "Koszyki"
 
 msgid "Show carts"
-msgstr ""
+msgstr "Pokaż koszyki"
 
 msgid "Created on"
-msgstr ""
+msgstr "Utworzone na"
 
 msgid "Last updated on"
 msgstr ""
@@ -49,25 +49,25 @@ msgid "no"
 msgstr ""
 
 msgid "Shop"
-msgstr ""
+msgstr "Sklep"
 
 msgid "Product count"
-msgstr ""
+msgstr "Ilość produktów"
 
 msgid "Customer"
-msgstr ""
+msgstr "Klient"
 
 msgid "Orderer"
-msgstr ""
+msgstr "Zamawiający"
 
 msgid "Total"
-msgstr ""
+msgstr "Wartość"
 
 msgid "Ordered"
-msgstr ""
+msgstr "Zamówione"
 
 msgid "Require shipping method"
-msgstr ""
+msgstr "Wymagana metoda wysyłki"
 
 msgid "Whether to require the shipping method in checkout phases."
 msgstr ""
@@ -1005,7 +1005,7 @@ msgid "SKU"
 msgstr ""
 
 msgid "Barcode"
-msgstr ""
+msgstr "EAN"
 
 msgid "Manufacturer"
 msgstr ""

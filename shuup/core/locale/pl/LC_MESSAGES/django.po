@@ -228,7 +228,7 @@ msgstr "Użytkownicy mogą być wyświetlane, przeglądane, tworzone, aktualizow
 
 #, python-format
 msgid "Invalid command %s"
-msgstr "Nieprawidłowe polecenie"
+msgstr "Nieprawidłowe polecenie %s"
 
 #, python-format
 msgid "The quantity %f is not allowed. Please use an integer value."
@@ -2315,7 +2315,7 @@ msgid "Currency is required if amount is specified"
 msgstr "Waluta jest wymagana jeżeli występuje wartość"
 
 msgid "taxes"
-msgstr "podatkki"
+msgstr "podatki"
 
 msgid ""
 "The tax class name. Tax classes are used to control how taxes are applied to "

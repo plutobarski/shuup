@@ -24,16 +24,16 @@ msgid "Campaigns"
 msgstr ""
 
 msgid "Basket Campaigns"
-msgstr ""
+msgstr "Kampanie Koszykowe"
 
 msgid "Show Basket Campaigns"
-msgstr ""
+msgstr "Pokaż Kampanie Koszykowe"
 
 msgid "Coupons"
-msgstr ""
+msgstr "Kupony"
 
 msgid "Show Coupons"
-msgstr ""
+msgstr "Pokaż kupony"
 
 msgid "Catalog Campaigns"
 msgstr ""
@@ -45,10 +45,10 @@ msgid "Set up a sales campaign"
 msgstr ""
 
 msgid "New basket campaign"
-msgstr ""
+msgstr "Nowa kampania koszykowa"
 
 msgid "New coupon"
-msgstr ""
+msgstr "Nowy kupon"
 
 msgid "Minimum value"
 msgstr ""
@@ -88,7 +88,7 @@ msgid "Discount Code already in use."
 msgstr ""
 
 msgid "Active Campaigns"
-msgstr ""
+msgstr "Aktywne Kampanie"
 
 msgid "Catalog Campaign"
 msgstr ""
