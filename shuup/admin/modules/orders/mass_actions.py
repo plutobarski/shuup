@@ -1,6 +1,6 @@
 # This file is part of Shuup.
 #
-# Copyright (c) 2012-2018, Shuup Inc. All rights reserved.
+# Copyright (c) 2012-2019, Shoop Commerce Ltd. All rights reserved.
 #
 # This source code is licensed under the OSL-3.0 license found in the
 # LICENSE file in the root directory of this source tree.
@@ -14,6 +14,7 @@ from django.utils.translation import ugettext_lazy as _
 from django.utils.translation import ugettext
 from six import BytesIO
 
+from shuup.admin.shop_provider import get_shop
 from shuup.admin.utils.picotable import (
     PicotableFileMassAction, PicotableMassAction
 )
@@ -28,9 +29,11 @@ class CancelOrderAction(PicotableMassAction):
     identifier = "mass_action_order_cancel"
 
     def process(self, request, ids):
-        query = Q(id__in=ids)
+        shop = get_shop(request)
         if isinstance(ids, six.string_types) and ids == "all":
-            query = Q()
+            query = Q(shop=shop)
+        else:
+            query = Q(id__in=ids, shop=shop)
         for order in Order.objects.filter(query):
             if not order.can_set_canceled():
                 continue

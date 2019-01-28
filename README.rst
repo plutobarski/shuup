@@ -5,6 +5,9 @@
 .. image:: https://img.shields.io/pypi/v/shuup.svg
    :alt: PyPI
    :target: https://github.com/shuup/shuup
+.. image:: https://snyk.io/test/github/shuup/shuup/badge.svg
+   :alt: Known Vulnerabilities
+   :target: https://snyk.io/test/github/shuup/shuup
 
 Shuup
 =====
@@ -16,12 +19,11 @@ https://shuup.com/
 Copyright
 ---------
 
-Copyright (C) 2012-2018 by Shuup Inc. <support@shuup.com>
+Copyright (C) 2012-2019 by Shoop Commerce Ltd. <support@shuup.com>
 
-Shuup is International Registered Trademark & Property of Shuup Inc.,
-Business Address: 200 Continental Drive, Suite 401,
-Newark, DE 19713,
-United States Of America
+Shuup is International Registered Trademark & Property of Shoop Commerce Ltd.,
+Business ID: FI27184225,
+Business Address: Iso-Roobertinkatu 20-22, 00120 HELSINKI, Finland.
 
 CLA
 ---
@@ -54,6 +56,8 @@ Install Shuup
 
 See `Getting Started
 <http://shuup.readthedocs.io/en/latest/howto/getting_started.html>`__.
+
+For simple project example see our `Django-project template <https://github.com/shuup/shuup-project-template>`__.
 
 Getting Started with Shuup development
 --------------------------------------
@@ -94,8 +98,8 @@ Roadmap
 
 * Per object placeholders. Option to add content per contact group, category, product and CMS page. `#1220 <https://github.com/shuup/shuup/issues/1220>`__ :white_check_mark:.
 * Pricing cache. To improve the performance issues with complex catalog campaigns. `#1163 <https://github.com/shuup/shuup/issues/1163>`__ :white_check_mark:.
-* Option for 'centrally' or 'separately' managed products. `#1275 <https://github.com/shuup/shuup/issues/1275>`__.
 * Improve shop product purchasable attribute. `#1281 <https://github.com/shuup/shuup/issues/1281>`__ :white_check_mark:.
+* Option for 'centrally' or 'separately' managed products. `#1275 <https://github.com/shuup/shuup/issues/1275>`__.
 * Improve product stock behavior. `#1249 <https://github.com/shuup/shuup/issues/1249>`__.
 * Improved unit tests for the multishop feature. `#1160 <https://github.com/shuup/shuup/issues/1160>`__.
 * Improve order status and order status history. `#1211 <https://github.com/shuup/shuup/issues/1211>`__.
@@ -105,6 +109,8 @@ Roadmap
 
 OS Addons
 ---------
+
+* `Django-project template <https://github.com/shuup/shuup-project-template>`__. Django-project template.
 
 * `Shuup Product Reviews <https://github.com/shuup/shuup-product-reviews>`__. Shuup Product Reviews.
 * `Shuup Stripe <https://github.com/shuup/shuup-stripe>`__. Stripe Payment Processor Addon for Shuup.

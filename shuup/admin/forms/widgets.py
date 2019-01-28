@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # This file is part of Shuup.
 #
-# Copyright (c) 2012-2018, Shuup Inc. All rights reserved.
+# Copyright (c) 2012-2019, Shoop Commerce Ltd. All rights reserved.
 #
 # This source code is licensed under the OSL-3.0 license found in the
 # LICENSE file in the root directory of this source tree.
@@ -240,16 +240,24 @@ class PackageProductChoiceWidget(ProductChoiceWidget):
     filter = json.dumps({"modes": [ProductMode.NORMAL.value, ProductMode.VARIATION_CHILD.value]})
 
 
+class QuickAddSupplierMultiSelect(QuickAddRelatedObjectMultiSelect):
+    url = reverse_lazy("shuup_admin:supplier.new")
+    model = "shuup.Supplier"
+
+
 class QuickAddCategoryMultiSelect(QuickAddRelatedObjectMultiSelect):
     url = reverse_lazy("shuup_admin:category.new")
+    model = "shuup.Category"
 
 
 class QuickAddCategorySelect(QuickAddRelatedObjectSelect):
     url = reverse_lazy("shuup_admin:category.new")
+    model = "shuup.Category"
 
 
 class QuickAddProductTypeSelect(QuickAddRelatedObjectSelect):
     url = reverse_lazy("shuup_admin:product_type.new")
+    model = "shuup.ProductType"
 
 
 class QuickAddTaxGroupSelect(QuickAddRelatedObjectSelect):
@@ -292,6 +300,10 @@ class QuickAddContactGroupSelect(QuickAddRelatedObjectSelect):
 
 class QuickAddContactGroupMultiSelect(QuickAddRelatedObjectMultiSelect):
     url = reverse_lazy("shuup_admin:contact_group.new")
+
+
+class QuickAddLabelMultiSelect(QuickAddRelatedObjectMultiSelect):
+    url = reverse_lazy("shuup_admin:label.new")
 
 
 class TimeInput(DjangoTimeInput):

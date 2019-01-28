@@ -1,7 +1,7 @@
 /**
  * This file is part of Shuup.
  *
- * Copyright (c) 2012-2018, Shuup Inc. All rights reserved.
+ * Copyright (c) 2012-2019, Shoop Commerce Ltd. All rights reserved.
  *
  * This source code is licensed under the OSL-3.0 license found in the
  * LICENSE file in the root directory of this source tree.
@@ -19,9 +19,10 @@ $(function() {
             autoplayTimeout: interval,
             autoplayHoverPause: pauseOnHover,
             nav: arrowsVisible,
+            navElement: "span",
             navText: [
-                '<i class="fa fa-angle-left .carousel-control .icon-prev"></i>',
-                '<i class="fa fa-angle-right .carousel-control .icon-prev"></i>'
+                '<span type="button" role="presentation" class="owl-prev"><i class="fa carousel fa-angle-left .carousel-control .icon-prev"></i></span>',
+                '<span type="button" role="presentation" class="owl-next"><i class="fa carousel fa-angle-right .carousel-control .icon-next"></i></span>'
             ],
             dots: useDotNavigation,
             items: 1
@@ -40,17 +41,18 @@ $(function() {
         $(this).owlCarousel({
             margin: 30,
             nav: arrowsVisible,
+            navElement: "span",
             navText: [
-                '<i class="fa fa-angle-left .carousel-control .icon-prev"></i>',
-                '<i class="fa fa-angle-right .carousel-control .icon-prev"></i>'
+                '<span type="button" role="presentation" class="owl-prev"><i class="fa fa-angle-left .carousel-control .icon-prev"></i></span>',
+                '<span type="button" role="presentation" class="owl-next"><i class="fa fa-angle-right .carousel-control .icon-next"></i></span>'
             ],
             responsiveClass: true,
             responsive: (responsiveConfigure ? responsiveConfigure : {0: {items: 2}, 640: {items: 2}, 992: {items: 4}})
         });
     });
 
-    // Set up owl carousel for product list with 5 items
-    $(".owl-carousel.five").owlCarousel({
+    // Set up owl carousel for product list and make sure they have the owl-carousel styles
+    $(".product-carousel.carousel-items").owlCarousel({
         margin: 20,
         nav: true,
         navText: [

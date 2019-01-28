@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 # This file is part of Shuup.
 #
-# Copyright (c) 2012-2018, Shuup Inc. All rights reserved.
+# Copyright (c) 2012-2019, Shoop Commerce Ltd. All rights reserved.
 #
 # This source code is licensed under the OSL-3.0 license found in the
 # LICENSE file in the root directory of this source tree.
 from __future__ import unicode_literals
 
 import datetime
-import django
 import itertools
 import time
 
+import django
 import six
 from django.utils import timezone
 from django.utils.translation import ugettext as _

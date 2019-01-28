@@ -1,7 +1,7 @@
 /**
  * This file is part of Shuup.
  *
- * Copyright (c) 2012-2018, Shuup Inc. All rights reserved.
+ * Copyright (c) 2012-2019, Shoop Commerce Ltd. All rights reserved.
  *
  * This source code is licensed under the OSL-3.0 license found in the
  * LICENSE file in the root directory of this source tree.
@@ -59,7 +59,14 @@ export function activateSelects() {
             const model = select.data("model");
             const searchMode = select.data("search-mode");
             const noExpand = select.data("no-expand");
-            activateSelect(select, model, searchMode, noExpand);
+            const placeholder = select.data("placeholder");
+            // do not set clear when there is no placeholder to use
+            const allowClear = placeholder ? select.data("allow-clear") : null;
+            const attrs = {
+                placeholder,
+                allowClear
+            };
+            activateSelect(select, model, searchMode, null, noExpand, attrs);
         }
     });
 }

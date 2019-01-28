@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # This file is part of Shuup.
 #
-# Copyright (c) 2012-2018, Shuup Inc. All rights reserved.
+# Copyright (c) 2012-2019, Shoop Commerce Ltd. All rights reserved.
 #
 # This source code is licensed under the OSL-3.0 license found in the
 # LICENSE file in the root directory of this source tree.
@@ -222,7 +222,7 @@ def test_product_edit_view(rf, admin_user, settings):
 
     post_data = {
         'shop1-default_price_value': 12,
-        'shop1-primary_category': [cat.pk],
+        'shop1-primary_category': cat.pk,
         'shop1-categories': []
     }
     post.update(post_data)

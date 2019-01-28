@@ -1,6 +1,6 @@
 # This file is part of Shuup.
 #
-# Copyright (c) 2012-2018, Shuup Inc. All rights reserved.
+# Copyright (c) 2012-2019, Shoop Commerce Ltd. All rights reserved.
 #
 # This source code is licensed under the OSL-3.0 license found in the
 # LICENSE file in the root directory of this source tree.
@@ -29,6 +29,7 @@ from ._contacts import (
 )
 from ._counters import Counter, CounterType
 from ._currencies import Currency, get_currency_precision
+from ._labels import Label
 from ._manufacturers import Manufacturer
 from ._media import MediaFile, MediaFolder
 from ._order_lines import (
@@ -115,6 +116,7 @@ __all__ = [
     "Gender",
     "GroupAvailabilityBehaviorComponent",
     "ImmutableAddress",
+    "Label",
     "Manufacturer",
     "MediaFile",
     "MediaFolder",

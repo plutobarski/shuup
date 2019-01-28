@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # This file is part of Shuup.
 #
-# Copyright (c) 2012-2018, Shuup Inc. All rights reserved.
+# Copyright (c) 2012-2019, Shoop Commerce Ltd. All rights reserved.
 #
 # This source code is licensed under the OSL-3.0 license found in the
 # LICENSE file in the root directory of this source tree.
@@ -97,7 +97,7 @@ def _add_primary_category(browser, shop):
 
     wait_until_condition(browser, condition=lambda x: not x.is_element_present_by_id("create-object-overlay"))
     check_category_count(browser, 1)
-    wait_until_condition(browser, lambda x: len(x.find_by_css("#%s option" % select_id)) == 2)
+    wait_until_condition(browser, lambda x: len(x.find_by_css("#%s option" % select_id)) == 1)
 
 
 def _add_additional_category(browser, shop):

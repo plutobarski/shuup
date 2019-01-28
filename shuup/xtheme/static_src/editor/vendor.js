@@ -1,7 +1,7 @@
 /**
  * This file is part of Shuup.
  *
- * Copyright (c) 2012-2018, Shuup Inc. All rights reserved.
+ * Copyright (c) 2012-2019, Shoop Commerce Ltd. All rights reserved.
  *
  * This source code is licensed under the OSL-3.0 license found in the
  * LICENSE file in the root directory of this source tree.
@@ -10,6 +10,8 @@
 //-- jQuery
 var jquery = require("jquery");
 window.$ = window.jQuery = jquery;
+const select2 = require("select2");
+select2($);
 
 const _ = require('lodash');
 window._ = _;

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # This file is part of Shuup.
 #
-# Copyright (c) 2012-2018, Shuup Inc. All rights reserved.
+# Copyright (c) 2012-2019, Shoop Commerce Ltd. All rights reserved.
 #
 # This source code is licensed under the OSL-3.0 license found in the
 # LICENSE file in the root directory of this source tree.
@@ -118,16 +118,17 @@ def test_editor_save(rf):
         assert "general" in view_obj.form.forms
         assert "plugin" in view_obj.form.forms
         form_data = get_form_data(view_obj.form, prepared=True)
-    new_text = printable_gibberish()
-    form_data["plugin-text_%s" % FALLBACK_LANGUAGE_CODE] = new_text
-    form_data["save"] = "1"
-    request = rf.post("/pepe/", data=form_data)  # sort of rare pepe
-    request.GET = dict(request.GET, x=0, y=0)
-    with initialize_editor_view(svc.view_name, layout.placeholder_name, request) as view_obj:
-        view_obj.dispatch(request)
-        assert view_obj.form
-        assert not view_obj.form.errors
-        assert view_obj.current_cell.config["text"] == {FALLBACK_LANGUAGE_CODE: new_text}
+
+        new_text = printable_gibberish()
+        form_data["plugin-text_%s" % FALLBACK_LANGUAGE_CODE] = new_text
+        form_data["save"] = "1"
+        request = rf.post("/pepe/", data=form_data)  # sort of rare pepe
+        request.GET = dict(request.GET, x=0, y=0)
+        with initialize_editor_view(svc.view_name, layout.placeholder_name, request) as view_obj:
+            view_obj.dispatch(request)
+            assert view_obj.form
+            assert not view_obj.form.errors
+            assert view_obj.current_cell.config["text"] == {FALLBACK_LANGUAGE_CODE: new_text}
 
 
 @pytest.mark.django_db

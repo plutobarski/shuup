@@ -1,7 +1,7 @@
 /**
  * This file is part of Shuup.
  *
- * Copyright (c) 2012-2018, Shuup Inc. All rights reserved.
+ * Copyright (c) 2012-2019, Shoop Commerce Ltd. All rights reserved.
  *
  * This source code is licensed under the OSL-3.0 license found in the
  * LICENSE file in the root directory of this source tree.
@@ -98,6 +98,7 @@
                             next();
                         }
                     }).fail((err) => {
+                        window.clearErrors($activeWizardPane.find("form")); // Remove previous form errors
                         this.find("i.fa.fa-spinner").remove();
                         renderFormErrors($activeWizardPane.find("form"), err.responseJSON);
                     });

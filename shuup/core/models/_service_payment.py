@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # This file is part of Shuup.
 #
-# Copyright (c) 2012-2018, Shuup Inc. All rights reserved.
+# Copyright (c) 2012-2019, Shoop Commerce Ltd. All rights reserved.
 #
 # This source code is licensed under the OSL-3.0 license found in the
 # LICENSE file in the root directory of this source tree.
@@ -116,8 +116,12 @@ class PaymentProcessor(ServiceProvider):
             order.save(update_fields=("payment_status",))
 
     def _create_service(self, choice_identifier, **kwargs):
-        return PaymentMethod.objects.create(
+        labels = kwargs.pop("labels", None)
+        service = PaymentMethod.objects.create(
             payment_processor=self, choice_identifier=choice_identifier, **kwargs)
+        if labels:
+            service.labels = labels
+        return service
 
 
 class PaymentUrls(object):
